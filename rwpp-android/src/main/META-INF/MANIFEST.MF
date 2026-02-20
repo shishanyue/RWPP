@@ -1,0 +1,3424 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: AndroidManifest.xml
+SHA1-Digest: mK4VApzeU+2qr+Pel9Jgm8yM1sE=
+
+Name: assets/builtin_mods/mega_builders/mega_builder/builder.png
+SHA1-Digest: CbbqJjo4tlr5/VEXdCUTN2tOsM0=
+
+Name: assets/builtin_mods/mega_builders/mega_builder/builder_dead.png
+SHA1-Digest: bh85AQs8DOE66GexAm6WK6qwq7Q=
+
+Name: assets/builtin_mods/mega_builders/mega_builder/mega_builder.ini
+SHA1-Digest: gCyMYt3tVVv1tOJhCVcWYBF0uKQ=
+
+Name: assets/builtin_mods/mega_builders/mod-info.txt
+SHA1-Digest: Puww6Qm1h1BBabYLZAU+Fjv84HM=
+
+Name: assets/builtin_mods/mega_builders/mod-thumbnail.png
+SHA1-Digest: vbvTxByQbCnxIN8kMyZ0HCrzMAo=
+
+Name: assets/builtin_mods_enabled/mods_here_will_be_enabled_by_default
+ .txt
+SHA1-Digest: lJOi+dZ4I0crKpISr4oVDtkQjaM=
+
+Name: assets/maps/challenge/1v3 Island.tmx
+SHA1-Digest: fBPALaGnUxRxtWHp8i0hioiIycU=
+
+Name: assets/maps/challenge/1v3 Island_map.png
+SHA1-Digest: PCvMxTaQE/ja2uGyAVd2JMEN2Jo=
+
+Name: assets/maps/challenge/Artillery.tmx
+SHA1-Digest: 7MAZlzRvci+p+J5aYtfcx17J6c4=
+
+Name: assets/maps/challenge/Artillery_map.png
+SHA1-Digest: qW2PJZDcHvM2PuUNaVkIcy3jr88=
+
+Name: assets/maps/challenge/Beachhead Landing.tmx
+SHA1-Digest: 7ofVWl7U5IMbVG2oGqZ6lG+P5B8=
+
+Name: assets/maps/challenge/Beachhead Landing_map.png
+SHA1-Digest: 8TA/cQaan1eqv5eBBKynTaKcUNg=
+
+Name: assets/maps/challenge/Flying Fortress.tmx
+SHA1-Digest: b6A38OiZQP2Hv5V86MCC91nTXQE=
+
+Name: assets/maps/challenge/Flying Fortress_map.png
+SHA1-Digest: +pS0BlKyE12kzsabJONujHmwiOQ=
+
+Name: assets/maps/challenge/Ice Base.tmx
+SHA1-Digest: niugFZrdPs+ueugUVqh03WDvDnw=
+
+Name: assets/maps/challenge/Ice Base_map.png
+SHA1-Digest: 90SRsyC0JivWUNlMl4TH3V1xy2s=
+
+Name: assets/maps/challenge/Island Base.tmx
+SHA1-Digest: 0VVii7hFiU+T55Vec/yz/EQiSfg=
+
+Name: assets/maps/challenge/Island Base_map.png
+SHA1-Digest: zy7heGRKGmWIeElleeh08VXoZis=
+
+Name: assets/maps/challenge/Middle Ground.tmx
+SHA1-Digest: RT028XzeBcfzOHsUNKMknuTVXHQ=
+
+Name: assets/maps/challenge/Middle Ground_map.png
+SHA1-Digest: cluM3/g1WR8l5llCEM9BevbZv5A=
+
+Name: assets/maps/menu_background/menu1.tmx
+SHA1-Digest: RnXWAZ76bKrYw1RFklA1HFkviM0=
+
+Name: assets/maps/menu_background/menu2.tmx
+SHA1-Digest: mE3p7Txfsj9XHU3G0RGQJNmmdhk=
+
+Name: assets/maps/menu_background/menu3.tmx
+SHA1-Digest: ZpGi8DMf7ABe/0fFn4g2UmdH00s=
+
+Name: assets/maps/normal/l010;[demo]mission_1__-__Dividing_River.tmx
+SHA1-Digest: 3cj6XoITJfQtHVKRmvgH+mvAmsw=
+
+Name: assets/maps/normal/l010;[demo]mission_1__-__Dividing_River_map.p
+ ng
+SHA1-Digest: 79zmVlVaRj5KCsmLCjDyOfNvVW0=
+
+Name: assets/maps/normal/l020;mission_2__-__Icy_Assault.tmx
+SHA1-Digest: KNjqLGVqI443ABFyy7LwNc0FtAc=
+
+Name: assets/maps/normal/l020;mission_2__-__Icy_Assault_map.png
+SHA1-Digest: f3aA1eF4p9ahOpn5/7CgDnxETmc=
+
+Name: assets/maps/normal/l030;[demo]mission_3__-__Crossfire.tmx
+SHA1-Digest: RBUXNlQorFuCQi/XYGiVX9iYOHo=
+
+Name: assets/maps/normal/l030;[demo]mission_3__-__Crossfire_map.png
+SHA1-Digest: g94uOOKqp8O0I1RC0Fcxpa7inSM=
+
+Name: assets/maps/normal/l040;mission_4__-__Sneak_Attack.tmx
+SHA1-Digest: PIRgrDT41mp5Fr4YawFNVsz5i1w=
+
+Name: assets/maps/normal/l040;mission_4__-__Sneak_Attack_map.png
+SHA1-Digest: JhN0ntcRfjb0gWxhcjevM93K/FM=
+
+Name: assets/maps/normal/l050;mission_5__-__Desert_Base.tmx
+SHA1-Digest: 2w5UbschSYAdKcnncOWYhW4WokI=
+
+Name: assets/maps/normal/l050;mission_5__-__Desert_Base_map.png
+SHA1-Digest: YmLYrCxbGHwrDXlz2mUGcc3ajrk=
+
+Name: assets/maps/normal/l060;mission_6__-__Snowy_Outcrop.tmx
+SHA1-Digest: eTFnudkm8fXzC2KpfQhIf+WWng8=
+
+Name: assets/maps/normal/l060;mission_6__-__Snowy_Outcrop_map.png
+SHA1-Digest: kmcfrc8XqEtNU3fnXPVYiXfJ1UM=
+
+Name: assets/maps/normal/l070;mission_7__-__Lava_Fortress.tmx
+SHA1-Digest: eIvsa5bfX+n8a3wm2Sv/Da0fQxQ=
+
+Name: assets/maps/normal/l070;mission_7__-__Lava_Fortress_map.png
+SHA1-Digest: 3HiBGzjFRyQAWlP9iKTAHq+cwes=
+
+Name: assets/maps/normal/l080;mission_8__-__Downstream.tmx
+SHA1-Digest: /5yRhD4bOPu/2sqOt+I7w9GpSjs=
+
+Name: assets/maps/normal/l080;mission_8__-__Downstream_map.png
+SHA1-Digest: gt+iCILaYE3geiOLaud7UTfy0dQ=
+
+Name: assets/maps/normal/l090;mission_9__-__Spider battle.tmx
+SHA1-Digest: 8xXG2020OKjQGv4O9CLOQYfXsYg=
+
+Name: assets/maps/normal/l090;mission_9__-__Spider battle_map.png
+SHA1-Digest: LvLvo1iuz2Y/7GfErwA/fJwBniA=
+
+Name: assets/maps/normal/l100;mission_10__-__Carrier_Group.tmx
+SHA1-Digest: YG53Lcp9HEI6eGPcvlNNHhQl12o=
+
+Name: assets/maps/normal/l100;mission_10__-__Carrier_Group_map.png
+SHA1-Digest: 0oxJCITYg7mV5WJbDLlc3wXZUx0=
+
+Name: assets/maps/skirmish/[p2]Beach landing (2p) [by hxyy].tmx
+SHA1-Digest: 5di100B1jUjGCVDPTxMeSHPkX1s=
+
+Name: assets/maps/skirmish/[p2]Beach landing (2p) [by hxyy]_map.png
+SHA1-Digest: n6tzT41e6Kvh906kHMYDCImOC8g=
+
+Name: assets/maps/skirmish/[p2]Big Island (2p).tmx
+SHA1-Digest: r4MFuFeV67j1HvVysvw2o3gPSZ0=
+
+Name: assets/maps/skirmish/[p2]Big Island (2p)_map.png
+SHA1-Digest: BurcOf2HjDxlicX6aSyxB41T3wM=
+
+Name: assets/maps/skirmish/[p2]Dire_Straight (2p) [by uber].tmx
+SHA1-Digest: CNMzwn+Eu1Glb5TtQF04nlMn2OY=
+
+Name: assets/maps/skirmish/[p2]Dire_Straight (2p) [by uber]_map.png
+SHA1-Digest: juIo5vbRHsyqJbfVB/Z7wv7scsE=
+
+Name: assets/maps/skirmish/[p2]Fire Bridge (2p) [by uber].tmx
+SHA1-Digest: HtUBS5jkpuvRYhv3tl0UvaTLsGc=
+
+Name: assets/maps/skirmish/[p2]Fire Bridge (2p) [by uber]_demo
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: assets/maps/skirmish/[p2]Fire Bridge (2p) [by uber]_map.png
+SHA1-Digest: x/B8mYyyk8H+PBMvEAqqQxwVGsQ=
+
+Name: assets/maps/skirmish/[p2]Hills_(2p)_[By Tstis & KPSS].tmx
+SHA1-Digest: Qx5MSqy017M/RrCGbKycee0LPRY=
+
+Name: assets/maps/skirmish/[p2]Hills_(2p)_[By Tstis & KPSS]_map.png
+SHA1-Digest: Tkf9jyrE+Bf9nJufXaM3zPmxH6o=
+
+Name: assets/maps/skirmish/[p2]Ice Island (2p).tmx
+SHA1-Digest: vpAYrsB/+JqmKG7Vx4SKJZT09xU=
+
+Name: assets/maps/skirmish/[p2]Ice Island (2p)_map.png
+SHA1-Digest: 5tDDrs3MJC0BA5oWNX5dz1B8DM8=
+
+Name: assets/maps/skirmish/[p2]Lake (2p).tmx
+SHA1-Digest: 876QL6vIldq9e8LlxbotlLm5jgg=
+
+Name: assets/maps/skirmish/[p2]Lake (2p)_map.png
+SHA1-Digest: o5obuhDkqkMbGFcokVENmA1tLsY=
+
+Name: assets/maps/skirmish/[p2]Small_Island (2p).tmx
+SHA1-Digest: JegS211NZMAFar4FBLX3tlFaNYA=
+
+Name: assets/maps/skirmish/[p2]Small_Island (2p)_map.png
+SHA1-Digest: iPRp771jRZz1ZhIGID79UMlieBY=
+
+Name: assets/maps/skirmish/[p2]Two_cold_sides (2p).tmx
+SHA1-Digest: TVdlJ6bs02wpmEXOVw7wNXUGCkQ=
+
+Name: assets/maps/skirmish/[p2]Two_cold_sides (2p)_map.png
+SHA1-Digest: Ke1V5GMc8vU25GC9b6+5hSoJ0O0=
+
+Name: assets/maps/skirmish/[p3]Hercules_(2vs1p) [by_uber].tmx
+SHA1-Digest: BORBosYWZ4YRG9Ze+ERP9ZJrvIU=
+
+Name: assets/maps/skirmish/[p3]Hercules_(2vs1p) [by_uber]_map.png
+SHA1-Digest: 1+ajxXmwg1TuESzq8sQCSUqOF3Q=
+
+Name: assets/maps/skirmish/[p3]King of the Middle (3p).tmx
+SHA1-Digest: vqBqRuc5ZN3u5K078B3o7X9qNk4=
+
+Name: assets/maps/skirmish/[p3]King of the Middle (3p)_demo
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: assets/maps/skirmish/[p3]King of the Middle (3p)_map.png
+SHA1-Digest: BvZ+FxQk8V5Mt/O39/WTrB74eg0=
+
+Name: assets/maps/skirmish/[p4]Depth charges (4p) [by hxyy].tmx
+SHA1-Digest: VC/iQKuOLF8jGxoksQc4pYzA5mg=
+
+Name: assets/maps/skirmish/[p4]Depth charges (4p) [by hxyy]_map.png
+SHA1-Digest: qnHhtt/7SLAHlNZnXdWXjEvf7v8=
+
+Name: assets/maps/skirmish/[p4]Desert (4p).tmx
+SHA1-Digest: rpfwkOTm4TumpQiRRJBUEQaD2EE=
+
+Name: assets/maps/skirmish/[p4]Desert (4p)_map.png
+SHA1-Digest: hPg4YxBfYv31dITk46YPhBkqTeg=
+
+Name: assets/maps/skirmish/[p4]Ice Lake (4p) [by hxyy].tmx
+SHA1-Digest: OL0mkAKKgpbQYlJNbOxI/ppCI7w=
+
+Name: assets/maps/skirmish/[p4]Ice Lake (4p) [by hxyy]_map.png
+SHA1-Digest: 6IKA3EAfiYP2D6cRRhzITGzZv/I=
+
+Name: assets/maps/skirmish/[p4]Island freeze (4p) [by hxyy].tmx
+SHA1-Digest: CRdoyAfhBNGOiAAmvGXudyFdB5s=
+
+Name: assets/maps/skirmish/[p4]Island freeze (4p) [by hxyy]_map.png
+SHA1-Digest: Z4LK84EqGOMBJejlOj66fDTHSGg=
+
+Name: assets/maps/skirmish/[p4]Islands (4p).tmx
+SHA1-Digest: 3Vj72eS9gzwmXhM+ZaSgHJUljnA=
+
+Name: assets/maps/skirmish/[p4]Islands (4p)_map.png
+SHA1-Digest: ZxsVDmKMesMiSxfahEeVDXpELEU=
+
+Name: assets/maps/skirmish/[p4]Lava Maze (4p).tmx
+SHA1-Digest: R77EKYLFtK5Pl0sZhWgF1m9S+Lw=
+
+Name: assets/maps/skirmish/[p4]Lava Maze (4p)_demo
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: assets/maps/skirmish/[p4]Lava Maze (4p)_map.png
+SHA1-Digest: 6F1mgO385TRCgv9zhiw++FmSiCU=
+
+Name: assets/maps/skirmish/[p4]Lava Vortex (4p).tmx
+SHA1-Digest: MH5HiOlfk3zJs4BbMmHE68ggONo=
+
+Name: assets/maps/skirmish/[p4]Lava Vortex (4p)_map.png
+SHA1-Digest: 2vGoUNbAj7wHE+uKqGOxHHuWh3E=
+
+Name: assets/maps/skirmish/[p4]Magma Island (4p).tmx
+SHA1-Digest: fAvKZ0MGAhZm3Rcv/+vr/CZJ0aI=
+
+Name: assets/maps/skirmish/[p4]Magma Island (4p)_demo
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: assets/maps/skirmish/[p4]Magma Island (4p)_map.png
+SHA1-Digest: FHYrlFR5ABaMLvLbAmFXDlXqDDc=
+
+Name: assets/maps/skirmish/[p4]Manipulation_(4p)_[By Tstis].tmx
+SHA1-Digest: Cd64/2Wva6qBye2FYB5nGCM8Pcc=
+
+Name: assets/maps/skirmish/[p4]Manipulation_(4p)_[By Tstis]_map.png
+SHA1-Digest: sRzN06Un1ZUHb1VaTxEcZ1RGpoQ=
+
+Name: assets/maps/skirmish/[p4]Nuclear war (4p) [by hxyy].tmx
+SHA1-Digest: YedRw/4MAFGmVsrWehxjjp/gFX8=
+
+Name: assets/maps/skirmish/[p4]Nuclear war (4p) [by hxyy]_map.png
+SHA1-Digest: UHQe6yPUXPK0zki+A0xxw4b09b4=
+
+Name: assets/maps/skirmish/[p6]Crossing (6p).tmx
+SHA1-Digest: cDqfbDiNKI90I3TnzyWNuWOJTPg=
+
+Name: assets/maps/skirmish/[p6]Crossing (6p)_map.png
+SHA1-Digest: BvXSkPd/xeRLx9t4aFuWJdwiV5M=
+
+Name: assets/maps/skirmish/[p6]Shore to Shore (6p).tmx
+SHA1-Digest: tP7v2Qag0tzsdheP4/w00sfOW9g=
+
+Name: assets/maps/skirmish/[p6]Shore to Shore (6p)_map.png
+SHA1-Digest: Rbv6JL8c2w3Y4FrZtFJ6gIBGZys=
+
+Name: assets/maps/skirmish/[p6]Valley Pass (6p).tmx
+SHA1-Digest: hgyOB1D8e5eR1+IKnIftQd4JtF8=
+
+Name: assets/maps/skirmish/[p6]Valley Pass (6p)_map.png
+SHA1-Digest: BZrFX6ken5sbI9mhzyKKLU+TRpw=
+
+Name: assets/maps/skirmish/[p8]Bridges Over Lava (8p).tmx
+SHA1-Digest: 6H5xOFYd7XpOCskOuT2lyiR+6HA=
+
+Name: assets/maps/skirmish/[p8]Bridges Over Lava (8p)_map.png
+SHA1-Digest: JNIoD/Q8cIuVU7rcNeRAoyZkx4U=
+
+Name: assets/maps/skirmish/[p8]Coastline (8p) [by hxyy].tmx
+SHA1-Digest: PlyEuGf2+BjPySfYMm7aLaTdQRI=
+
+Name: assets/maps/skirmish/[p8]Coastline (8p) [by hxyy]_map.png
+SHA1-Digest: pOIMytZeFyml7018WKRGYc8wCCY=
+
+Name: assets/maps/skirmish/[p8]Crossing Large (8p)_moved
+SHA1-Digest: COWLVOORAXa+Qj/Fxer9mu2MvGQ=
+
+Name: assets/maps/skirmish/[p8]Huge Subdivide (8p).tmx
+SHA1-Digest: J9Rw5zZ7SYNFtwHTgd/mN1s4Jc4=
+
+Name: assets/maps/skirmish/[p8]Huge Subdivide (8p)_map.png
+SHA1-Digest: 3QPX8rb2L2uGUVh3MzKwG+1XrSY=
+
+Name: assets/maps/skirmish/[p8]Interlocked (8p).tmx
+SHA1-Digest: BTNCx9CzTDbQwits/XVBE0oFYZc=
+
+Name: assets/maps/skirmish/[p8]Interlocked (8p)_map.png
+SHA1-Digest: 6SaVbog7HCtfjoI3Vt4sPDcoLpc=
+
+Name: assets/maps/skirmish/[p8]Interlocked Large (8p).tmx
+SHA1-Digest: JNqHyDDpErS7VRIZXGhPFd1bK5o=
+
+Name: assets/maps/skirmish/[p8]Interlocked Large (8p)_map.png
+SHA1-Digest: O3NyHkyOOxMBubU11mzOBuKJqYk=
+
+Name: assets/maps/skirmish/[p8]Isle Ring (8p).tmx
+SHA1-Digest: 95br9n5lz3Eaaat0Tu4XmiNW4FM=
+
+Name: assets/maps/skirmish/[p8]Isle Ring (8p)_map.png
+SHA1-Digest: uGbQTvbsyPzoX76k96l+qkN9RpU=
+
+Name: assets/maps/skirmish/[p8]Large Ice Outcrop (8p).tmx
+SHA1-Digest: SfkbLdAXOJoSVdFm6L50bd644RQ=
+
+Name: assets/maps/skirmish/[p8]Large Ice Outcrop (8p)_map.png
+SHA1-Digest: KYXOZ3Cr97U2XudBS9pxakJS1Vw=
+
+Name: assets/maps/skirmish/[p8]Lava Bio-grid(8p).tmx
+SHA1-Digest: SoL6DxFVnz1TP8S8QKNm3I+1IwM=
+
+Name: assets/maps/skirmish/[p8]Lava Bio-grid(8p)_map.png
+SHA1-Digest: TSzDnKUPCeLeWm0g6ve1BFUbE4M=
+
+Name: assets/maps/skirmish/[p8]Lava Divide(8p).tmx
+SHA1-Digest: I7sePKvGmtLGKkRwVYBPxHHvJUY=
+
+Name: assets/maps/skirmish/[p8]Lava Divide(8p)_map.png
+SHA1-Digest: Yt+zeXqKW1gia6y8O3F1zxBbn0E=
+
+Name: assets/maps/skirmish/[p8]Many Islands (8p).tmx
+SHA1-Digest: hSceiZS59DPckMNQY0/gHDFuRNc=
+
+Name: assets/maps/skirmish/[p8]Many Islands (8p)_map.png
+SHA1-Digest: HQ+bIRLuXM8oBhwiTu6x023/pHU=
+
+Name: assets/maps/skirmish/[p8]Random Islands (8p).tmx
+SHA1-Digest: Eib39ONMMdxwK2u9bMGhUfNzgMA=
+
+Name: assets/maps/skirmish/[p8]Random Islands (8p)_map.png
+SHA1-Digest: jJvN8/m4bXjjbwKMzfiKRFERm3s=
+
+Name: assets/maps/skirmish/[p8]Tornado eye (8p) [by hxyy].tmx
+SHA1-Digest: 7+LPu5QsJJfDrLxe1XGW53D4Io8=
+
+Name: assets/maps/skirmish/[p8]Tornado eye (8p) [by hxyy]_map.png
+SHA1-Digest: NQLKDk5esIS/h5p8rNq/KGP4tVk=
+
+Name: assets/maps/skirmish/[p8]Two Sides (8p).tmx
+SHA1-Digest: X/qdiAe68d7R8d+UjdtvTXhpyu8=
+
+Name: assets/maps/skirmish/[p8]Two Sides (8p)_map.png
+SHA1-Digest: DNkE8T9GncbZEhcPWI7pHoEwjEU=
+
+Name: assets/maps/skirmish/[p8]Two Sides Remake (8p)_moved
+SHA1-Digest: I0elzbWLT36/+2jgedp6mb1X4is=
+
+Name: assets/maps/skirmish/[p8]Volcano (8p).tmx
+SHA1-Digest: tHKyK+i1IXL2PKVDBTcngJ3aAOk=
+
+Name: assets/maps/skirmish/[p8]Volcano (8p)_map.png
+SHA1-Digest: MFuga/wtTh13hf+n5Bbpz+X7+H0=
+
+Name: assets/maps/skirmish/[p8]Volcano Crater(8p).tmx
+SHA1-Digest: rWHTtsuruJNhyuLYWSuBhy7uT6I=
+
+Name: assets/maps/skirmish/[p8]Volcano Crater(8p)_map.png
+SHA1-Digest: YCbs56CWkU+HgusOKqidMqUvE2U=
+
+Name: assets/maps/skirmish/[z;p10]Crossing Large (10p).tmx
+SHA1-Digest: hl878Ye8dxyRJoqRigHPvWdV/pI=
+
+Name: assets/maps/skirmish/[z;p10]Crossing Large (10p)_map.png
+SHA1-Digest: PzYYd9qijbynmyBr9Xi4ycp6EpI=
+
+Name: assets/maps/skirmish/[z;p10]Enclosed Island (10p).tmx
+SHA1-Digest: CxzcV4wjsrqSW/3rYZVO51ufRUM=
+
+Name: assets/maps/skirmish/[z;p10]Enclosed Island (10p)_map.png
+SHA1-Digest: kSItrh88ft5a+hBwZdONfROfiYM=
+
+Name: assets/maps/skirmish/[z;p10]Kingdoms (10p) [by Vulkan].tmx
+SHA1-Digest: OcG3c4ne9yKhpgS6YRtex4qxz04=
+
+Name: assets/maps/skirmish/[z;p10]Kingdoms (10p) [by Vulkan]_map.png
+SHA1-Digest: spNRbaV0cQquh4l78zJYSqG1dWg=
+
+Name: assets/maps/skirmish/[z;p10]Large Lava Divide (10p).tmx
+SHA1-Digest: sPu++7Uz7Dcd4zSJfBd00R+t9fU=
+
+Name: assets/maps/skirmish/[z;p10]Large Lava Divide (10p)_map.png
+SHA1-Digest: MLI6THtLIvGxlEsLVzl5/zghKPw=
+
+Name: assets/maps/skirmish/[z;p10]Many Islands Large (10p).tmx
+SHA1-Digest: bTj7dk3NIWYucEXp+ehxfHMlD44=
+
+Name: assets/maps/skirmish/[z;p10]Many Islands Large (10p)_map.png
+SHA1-Digest: AtpC6c8DNOAeXRFXYEnlCUqLD94=
+
+Name: assets/maps/skirmish/[z;p10]Two Sides Remake (10p).tmx
+SHA1-Digest: cZXsH2LhZZmvpqjh04U1o3Va+fI=
+
+Name: assets/maps/skirmish/[z;p10]Two Sides Remake (10p)_map.png
+SHA1-Digest: hvj4Pj5O6f6Fctd5opTxiZQq41s=
+
+Name: assets/maps/skirmish/[z;p10]Two_Large_Islands_(10p).tmx
+SHA1-Digest: NUFNQgk8BVRx3cVp7sq9Bu5MsCs=
+
+Name: assets/maps/skirmish/[z;p10]Two_Large_Islands_(10p)_map.png
+SHA1-Digest: g8wmzazmtTpn9fLJbDxRnu4wlWc=
+
+Name: assets/maps/skirmish/[z;p10]Valley Arena (10p) [by_uber].tmx
+SHA1-Digest: 0FGs3P9Vh9vKVOtsysPRrZ8Wpvg=
+
+Name: assets/maps/skirmish/[z;p10]Valley Arena (10p) [by_uber]_map.png
+SHA1-Digest: MjDI91iGjV8Vg4resiy+hskzYM8=
+
+Name: assets/maps/skirmish/[z;p10]Wetlands (10p).tmx
+SHA1-Digest: Jmrn1EpaC2cUg1sphumCgqC9YmA=
+
+Name: assets/maps/skirmish/[z;p10]Wetlands (10p)_map.png
+SHA1-Digest: Qo4WEKpX1HVxrDy/VXZiu7GKiXw=
+
+Name: assets/maps/survival/[o1]Surrounded.tmx
+SHA1-Digest: t7qDNaX4QpGk1fIJZ7yQVC5Xzpg=
+
+Name: assets/maps/survival/[o1]Surrounded_map.png
+SHA1-Digest: djWlu5FcYvPQL9b/nkT9ZIIKjXk=
+
+Name: assets/maps/survival/[o1]Surrounded_unit.png
+SHA1-Digest: jB9sOf4wq5BHbsleRuQGJzLCcoU=
+
+Name: assets/maps/survival/[o2]Single Passage.tmx
+SHA1-Digest: 3izBRdnaPB3IemJEVNO91+X6SiU=
+
+Name: assets/maps/survival/[o2]Single Passage_map.png
+SHA1-Digest: XiKNFanP69/mTDCOs1q3NmIVJsU=
+
+Name: assets/maps/survival/[o2]Single Passage_unit.png
+SHA1-Digest: MZpS1WGtSJ0B1cgFUYx8cVQa0qw=
+
+Name: assets/maps/survival/[o3]Cornered Stronghold.tmx
+SHA1-Digest: 1W+RI+FRYSrjPOqF9/RDF0fa6zY=
+
+Name: assets/maps/survival/[o3]Cornered Stronghold_map.png
+SHA1-Digest: CQvVz/vUStBvUQcKy76LMfiyeq8=
+
+Name: assets/maps/survival/[o4]Valley Arena (2p) [map_by_uber].tmx
+SHA1-Digest: QgYnnxm4O57/0m/yoT10IDcqk58=
+
+Name: assets/maps/survival/[o4]Valley Arena (2p) [map_by_uber]_map.png
+SHA1-Digest: EwnR4Zy0WWejBv3Zn7mxEaQrbe0=
+
+Name: assets/maps/survival/[z;o1]Surrounded_(Classic_Waves).tmx
+SHA1-Digest: E4YT0slZLoHOMzjMiKgcJitlMl8=
+
+Name: assets/maps/survival/[z;o1]Surrounded_(Classic_Waves)_map.png
+SHA1-Digest: I7Pl4jDtzwodbHIZdrJdK9feVD8=
+
+Name: assets/music/attacked/Adama-Bobthede-11966.ogg
+SHA1-Digest: FdLGgGMfVilBosUNdr3HsIsR9LM=
+
+Name: assets/music/buildup/Acti-Rudy_Ves-8657.ogg
+SHA1-Digest: Xtkg9d25v84qPdJIT217zNd3mZc=
+
+Name: assets/music/buildup/Ove - Earth Is All We Have.ogg
+SHA1-Digest: Ty0MZLsC3T4QpHiKopHVGCuyeMk=
+
+Name: assets/music/buildup/[noloop]Ove Melaa - Theme Crystalized.ogg
+SHA1-Digest: qotOMg14RAsrvBCNAZAz9dw2tNg=
+
+Name: assets/music/buildup/[noloop]The Planets - Mars (Part A).ogg
+SHA1-Digest: tPKsdOhIMCDXFOiG4M8qqsXEX5A=
+
+Name: assets/music/buildup/[noloop]The Planets - Mars (Part B).ogg
+SHA1-Digest: Begxj9eJ+MXnZ+RZnZLRVI0hG/s=
+
+Name: assets/music/starting/Cont-Edgen-6084.ogg
+SHA1-Digest: fctkrIIhCoZ1yYm5459JxWxtmEM=
+
+Name: assets/music/starting/battletanks1B.ogg
+SHA1-Digest: h7Tb7ao+UZXE4LKUwl5O95n34qw=
+
+Name: assets/music/starting/sile-Justin_R-6891.ogg
+SHA1-Digest: tP6vbmb7+7m7p9h8jKoPS5a5KWI=
+
+Name: assets/shaders/error.frag
+SHA1-Digest: oJRg8/pTGvu3xXMqb93GR/UWm/Y=
+
+Name: assets/shaders/hueAddTeamColor.frag
+SHA1-Digest: KRmKkjwmvSUVy5Lo5UF9qItIEdc=
+
+Name: assets/shaders/hueShiftTeamColor.frag
+SHA1-Digest: QIP8PMRZjorVDLzzBKPaXS6nJxY=
+
+Name: assets/shaders/plain.frag
+SHA1-Digest: mwU7/rf3zV5T96o+yhvoZ81ItSk=
+
+Name: assets/shaders/plain.vert
+SHA1-Digest: B8TO0gr940Ls91t9QTzzuRgMNrQ=
+
+Name: assets/shaders/plainGDX.vert
+SHA1-Digest: YPGKYW0vHQ602tf18rQAOZWyxsE=
+
+Name: assets/shaders/post_base.frag
+SHA1-Digest: 8Y6bzMrkEoClj3GpZxT3vrFVVXs=
+
+Name: assets/shaders/post_displacement.frag
+SHA1-Digest: 0xM4GiS4dEpTAxkK1/dmC1Yoydw=
+
+Name: assets/shaders/pureGreenTeamColor.frag
+SHA1-Digest: 3midDzKKO8g9Lru/eFVvmLHUgMM=
+
+Name: assets/tilesets/bitmaps/bridge.png
+SHA1-Digest: WXArjO15mr/ub8JiJr5k93hHEaM=
+
+Name: assets/tilesets/bitmaps/decoration.png
+SHA1-Digest: FL3nbfIv/nhMwOso86Ae2RKeHhM=
+
+Name: assets/tilesets/bitmaps/deepwater.png
+SHA1-Digest: dhzcOCXBht61AGNQKBThvOZf1Co=
+
+Name: assets/tilesets/bitmaps/dirt.png
+SHA1-Digest: Uv1dwFS7sEtGp7qxvWxdaY4U8gc=
+
+Name: assets/tilesets/bitmaps/dirt2dirt_flat.png
+SHA1-Digest: owQKf9Z13cTKHLrC+oxhgNuLM4I=
+
+Name: assets/tilesets/bitmaps/dirt2dirt_ridge.png
+SHA1-Digest: PWnorKN5iS49GDuDUeZNolQDmYE=
+
+Name: assets/tilesets/bitmaps/dirt2dirt_ridge_old.png
+SHA1-Digest: 4n3b5kF0zGXHo7u7f9XQn9gHSLQ=
+
+Name: assets/tilesets/bitmaps/dirt2ice_ridge.png
+SHA1-Digest: vqanO44I9Gc+DfPycESoqwg69IQ=
+
+Name: assets/tilesets/bitmaps/dirt2lava_ridge.png
+SHA1-Digest: j7i0FHyLJDByjOMNJZn5XsJH/vA=
+
+Name: assets/tilesets/bitmaps/dirt2longgrass_flat.png
+SHA1-Digest: dJA3HEc3Z1TBpVF0UQ+si3ylu4w=
+
+Name: assets/tilesets/bitmaps/dirt2longgrass_ridge.png
+SHA1-Digest: lkF6RiZehjEGo4uJIPtBe1X9/ZY=
+
+Name: assets/tilesets/bitmaps/dirt2mountain_ridge.png
+SHA1-Digest: bRWq1dpiOBue25WIswA/PmY8KsA=
+
+Name: assets/tilesets/bitmaps/dirt2sand_flat.png
+SHA1-Digest: nOAtrmufGz3clEWG3XRV7tI9lLA=
+
+Name: assets/tilesets/bitmaps/dirt2sand_ridge.png
+SHA1-Digest: 3WpYYbOllY+f3usVgKbRUeTMnsc=
+
+Name: assets/tilesets/bitmaps/dirt2shallowwater_ridge.png
+SHA1-Digest: e0u8VHYL0DMJLypknVvyNDytiYA=
+
+Name: assets/tilesets/bitmaps/dirt2snow_flat.png
+SHA1-Digest: yoHDIu5DL2FDrIKaGvqL0NjaoWI=
+
+Name: assets/tilesets/bitmaps/dirt2snow_ridge.png
+SHA1-Digest: lJKxBNIVDvKzC5cO36dBUryPHZg=
+
+Name: assets/tilesets/bitmaps/dirt2stone_ridge.png
+SHA1-Digest: DOjKbxRZWXN6du8wSaTG+wC1vs4=
+
+Name: assets/tilesets/bitmaps/dirt_details.png
+SHA1-Digest: wUauSWrtMx+3piwch6Vzc1mtA1Q=
+
+Name: assets/tilesets/bitmaps/dust.png
+SHA1-Digest: +Vtk7Nm8A+FERhvjre7AcoWCoc0=
+
+Name: assets/tilesets/bitmaps/fauna.png
+SHA1-Digest: s8zS8GmWWcuav0H4+yyF+eNWU8c=
+
+Name: assets/tilesets/bitmaps/fauna_dark.png
+SHA1-Digest: hAxtnaDtYM/pQDLvWe5m6RwyIzQ=
+
+Name: assets/tilesets/bitmaps/fauna_highland.png
+SHA1-Digest: 529+dc3tSB9oxcBWnaQZHgGWuuQ=
+
+Name: assets/tilesets/bitmaps/ice.png
+SHA1-Digest: bXvG1Y/m1WOT+X8u/2490zoJpC0=
+
+Name: assets/tilesets/bitmaps/ice2dirt_flat.png
+SHA1-Digest: dn51rmi7KdKF0DMOrsWZP07kWHk=
+
+Name: assets/tilesets/bitmaps/ice2ice_flat.png
+SHA1-Digest: RjBEup/NvEtGLTetM7eX10HENM4=
+
+Name: assets/tilesets/bitmaps/ice2longgrass_flat.png
+SHA1-Digest: 9DmzXI3OARd0KHqSXKkxslpr+Ns=
+
+Name: assets/tilesets/bitmaps/ice2nothing_ridge.png
+SHA1-Digest: aUWQeKKL3rjQCk6SH2Jed4AsW48=
+
+Name: assets/tilesets/bitmaps/ice2sand_flat.png
+SHA1-Digest: Zd+/HWF4dQboiXtqCkgYl2rjjvs=
+
+Name: assets/tilesets/bitmaps/ice2shallowwater_broken.png
+SHA1-Digest: DSj+eyBkhkzc9a+DxgYmQiYf9cQ=
+
+Name: assets/tilesets/bitmaps/ice2shallowwater_ridge.png
+SHA1-Digest: G0IS1L4kWgkc5NIX2K1dxhh59AI=
+
+Name: assets/tilesets/bitmaps/ice2snow_flat.png
+SHA1-Digest: yL/091+b8edD/l2ttQXtCTKq8Bg=
+
+Name: assets/tilesets/bitmaps/lava.png
+SHA1-Digest: LhUULmDPgW8Hbpbh/+YlQAYr7fQ=
+
+Name: assets/tilesets/bitmaps/lava2dirt_flat.png
+SHA1-Digest: tvqnS4+8soWUrigY8vOSoimMFlg=
+
+Name: assets/tilesets/bitmaps/lava2longgrass_flat.png
+SHA1-Digest: JvMoJ0+a7YIVTSEO5kPGCPS8d4E=
+
+Name: assets/tilesets/bitmaps/lava2sand_flat.png
+SHA1-Digest: H8urjKbrtGPEAC+jNHleP3Rbit4=
+
+Name: assets/tilesets/bitmaps/lava2snow_flat.png
+SHA1-Digest: I6ooHhfYuwk0GiQlAtKC08c4cLY=
+
+Name: assets/tilesets/bitmaps/longgrass.png
+SHA1-Digest: zsQqLGASe5dKbHHU1kVw0P5VyjI=
+
+Name: assets/tilesets/bitmaps/longgrass2dirt_flat.png
+SHA1-Digest: 4Otq/xCz5KI1QiRlYwSyj7mE6G0=
+
+Name: assets/tilesets/bitmaps/longgrass2dirt_ridge.png
+SHA1-Digest: Adw1hEJhIUE9lSF2+InYwdxOC9o=
+
+Name: assets/tilesets/bitmaps/longgrass2ice_flat.png
+SHA1-Digest: GKLCUnPWlzbiJMXzbOd4poo6yC8=
+
+Name: assets/tilesets/bitmaps/longgrass2ice_ridge.png
+SHA1-Digest: Py7GfwJbYfzyZVINiVWwe667fT0=
+
+Name: assets/tilesets/bitmaps/longgrass2lava_flat.png
+SHA1-Digest: W/MofXeZ3tAO3kRn554sRHJ+skQ=
+
+Name: assets/tilesets/bitmaps/longgrass2lava_ridge.png
+SHA1-Digest: pRzFLPAQn7578kddfBCsYoiNbxY=
+
+Name: assets/tilesets/bitmaps/longgrass2longgrass_flat.png
+SHA1-Digest: eCRnSfBEpduwWVfNSGey5C1+bYc=
+
+Name: assets/tilesets/bitmaps/longgrass2longgrass_hill.png
+SHA1-Digest: PfSG+nLC1Wj01VrIoYptiU5ZJO0=
+
+Name: assets/tilesets/bitmaps/longgrass2longgrass_ridge.png
+SHA1-Digest: Yo73P3qN0no8dmu3iFnEKwhBLAQ=
+
+Name: assets/tilesets/bitmaps/longgrass2mountain_flat.png
+SHA1-Digest: +D55mNWQ+Wa31k2phB3LhCDOXNQ=
+
+Name: assets/tilesets/bitmaps/longgrass2mountain_ridge.png
+SHA1-Digest: oBWg9D/LeCIOazJHxatDtJobHwo=
+
+Name: assets/tilesets/bitmaps/longgrass2sand_flat.png
+SHA1-Digest: IrAVb4poyb8ob4b9fiPU5fPyMhI=
+
+Name: assets/tilesets/bitmaps/longgrass2sand_ridge.png
+SHA1-Digest: vpdyT8V8z4j+6ginfRy3wYcRwAA=
+
+Name: assets/tilesets/bitmaps/longgrass2shallowwater_flat.png
+SHA1-Digest: UUFomIsaTOvKaplC1y9bLGa0RYI=
+
+Name: assets/tilesets/bitmaps/longgrass2shallowwater_ridge.png
+SHA1-Digest: WyFeduJqCiVkRrHr7rE+PQK5kfc=
+
+Name: assets/tilesets/bitmaps/longgrass2shortgrass_flat.png
+SHA1-Digest: HHGOaN8TnK8uHjs4N7QMAmkezOM=
+
+Name: assets/tilesets/bitmaps/longgrass2snow_flat.png
+SHA1-Digest: WHHq0lkCC8ZWsxYWVfsBYQlkMXs=
+
+Name: assets/tilesets/bitmaps/longgrass2snow_ridge.png
+SHA1-Digest: UG5vn1Qc8EdaU8HAt2b2f4IMmNU=
+
+Name: assets/tilesets/bitmaps/longgrass2stone_flat.png
+SHA1-Digest: i1tASi8UyKDge75HWFMU6sHBAjs=
+
+Name: assets/tilesets/bitmaps/longgrass2stone_ridge.png
+SHA1-Digest: lRhyu0yFNOkhhsviacWsjleloyI=
+
+Name: assets/tilesets/bitmaps/longrass2darkgrass_flat.png
+SHA1-Digest: 4ephlrxQkHyd96fz1Qs+fviaH44=
+
+Name: assets/tilesets/bitmaps/misc.png
+SHA1-Digest: ZjNEQdNT5y69t13B9Xf57pbPknA=
+
+Name: assets/tilesets/bitmaps/mountain.png
+SHA1-Digest: 6VjZMZeOM6PE5pe3ACJSzR5snz8=
+
+Name: assets/tilesets/bitmaps/mountain2dirt_flat.png
+SHA1-Digest: PijtF+ZZuVu5Tevj6+LdhQmYka8=
+
+Name: assets/tilesets/bitmaps/mountain2dirt_ridge.png
+SHA1-Digest: MkeAD8ZmGgROHPqsAtCzobA+32Q=
+
+Name: assets/tilesets/bitmaps/mountain2highland_flat.png
+SHA1-Digest: FHzpPkLLzcvNTG6wyifDUN3pvS4=
+
+Name: assets/tilesets/bitmaps/mountain2ice_flat.png
+SHA1-Digest: LAwGNZjPKz9DaBvbRshMvUoscno=
+
+Name: assets/tilesets/bitmaps/mountain2ice_ridge.png
+SHA1-Digest: G8iA/Lpqy8WWt5q70kwQW9xp59A=
+
+Name: assets/tilesets/bitmaps/mountain2lava_flat.png
+SHA1-Digest: s8YYf7QTWvWDGpi9azP9KBcqWuU=
+
+Name: assets/tilesets/bitmaps/mountain2lava_ridge.png
+SHA1-Digest: LhUULmDPgW8Hbpbh/+YlQAYr7fQ=
+
+Name: assets/tilesets/bitmaps/mountain2longgrass_flat.png
+SHA1-Digest: pTisc3M96yx5odmL9WXc4whwqxc=
+
+Name: assets/tilesets/bitmaps/mountain2longgrass_ridge.png
+SHA1-Digest: EdWjYS2nF95G23HaQfuaIH1bsZ4=
+
+Name: assets/tilesets/bitmaps/mountain2mountain_flat.png
+SHA1-Digest: /29CMNebEVjosb/xlkGfBqq+G54=
+
+Name: assets/tilesets/bitmaps/mountain2mountain_hill.png
+SHA1-Digest: iKsnqjfYliYa9mTHnFFM6ap7GDI=
+
+Name: assets/tilesets/bitmaps/mountain2mountain_ridge.png
+SHA1-Digest: tfwOI5nyzw/Ma/5En9eTkVvlhdA=
+
+Name: assets/tilesets/bitmaps/mountain2nothing_flat.png
+SHA1-Digest: c5NXYN76g+VN++LTdYtqsqVMik8=
+
+Name: assets/tilesets/bitmaps/mountain2nothing_ridge.png
+SHA1-Digest: 1HYW50R1bIbqciMk4OdRxhDy3PA=
+
+Name: assets/tilesets/bitmaps/mountain2sand_flat.png
+SHA1-Digest: nF/3sogiuqSdQ+TDe1Mzbq6Qh8w=
+
+Name: assets/tilesets/bitmaps/mountain2sand_ridge.png
+SHA1-Digest: EKqCyK+Bk6BwMIyDyzokN6Jy+x0=
+
+Name: assets/tilesets/bitmaps/mountain2shallowwater_flat.png
+SHA1-Digest: DO5n+N60+B6Q8y8NpE2jOeKo4Xs=
+
+Name: assets/tilesets/bitmaps/mountain2shallowwater_flat.xcf
+SHA1-Digest: yJ806zAHJkK9eIlXTd4KyNLnD1c=
+
+Name: assets/tilesets/bitmaps/mountain2shallowwater_ridge.png
+SHA1-Digest: MJqPn1k33f34QqD1+AeP6Lyjf3w=
+
+Name: assets/tilesets/bitmaps/mountain2snow_flat.png
+SHA1-Digest: TXikXPYvgqdoZZYYzHV+IzaH9dc=
+
+Name: assets/tilesets/bitmaps/mountain2snow_ridge.png
+SHA1-Digest: teY5npiQaMb3uBJ7wvNYpJx4gMw=
+
+Name: assets/tilesets/bitmaps/mountain2stone_flat.png
+SHA1-Digest: j5kzeAmKHDozIFZ280Dc/egeUvg=
+
+Name: assets/tilesets/bitmaps/mountain2stone_ridge.png
+SHA1-Digest: oN8s4JGTng+Kq9X1aMQq0JwTuVA=
+
+Name: assets/tilesets/bitmaps/nothing2dust_flat.png
+SHA1-Digest: FLkZPmE3YamN+gCBYDGfW1v/tgc=
+
+Name: assets/tilesets/bitmaps/nothing2road_flat.png
+SHA1-Digest: VspGkP46K8JtqMJ9uJDYEHozDEM=
+
+Name: assets/tilesets/bitmaps/nothing2sand_flat.png
+SHA1-Digest: f59sHwCfQZer2Roxnau+dTNUEr8=
+
+Name: assets/tilesets/bitmaps/sand.png
+SHA1-Digest: zvCdO++X0CP5SWzLcTye6B54iec=
+
+Name: assets/tilesets/bitmaps/sand2.png
+SHA1-Digest: USq5f9C4oCpJpdMN03yZrz83UoE=
+
+Name: assets/tilesets/bitmaps/sand2darksand_flat.png
+SHA1-Digest: oOv/xHbZD6nw4dYTDSL1oUsmnoA=
+
+Name: assets/tilesets/bitmaps/sand2darksand_ridge.png
+SHA1-Digest: itrYEBFmPkYaTDhAVKWu+d47u0w=
+
+Name: assets/tilesets/bitmaps/sand2dirt_flat.png
+SHA1-Digest: WdsEBhQcjjynzklfguPUieFXCSE=
+
+Name: assets/tilesets/bitmaps/sand2dirt_ridge.png
+SHA1-Digest: JPFu4MQ0muwTGB4sM13NEV1wfMc=
+
+Name: assets/tilesets/bitmaps/sand2ice_flat.png
+SHA1-Digest: reYiiGbFefKSg3RzKZtgDKvRKbU=
+
+Name: assets/tilesets/bitmaps/sand2ice_ridge.png
+SHA1-Digest: aU2dOoeLRZCk7SsxBI6YrqdpXo8=
+
+Name: assets/tilesets/bitmaps/sand2lava_flat.png
+SHA1-Digest: aCca4xz0uyyACrhyO+uEJLRM6Tg=
+
+Name: assets/tilesets/bitmaps/sand2lava_ridge.png
+SHA1-Digest: LMW+oLw36GvjHUmfig9XVzUnSPA=
+
+Name: assets/tilesets/bitmaps/sand2longgrass_flat.png
+SHA1-Digest: fUGldxgZCDZxYgSGqvZMwXEheNM=
+
+Name: assets/tilesets/bitmaps/sand2longgrass_ridge.png
+SHA1-Digest: e4EvawvEuE/m1BidOHvboQSKKsI=
+
+Name: assets/tilesets/bitmaps/sand2mountain_flat.png
+SHA1-Digest: +yFqeMenVeULGAMqm60dKLPp4mo=
+
+Name: assets/tilesets/bitmaps/sand2mountain_ridge.png
+SHA1-Digest: /Ut81v0aM2Y3/XxXmtgGnzv/U2o=
+
+Name: assets/tilesets/bitmaps/sand2nothing_flat.png
+SHA1-Digest: K5O89x+21NOQlTB5UuzbuWo1RZw=
+
+Name: assets/tilesets/bitmaps/sand2sand_flat.png
+SHA1-Digest: xff7hg9GhrH3ST3/G/sv3U2uhiQ=
+
+Name: assets/tilesets/bitmaps/sand2sand_hill.png
+SHA1-Digest: BINT9o7W7BbLm6khykgAlRK29kI=
+
+Name: assets/tilesets/bitmaps/sand2sand_ridge.png
+SHA1-Digest: l1bLM4O7Lv6UqagL93vcxO+dIOU=
+
+Name: assets/tilesets/bitmaps/sand2shallowwater_flat.png
+SHA1-Digest: OMX4DGx3yNdNkpXx51nP+sz7tF0=
+
+Name: assets/tilesets/bitmaps/sand2shallowwater_ridge.png
+SHA1-Digest: 39KMUPayo+15Hy3UDGcrNIJlS3U=
+
+Name: assets/tilesets/bitmaps/sand2snow_flat.png
+SHA1-Digest: wz0fj2cyHWQ8WdHw/VH3Umogpag=
+
+Name: assets/tilesets/bitmaps/sand2snow_ridge.png
+SHA1-Digest: gpZee5MDW7DCGmq8whQgyvuyk58=
+
+Name: assets/tilesets/bitmaps/sand2stone_flat.png
+SHA1-Digest: lT9sUABZuMrFQfQEPt8hNf8u2hw=
+
+Name: assets/tilesets/bitmaps/sand2stone_ridge.png
+SHA1-Digest: gwH+PgP0/YZccKrCpZH15iQFSuU=
+
+Name: assets/tilesets/bitmaps/sand_dark.png
+SHA1-Digest: rXE0MWCK3F5fr/QWZMdNe29crrk=
+
+Name: assets/tilesets/bitmaps/shallowwater.png
+SHA1-Digest: SUSazowpuVGxbLhUSPMP7FnxINU=
+
+Name: assets/tilesets/bitmaps/shallowwater2dirt_flat.png
+SHA1-Digest: 6++Nkf2wCs/nMWZpX8A+fWXYLmY=
+
+Name: assets/tilesets/bitmaps/shallowwater2longgrass_flat.png
+SHA1-Digest: quWiJ9s3612nQeXGQCRtsHmEW3Q=
+
+Name: assets/tilesets/bitmaps/shallowwater2sand_flat.png
+SHA1-Digest: k0L47jgkspAjD90Cl7+M+GCKs3o=
+
+Name: assets/tilesets/bitmaps/shallowwater2snow_flat.png
+SHA1-Digest: FoGl1oYBrQ6qyIqmncMSO+jB5Nw=
+
+Name: assets/tilesets/bitmaps/shallowwater2water_flat.png
+SHA1-Digest: bcTX0zJ718DlKWb2wYcwag6o4JQ=
+
+Name: assets/tilesets/bitmaps/shortgrass.png
+SHA1-Digest: xTshizKnKwpdswYjFc8mi4aWyDg=
+
+Name: assets/tilesets/bitmaps/snow.png
+SHA1-Digest: T3P7dttOdVDxhcEipMXzkMvw1aA=
+
+Name: assets/tilesets/bitmaps/snow2dirt_flat.png
+SHA1-Digest: qgGRjrP4twnUOI6fj63nTYAb2gQ=
+
+Name: assets/tilesets/bitmaps/snow2dirt_ridge.png
+SHA1-Digest: Cn7oYYUkU9U60kkIkgzM4fsy9Cc=
+
+Name: assets/tilesets/bitmaps/snow2ice_ridge.png
+SHA1-Digest: l4vCCXt6/qFjHKO92pkUwkzOGvA=
+
+Name: assets/tilesets/bitmaps/snow2lava_ridge.png
+SHA1-Digest: 2X6pM0NljCWNBKeKvorEdhRY6/Y=
+
+Name: assets/tilesets/bitmaps/snow2longgrass_flat.png
+SHA1-Digest: rFnA+FL8uH3SLeBciQcFzUH8IiE=
+
+Name: assets/tilesets/bitmaps/snow2longgrass_ridge.png
+SHA1-Digest: HpTjuaf7usS3PvoRby6c4LzG+S0=
+
+Name: assets/tilesets/bitmaps/snow2mountain_ridge.png
+SHA1-Digest: Yzp/f95xNnaT9YQW6VJhVMJd4jw=
+
+Name: assets/tilesets/bitmaps/snow2sand_flat.png
+SHA1-Digest: jDaFQFO7ScQflbbbhjYW/EX/+zc=
+
+Name: assets/tilesets/bitmaps/snow2sand_ridge.png
+SHA1-Digest: WSA1VLSNtBnu0L1a6SCmHm4PFRM=
+
+Name: assets/tilesets/bitmaps/snow2shallowwater_ridge.png
+SHA1-Digest: Tu202oMdV/i4jHl8zUcEVfLTAZs=
+
+Name: assets/tilesets/bitmaps/snow2snow_flat.png
+SHA1-Digest: SF6kMOTP7lTqEUGItGaajP3kV8s=
+
+Name: assets/tilesets/bitmaps/snow2snow_hill.png
+SHA1-Digest: uHjQoJDnVgzv+t6eJ0SD2TV9FwY=
+
+Name: assets/tilesets/bitmaps/snow2snow_ridge.png
+SHA1-Digest: 9hEd8NVFIDjx6OLizj0OrP3gV5c=
+
+Name: assets/tilesets/bitmaps/snow2stone_ridge.png
+SHA1-Digest: OmC57q1YE+TaZQEnrNAHqI2QTYc=
+
+Name: assets/tilesets/bitmaps/stone.png
+SHA1-Digest: SAr0sUcGpblL5LS1BVWOsg+fncU=
+
+Name: assets/tilesets/bitmaps/stone2dirt_flat.png
+SHA1-Digest: UnOl5BY0PQY3JLDyJ5wj6lRYdp4=
+
+Name: assets/tilesets/bitmaps/stone2dirt_ridge.png
+SHA1-Digest: Zs6QYxMc5rXg6fZbi7mIyfYCyAU=
+
+Name: assets/tilesets/bitmaps/stone2ice_ridge.png
+SHA1-Digest: y0M6wEE4URS/5LlaiDtAmQ6BDo0=
+
+Name: assets/tilesets/bitmaps/stone2lava.png
+SHA1-Digest: YJWhNhsbUMneatxkLOHSVyd3Kxk=
+
+Name: assets/tilesets/bitmaps/stone2lava_ridge.png
+SHA1-Digest: aNx88YisTQgGjpkNOznN8tfa5Ls=
+
+Name: assets/tilesets/bitmaps/stone2longgrass_flat.png
+SHA1-Digest: zDBwiHaCD1lVu0NeWkEYcGvGB28=
+
+Name: assets/tilesets/bitmaps/stone2longgrass_ridge.png
+SHA1-Digest: U6Oj7tKkEeGoDl047/qWfPVs/x8=
+
+Name: assets/tilesets/bitmaps/stone2mountain_ridge.png
+SHA1-Digest: /iRGzWcKgYxbeBpLY8We04LAfKA=
+
+Name: assets/tilesets/bitmaps/stone2sand_flat.png
+SHA1-Digest: JZVsw/ZOmx6ePjU2ZVJpIiZIvts=
+
+Name: assets/tilesets/bitmaps/stone2sand_ridge.png
+SHA1-Digest: kxIDVh3ObC+7+jQlkwi2mkwZp8s=
+
+Name: assets/tilesets/bitmaps/stone2shallowwater_ridge.png
+SHA1-Digest: ydIFguWltmjRnetwpXeAm/CkT08=
+
+Name: assets/tilesets/bitmaps/stone2snow.png
+SHA1-Digest: mC/pEZJHs5OOv3rQBkNmsKNZiGQ=
+
+Name: assets/tilesets/bitmaps/stone2snow_flat.png
+SHA1-Digest: ezSiWHFjE8ryyEQThD2XWdHoEoM=
+
+Name: assets/tilesets/bitmaps/stone2snow_ridge.png
+SHA1-Digest: Du3C6MSB2tC/IyRVIhEWH5VtznA=
+
+Name: assets/tilesets/bitmaps/stone2stone_ridge.png
+SHA1-Digest: bhA+da7N3ki+nD/qC6FkkIJ6XAQ=
+
+Name: assets/tilesets/bitmaps/units.png
+SHA1-Digest: aEQ6QLtIhS/Ygshzjeq6344pPW0=
+
+Name: assets/tilesets/bitmaps/water.png
+SHA1-Digest: fjvGpAsBY1a1ikbs/UdwZp5dlDc=
+
+Name: assets/tilesets/bitmaps/water2deepwater_flat.png
+SHA1-Digest: Kc7r7Nx4Nz24wLZA1KsLG1uPgew=
+
+Name: assets/tilesets/decoration.tsx
+SHA1-Digest: H3sc3oYVHCR5QD2kvdy5Q/Gj+kI=
+
+Name: assets/tilesets/misc.tsx
+SHA1-Digest: +8YcWQls1gTtHv8nvj10hI/9Dlk=
+
+Name: assets/tilesets/ridges/Dirt Dirt - Ridge.tsx
+SHA1-Digest: KArrn4LHEwPvmrdtwyPrc0LIH6c=
+
+Name: assets/tilesets/ridges/Dirt ShalowWater - Ridge.tsx
+SHA1-Digest: wDurgYeJfS73T7u7h3kekYBWyu8=
+
+Name: assets/tilesets/ridges/Ice Ice - Flat.tsx
+SHA1-Digest: V80+EMvYfYIOyGSlFLfEmaRXceo=
+
+Name: assets/tilesets/ridges/Ice ShallowWater - Broken.tsx
+SHA1-Digest: 2kMpAsUjLCYvxOt5vGEw0DAjDvM=
+
+Name: assets/tilesets/ridges/Ice ShallowWater - Ridge.tsx
+SHA1-Digest: UQKuwD2k4XDKGQXyKdpqDyceWOM=
+
+Name: assets/tilesets/ridges/LongGrass Dirt - Flat.tsx
+SHA1-Digest: A66xwCZmweihavyveVQBPKO3aOE=
+
+Name: assets/tilesets/ridges/LongGrass Dirt - Ridge.tsx
+SHA1-Digest: o02JY6TPjvG8ROcwmMhnaiDJACo=
+
+Name: assets/tilesets/ridges/LongGrass LongGrass - Hill.tsx
+SHA1-Digest: 92GLp6gR/4e8htyGpEdimaigozY=
+
+Name: assets/tilesets/ridges/LongGrass LongGrass - Ridge.tsx
+SHA1-Digest: EeO+iEX5FmphPu4lc+zgoWpRSek=
+
+Name: assets/tilesets/ridges/LongGrass ShallowWater - Flat.tsx
+SHA1-Digest: ZrFHqEtRM7Auc9iQ0ta5QelOQWI=
+
+Name: assets/tilesets/ridges/LongGrass ShallowWater - Ridge.tsx
+SHA1-Digest: 8CvGvsjRohqKVIIOiAhQB2D8jzE=
+
+Name: assets/tilesets/ridges/LongGrass ShortGrass - Flat.tsx
+SHA1-Digest: jfwd+Xk1flerPtEYmJhd83P+Oks=
+
+Name: assets/tilesets/ridges/Mountain Dirt - Flat.tsx
+SHA1-Digest: QAi+JDs2OSStes4HyglFfuYzdiM=
+
+Name: assets/tilesets/ridges/Mountain Dirt - Ridge.tsx
+SHA1-Digest: oskTkUb+fH6F3wI9u79TCGtLg8E=
+
+Name: assets/tilesets/ridges/Mountain LongGrass - Flat.tsx
+SHA1-Digest: SVAuPQSQx3zwLzgPEaAkZztfXkQ=
+
+Name: assets/tilesets/ridges/Mountain Mountain - Hill.tsx
+SHA1-Digest: VDI/bA6prmTgb+lq9V9ghiDqPO4=
+
+Name: assets/tilesets/ridges/Mountain Mountain - Ridge.tsx
+SHA1-Digest: mN7lrO3h4hMpQZalCvAjTJg1Zz4=
+
+Name: assets/tilesets/ridges/Mountain Nothing - Flat.tsx
+SHA1-Digest: YeZqErV8ux2TuLgHRBJTaR3xZDk=
+
+Name: assets/tilesets/ridges/Mountain Nothing - Ridge.tsx
+SHA1-Digest: tCOhUaGPswJRuLKCdxJSZlfnvew=
+
+Name: assets/tilesets/ridges/Mountain Sand - Flat.tsx
+SHA1-Digest: pivmg8F4t7jkUSADlOCBn82FeCA=
+
+Name: assets/tilesets/ridges/Mountain Sand - Ridge.tsx
+SHA1-Digest: uIe6TPDhtcZdF0oTwmwrpjhRGxg=
+
+Name: assets/tilesets/ridges/Mountain ShallowWater - Flat.tsx
+SHA1-Digest: dPn5NZmnMN7kYfDHuKNBPhtV1c0=
+
+Name: assets/tilesets/ridges/Mountain ShallowWater - Ridge.tsx
+SHA1-Digest: TvWcuDqX5K0Ka1FQA+BwgwxKotc=
+
+Name: assets/tilesets/ridges/Mountain Snow - Flat.tsx
+SHA1-Digest: 2h16aBCTAvsfYZlbm1N/5EHZ5Uk=
+
+Name: assets/tilesets/ridges/Mountain Stone - Flat.tsx
+SHA1-Digest: Czrj8uADe4z87flzQ/xHSuftLEw=
+
+Name: assets/tilesets/ridges/Mountain Stone - Ridge.tsx
+SHA1-Digest: Ca2s1nh/XFJHSv0U3ZFQVuagTu8=
+
+Name: assets/tilesets/ridges/Nothing Dust - Flat.tsx
+SHA1-Digest: ZNecnM4M6LfChvo7x9ifNX30x74=
+
+Name: assets/tilesets/ridges/Nothing Road - Flat.tsx
+SHA1-Digest: QDfwOUxf/B48ObA8WgyPkmCnZyo=
+
+Name: assets/tilesets/ridges/Nothing Sand - Flat.tsx
+SHA1-Digest: bz4NhFRX9LBETkejggqKL/HiM1g=
+
+Name: assets/tilesets/ridges/Sand Dirt - Flat.tsx
+SHA1-Digest: Ph6kZBQAAisZk1jPUgK4HAg3L0Q=
+
+Name: assets/tilesets/ridges/Sand Dirt - Ridge.tsx
+SHA1-Digest: VUZwCH2UZmuK/TSQkp6ga8x1tgg=
+
+Name: assets/tilesets/ridges/Sand LandGrass - Flat.tsx
+SHA1-Digest: nDjXMl5n9geeXEKrfi3eCCvw8Kw=
+
+Name: assets/tilesets/ridges/Sand Nothing - Flat - 2.tsx
+SHA1-Digest: XoyE5ttFy/RrPv9xtO7K2IhVyI8=
+
+Name: assets/tilesets/ridges/Sand Nothing - Flat.tsx
+SHA1-Digest: mC1oZjKBqUHU12Y/1IRQxRJKaGk=
+
+Name: assets/tilesets/ridges/Sand Sand - Hill.tsx
+SHA1-Digest: jDosE1uVB+S7prXz0D8j5n2sKCk=
+
+Name: assets/tilesets/ridges/Sand Sand - Ridge.tsx
+SHA1-Digest: 1/rOy9rtx3qnuSpmiYe3MwAMfMM=
+
+Name: assets/tilesets/ridges/Sand ShallowWater - Flat.tsx
+SHA1-Digest: CEtHtwsniq2hI9MaZFzhrcerZPc=
+
+Name: assets/tilesets/ridges/Sand ShallowWater - Ridge.tsx
+SHA1-Digest: Eh2AVBun5pcfphT74TvntH6+s0A=
+
+Name: assets/tilesets/ridges/ShallowWater Water - Flat.tsx
+SHA1-Digest: 3mA9MUPtcFE/uYfP+FJpVvwMgZQ=
+
+Name: assets/tilesets/ridges/Snow Dirt - Flat.tsx
+SHA1-Digest: 5F1eTgtM8AezJmQoIxu3QPiEZs8=
+
+Name: assets/tilesets/ridges/Snow Dirt - Ridge.tsx
+SHA1-Digest: X3Ed+NkhdGxFevoMOXh4q/yH9zM=
+
+Name: assets/tilesets/ridges/Snow Ice - Ridge.tsx
+SHA1-Digest: LWETO+oS/wBEtQHHIBG/pcpewVE=
+
+Name: assets/tilesets/ridges/Snow Snow - Hill.tsx
+SHA1-Digest: MZZTsQzxLzHqzKKQCRqUoZv8Arg=
+
+Name: assets/tilesets/ridges/Snow Snow - ridge.tsx
+SHA1-Digest: F6F1XmbXsOBiBsBMVFxuX0hG3YY=
+
+Name: assets/tilesets/ridges/Stone Lava - Ridge.tsx
+SHA1-Digest: 9qdfy1u+rds2s2aYyfC+9L3e70I=
+
+Name: assets/tilesets/ridges/Stone Sand - Flat.tsx
+SHA1-Digest: 5r/w8vI3aqiapGYpPpOwGGYpT7o=
+
+Name: assets/tilesets/ridges/Stone ShallowWater - ridge.tsx
+SHA1-Digest: YDqGvNvy8OFNLTa0itWAGWd56bQ=
+
+Name: assets/tilesets/ridges/Stone Snow - ridge.tsx
+SHA1-Digest: NYci1AevlkU3WfLYID7cRZsQNec=
+
+Name: assets/tilesets/ridges/Stone Stone - Ridge.tsx
+SHA1-Digest: JGxf+bc//NXcIbx3nfivMSXJ9fI=
+
+Name: assets/tilesets/ridges/Water DeepWater - Flat.tsx
+SHA1-Digest: EIY+Tga9iNkQneJ1Os9Xr4GAdVE=
+
+Name: assets/tilesets/terrain/Deep Water.tsx
+SHA1-Digest: k1cT+6ckzlcpFBklv5lGRoiZgDw=
+
+Name: assets/tilesets/terrain/Dirt.tsx
+SHA1-Digest: S4aOo/xYdepIDVx9JwpZrZceBxQ=
+
+Name: assets/tilesets/terrain/Dirt_Details.tsx
+SHA1-Digest: Ly3vriX2DVSJBp6ndng/lcq1Vjk=
+
+Name: assets/tilesets/terrain/Dust.tsx
+SHA1-Digest: 7M/mX5tKUN1bAJl/T0a/uZ/ad00=
+
+Name: assets/tilesets/terrain/Ice.tsx
+SHA1-Digest: fPnJselSZ8kyMNV1fF5FIwnkgEY=
+
+Name: assets/tilesets/terrain/Lava.tsx
+SHA1-Digest: Zor61aOUmQYcKghaDt6W95Sx92E=
+
+Name: assets/tilesets/terrain/Long Grass.tsx
+SHA1-Digest: jDvLEpZEG8uBvdzU8h2mBmqoJcA=
+
+Name: assets/tilesets/terrain/Mountain.tsx
+SHA1-Digest: rdsD8SP6yoY1WcNKf/ZS9EoUS3Q=
+
+Name: assets/tilesets/terrain/Sand.tsx
+SHA1-Digest: QF+l0TYQhNNroYNMkLLHCLpXlgI=
+
+Name: assets/tilesets/terrain/Shallow Water.tsx
+SHA1-Digest: E4Fd30MWztXyuffelWwaoJNHiF4=
+
+Name: assets/tilesets/terrain/Short Grass.tsx
+SHA1-Digest: xzZEpoJ3SVjvwRoROUk2XSjvG3M=
+
+Name: assets/tilesets/terrain/Snow.tsx
+SHA1-Digest: 6AkfnPrwM7fpggx8KmUaVo2lSbs=
+
+Name: assets/tilesets/terrain/Stone.tsx
+SHA1-Digest: l7Wm97XMRxGIM7y29k2v5hUkcRM=
+
+Name: assets/tilesets/terrain/Water.tsx
+SHA1-Digest: 3OQJIxkHqPjuoBEc48zeR1K6L1g=
+
+Name: assets/tilesets/units.tsx
+SHA1-Digest: EQCi7UBzOhLdwWfsw4MEF53ReeM=
+
+Name: assets/translations/Strings.properties
+SHA1-Digest: 8DTrYDpFOmYYPcda3NCZ2lJMBAA=
+
+Name: assets/translations/Strings_by.properties
+SHA1-Digest: E/vkBIk4AKgnXEnYYT1fWzimTCU=
+
+Name: assets/translations/Strings_de.properties
+SHA1-Digest: TwmdGrRLQRhzIPNIoBLsHVhuUAs=
+
+Name: assets/translations/Strings_es.properties
+SHA1-Digest: r/nxt9C3RluAFgEWKq/vvfZAuM8=
+
+Name: assets/translations/Strings_fr.properties
+SHA1-Digest: OU4QjDoiVjT9Z9btpY6iq1/bE9U=
+
+Name: assets/translations/Strings_it.properties
+SHA1-Digest: S/zrn/FjmtbDLc7qsxRNmXyyGn8=
+
+Name: assets/translations/Strings_ja.properties
+SHA1-Digest: EOmOqLOliSpEbFahgvCZKwP36VA=
+
+Name: assets/translations/Strings_nl.properties
+SHA1-Digest: P6uYbzXuQ1z1WQNfS3fI8DjkpwQ=
+
+Name: assets/translations/Strings_pl.properties
+SHA1-Digest: MAgCNUNc/r3AKwebD5Jzn17z+ag=
+
+Name: assets/translations/Strings_pt.properties
+SHA1-Digest: HcdYHIYK/bF73pfr2lSNnGxcIRU=
+
+Name: assets/translations/Strings_ru.properties
+SHA1-Digest: VCsmWlCdbJMLd2cD2zbMrAVP1t0=
+
+Name: assets/translations/Strings_tr.properties
+SHA1-Digest: Ua6A96xmKiwG+QBAynK+iAZ8IFw=
+
+Name: assets/translations/Strings_uk.properties
+SHA1-Digest: QSo7MlUupnzTXW6dzV2O041Hy3A=
+
+Name: assets/translations/Strings_zh.properties
+SHA1-Digest: h3TO/JeQscec5jop6J2wSzXZpMc=
+
+Name: assets/translations/Strings_zh_cn.properties
+SHA1-Digest: oK0qqc1p/shxWQFHxpgxhCA7D7E=
+
+Name: assets/units/aa_beam_gunship/aa_beam_gunship.ini
+SHA1-Digest: HwB/XegMVgiv3d2osDD13hOIw48=
+
+Name: assets/units/aa_beam_gunship/aa_beam_gunship_afterburn.ini
+SHA1-Digest: Qy1qXXW3aHwdETktv2FFvk7mZVQ=
+
+Name: assets/units/aa_beam_gunship/base3.png
+SHA1-Digest: 0hbkmO3ZkiA+/YWcyc1K6hVOLg8=
+
+Name: assets/units/aa_beam_gunship/base3_dead.png
+SHA1-Digest: 2eTkLZHJ7xBj55eirSfiGQXudMQ=
+
+Name: assets/units/aa_beam_gunship/beam_turret.png
+SHA1-Digest: CaNLTbdX8aNOK+mMw5GCGXfIPZE=
+
+Name: assets/units/all-units.template
+SHA1-Digest: hDC82MyaGb3Ks60WdsEP+xl9SrU=
+
+Name: assets/units/amphibious_jet/amphibious_jet.ini
+SHA1-Digest: NV+L5IT9U9FdP/7WcR5T+8kAngs=
+
+Name: assets/units/amphibious_jet/amphibious_jet.png
+SHA1-Digest: /0EOlp5D9k/vkZPPUVpIozkh2N0=
+
+Name: assets/units/amphibious_jet/amphibious_jet_dead.png
+SHA1-Digest: Hn/9RXuYbDD09wafKTcVPrkEBVg=
+
+Name: assets/units/amphibious_jet/amphibious_jet_p1.png
+SHA1-Digest: OatGL8mFrbDIzGssAQQHiBdUqjE=
+
+Name: assets/units/amphibious_jet/amphibious_jet_p2.png
+SHA1-Digest: dPmaDF3AXDAmbHn6Le3HC1avYu8=
+
+Name: assets/units/amphibious_jet/amphibious_jet_transition.ini
+SHA1-Digest: 7wwtlFHoOgZ+/uDBb4scIqrKfjg=
+
+Name: assets/units/amphibious_jet/amphibious_jet_underwater.ini
+SHA1-Digest: MLdY9fUa3SJgNkhs7rjz46X6Oe8=
+
+Name: assets/units/bomber/base.png
+SHA1-Digest: k1a85yVgIonP1faIA3Tx5IFtBdc=
+
+Name: assets/units/bomber/base_dead.png
+SHA1-Digest: Y2ltdqcFkBhdwpzIWv4cnYZLfJA=
+
+Name: assets/units/bomber/bomber.ini
+SHA1-Digest: 3PgKvZVvSnEONLYmG+3Aw5KN6U0=
+
+Name: assets/units/bug_base/bug_generator/bug_generator.ini
+SHA1-Digest: iLGZw63N7Zdy/ze4ieGIF01UfW8=
+
+Name: assets/units/bug_base/bug_generator/bug_generator.png
+SHA1-Digest: JObSwGomjUxKwOpvrQJG+EzW4iw=
+
+Name: assets/units/bug_base/bug_generator/bug_generator2.png
+SHA1-Digest: 6BR2RkB78FeNr7LvNzetC3fOBM0=
+
+Name: assets/units/bug_base/bug_generator/bug_generator3.png
+SHA1-Digest: spJQqzlK656bBljN9ti9x9930vs=
+
+Name: assets/units/bug_base/bug_generator/bug_generator4.png
+SHA1-Digest: 7rAZWbDZYkWgdRgHX74JVAlazbA=
+
+Name: assets/units/bug_base/bug_generator/bug_generatorT2.ini
+SHA1-Digest: ruzydUgNK/xR5Bv6lm33qEXcvzk=
+
+Name: assets/units/bug_base/bug_generator/leg.png
+SHA1-Digest: N66NSsGYlB+TmXlC+rKdereDM/g=
+
+Name: assets/units/bug_melee/bug_melee_t31.ini
+SHA1-Digest: gjOx5XWEuzEBhXq5eRNN682RPm4=
+
+Name: assets/units/bug_melee/bug_meleet31.png
+SHA1-Digest: rnPnQZexx+8u3MBJtWjKqJYndIo=
+
+Name: assets/units/bug_melee/bug_meleet31_dead.png
+SHA1-Digest: xmd4bDWqwFZ2LvVrTUIX7RhvDtw=
+
+Name: assets/units/bug_melee/leg.png
+SHA1-Digest: /VRND0ALYfIONLv/scwkoGAmroE=
+
+Name: assets/units/bug_melee/leg2.png
+SHA1-Digest: yA+nOc7Ywz1JBPKb0d8zx5spwUU=
+
+Name: assets/units/bug_melee/leg3.png
+SHA1-Digest: v+lTRKjjU/YBQikAO3It1Wr4W80=
+
+Name: assets/units/bug_melee/leg4.png
+SHA1-Digest: zYLX2Pm0oU0BLRmb+NeRgvjqHCQ=
+
+Name: assets/units/bug_melee/leg4_2.png
+SHA1-Digest: zYLX2Pm0oU0BLRmb+NeRgvjqHCQ=
+
+Name: assets/units/bug_melee/leg5.png
+SHA1-Digest: 75JKC+5JYyA0HXNAHJ8IBDugMZk=
+
+Name: assets/units/classic_bugs/bug_bee/bug_bee.ini
+SHA1-Digest: DNWfO4CLKbeNY2cz4jj1i/OpIXI=
+
+Name: assets/units/classic_bugs/bug_bee/bug_bee.png
+SHA1-Digest: P652LjBFR0uW6DRnn0Ju8O3B/fY=
+
+Name: assets/units/classic_bugs/bug_extractor/bug_extractor.ini
+SHA1-Digest: l2ouxMmbXBC3YefLQz83fhM0+eI=
+
+Name: assets/units/classic_bugs/bug_extractor/bug_extractor.png
+SHA1-Digest: F0RZjdEtoqNJVEdvqqQvtdsVCRk=
+
+Name: assets/units/classic_bugs/bug_extractor/bug_extractorT2.ini
+SHA1-Digest: 7TuJAv+dNROZi4SqjVdAGCDHusg=
+
+Name: assets/units/classic_bugs/bug_fly/bug_fly.ini
+SHA1-Digest: CLn7ODe1xBLryGtfKVF+HTzMvyE=
+
+Name: assets/units/classic_bugs/bug_fly/bug_fly.png
+SHA1-Digest: c8CrCuF751p8xs56wg3doR4CW5M=
+
+Name: assets/units/classic_bugs/bug_generator/bug_generator.ini
+SHA1-Digest: bqlaNE/Fxuzpnw690sMsiegeGkM=
+
+Name: assets/units/classic_bugs/bug_generator/bug_generator.png
+SHA1-Digest: Fuq2HpIK9oRqQ81wgZMqeaxjwxE=
+
+Name: assets/units/classic_bugs/bug_generator/bug_generatorT2.ini
+SHA1-Digest: 1kOGFxieF2QwZuaHBGShNnZ2vXY=
+
+Name: assets/units/classic_bugs/bug_melee/bug_dead.png
+SHA1-Digest: twH92jy7HZZk18mxPUaKoky+VMM=
+
+Name: assets/units/classic_bugs/bug_melee/bug_melee.ini
+SHA1-Digest: o6PzD/PPdgNYhTEzUgbU23hAHn4=
+
+Name: assets/units/classic_bugs/bug_melee/bug_melee.png
+SHA1-Digest: 3N+Vleli+yEZgYODtP8+rRu5MjU=
+
+Name: assets/units/classic_bugs/bug_melee/bug_melee_large.ini
+SHA1-Digest: znpDhF5VqKK2LEd11MxiPTKsM2w=
+
+Name: assets/units/classic_bugs/bug_melee/bug_melee_small.ini
+SHA1-Digest: IX4WXMHeP6irg2oLn88pB2Oc+wQ=
+
+Name: assets/units/classic_bugs/bug_nest/bug_nest.ini
+SHA1-Digest: UeozVmuDYbzUjz4Je1UXkfIqDJw=
+
+Name: assets/units/classic_bugs/bug_nest/bug_nest_back.png
+SHA1-Digest: 2Gf2SnKOXr/x5HOB9NX04Qg7Lt4=
+
+Name: assets/units/classic_bugs/bug_nest/bug_nest_front.png
+SHA1-Digest: AznlqSMxQih2AgREk0y3wHA7qQo=
+
+Name: assets/units/classic_bugs/bug_nest/bug_nest_open.png
+SHA1-Digest: rp4rhcwUplu/4qk+1Qg8TWSjS9w=
+
+Name: assets/units/classic_bugs/bug_ranged/bug_ranged.ini
+SHA1-Digest: Dg4D90RRhZUEeyhO6vKcV6Z/G+k=
+
+Name: assets/units/classic_bugs/bug_ranged/bug_ranged.png
+SHA1-Digest: VASKEKw3q8oua4A+GzKuqs19pCQ=
+
+Name: assets/units/classic_bugs/bug_spore/bug_spore.ini
+SHA1-Digest: wboWKzyY6utOPLHT7AGOXE7YioY=
+
+Name: assets/units/classic_bugs/bug_spore/bug_spore.png
+SHA1-Digest: 7sT3xSTKeUfS7YR8850BCAe0h3g=
+
+Name: assets/units/classic_bugs/bug_turret/bug_turret.ini
+SHA1-Digest: NCSsKoeSX9RGbY5r0bdBNrwNmHU=
+
+Name: assets/units/classic_bugs/bug_turret/bug_turret.png
+SHA1-Digest: J7DVrs/GE0rSiBHLCI1x6/ZO2K4=
+
+Name: assets/units/classic_bugs/bugs/bug_pickup.ini
+SHA1-Digest: XfAyWPhON1Aw8jjKwWhi4tujlvY=
+
+Name: assets/units/classic_bugs/bugs/bug_pickup.png
+SHA1-Digest: T4xopRzDAWRqiF2DMk57QS/136I=
+
+Name: assets/units/classic_bugs/bugs/bug_wasp.ini
+SHA1-Digest: RGNbJ5KdrpMM32kGMcr0gNAQ3PU=
+
+Name: assets/units/classic_bugs/bugs/bug_wasp.png
+SHA1-Digest: MdYykRBOhMWWOsvZlEanMVe2914=
+
+Name: assets/units/classic_bugs/bugs_t2/bug_ranged_t2.ini
+SHA1-Digest: /7SKlS6ckzFDvyFWbp9KUkoKBvc=
+
+Name: assets/units/classic_bugs/bugs_t2/bug_ranged_t2.png
+SHA1-Digest: AY89Vi7vZ+VaN8AJBwTpZunm21I=
+
+Name: assets/units/classic_bugs/bugs_t2/foot.png
+SHA1-Digest: TualXNMq4QYQuOpsQlSc3JjZMnc=
+
+Name: assets/units/classic_bugs/bugs_t2/leg.png
+SHA1-Digest: 1V2jF+3lItmhJnO/G5rEHrkAdw8=
+
+Name: assets/units/combat_engineer/base.png
+SHA1-Digest: 4jc8tvYPfTrKjVm9c3WRGt+NBCM=
+
+Name: assets/units/combat_engineer/base_dead.png
+SHA1-Digest: /TI3mp02zj6obcxseSlQUvnuUmw=
+
+Name: assets/units/combat_engineer/combat_engineer.ini
+SHA1-Digest: yFZxhQq+F7jT3f9UAeIZ328czgU=
+
+Name: assets/units/do_NOT_put_your_modded_units_here.txt
+SHA1-Digest: ovdMhJD6G2sQC/qnZ2pp3vhdNfg=
+
+Name: assets/units/experimental_carrier/Experiemental_carrier.ini
+SHA1-Digest: X0SOtoMHp0jelFNumwB3hzqANq4=
+
+Name: assets/units/experimental_carrier/Experiemental_carrier.png
+SHA1-Digest: DTW//c4TX408Ro4d2693t+ZNQck=
+
+Name: assets/units/experimental_carrier/Experiemental_carrier_dead.png
+SHA1-Digest: N1sOaGNgLpltK0CDagstUwHy0iU=
+
+Name: assets/units/experimental_carrier/anti_air_top_flakgun.png
+SHA1-Digest: DQnkQVbFLmEWK9WN7gcaS3I3TJU=
+
+Name: assets/units/experimental_carrier/projectile.png
+SHA1-Digest: ncdTJ2M84P8n37n6cA1/nSKvQYU=
+
+Name: assets/units/experimental_carrier/turret_top_artillery.png
+SHA1-Digest: EyOtLG3qOWdVn+lIBbTB5hd8JaE=
+
+Name: assets/units/experimental_carrier/turret_top_cannon.png
+SHA1-Digest: /IGq+A+vkHfx3PDuAtTu35eJbCI=
+
+Name: assets/units/experimental_dropship/experimental_dropship.ini
+SHA1-Digest: cq/Q2dLcqeNclVGrAud0B73dNqw=
+
+Name: assets/units/experimental_dropship/experimental_dropship.png
+SHA1-Digest: 3OJl5f6IYIJsWS012AIis/BrUTE=
+
+Name: assets/units/experimental_dropship/experimental_dropship_dead.pn
+ g
+SHA1-Digest: 9BTLYCDzumeakBmPcgFduwjfW+E=
+
+Name: assets/units/experimental_gunship/body.png
+SHA1-Digest: 0DCXDKRAA94Q8ImFflB+6yyD68M=
+
+Name: assets/units/experimental_gunship/body_dead.png
+SHA1-Digest: UUGkx8Jph4/J7XO0siA2LZCNRJw=
+
+Name: assets/units/experimental_gunship/door.png
+SHA1-Digest: h/7LPspe21hSegQSTIFmZgXTyNQ=
+
+Name: assets/units/experimental_gunship/experimental_gunship.ini
+SHA1-Digest: n17xVUDp6cpX8UdF0wBivk38of0=
+
+Name: assets/units/experimental_gunship/experimental_gunship_landed.in
+ i
+SHA1-Digest: EL3uC+jfpYNrZRoiJw+vX9+rZTk=
+
+Name: assets/units/experimental_gunship/turbine.png
+SHA1-Digest: 9hg0aXnVExIrEZwpdzxNVihmjvY=
+
+Name: assets/units/experimental_spider/body.png
+SHA1-Digest: eg4jHueNlDjTDsBeec5nk620ocI=
+
+Name: assets/units/experimental_spider/body_dead.png
+SHA1-Digest: 78pUwm6NjYpKKSe5y5K60ez/cQM=
+
+Name: assets/units/experimental_spider/experimental_spider.ini
+SHA1-Digest: oQddLjOLumtZH1TPboA1hhzciXA=
+
+Name: assets/units/experimental_spider/experimental_tank_turret2.png
+SHA1-Digest: nYk0rt+uXnM06CZ31kxqvCT7MXM=
+
+Name: assets/units/experimental_spider/foot.png
+SHA1-Digest: FgWK5GVO0u/mqLcNJDTMezbjlQ4=
+
+Name: assets/units/experimental_spider/leg.png
+SHA1-Digest: VqtpGK01/4N3tJoX/hujpd4rJBI=
+
+Name: assets/units/experimental_spider/spider_turret_base.png
+SHA1-Digest: D+q3viEJTFzo9O6v1Gpsax5OW3M=
+
+Name: assets/units/experimental_tank/experimental_tank.ini
+SHA1-Digest: 4l7Lie5DDTb9GwHzsl+8D22kqaY=
+
+Name: assets/units/experimental_tank/experimental_tank.png
+SHA1-Digest: ijN0TrAfGKztMEDfw8/H4DLzEbs=
+
+Name: assets/units/experimental_tank/experimental_tank_barrel.png
+SHA1-Digest: jmwh/lgqEdwkFFH/miDpb190Vp4=
+
+Name: assets/units/experimental_tank/experimental_tank_dead.png
+SHA1-Digest: yomt/HQmNjqd3g5CMlxXBUPs80o=
+
+Name: assets/units/experimental_tank/experimental_tank_turret.png
+SHA1-Digest: SGwZNWVfTDvETn9NiI6vSBcRMJ4=
+
+Name: assets/units/extractor/extractor.ini
+SHA1-Digest: 0oUMr6ci/LG+rc9PN3gbnFWxQjo=
+
+Name: assets/units/extractor/extractor.png
+SHA1-Digest: RzQnRvhP+9Lp4pNxSoOvHXEkg30=
+
+Name: assets/units/extractor/extractorT2.ini
+SHA1-Digest: Cv6foX5k2+N6j9FG2vCyGmMsIW0=
+
+Name: assets/units/extractor/extractorT3.ini
+SHA1-Digest: ruFNeqLVKRmWZEFSMpsGRJHSRXs=
+
+Name: assets/units/extractor/extractorT3_overclocked.ini
+SHA1-Digest: LoTGJCDSh63QceIIctaHPbwmG/A=
+
+Name: assets/units/extractor/extractorT3_reinforced.ini
+SHA1-Digest: qTsZNPWPoDxN3rccYNiFWS3IIP8=
+
+Name: assets/units/extractor/extractor_back.png
+SHA1-Digest: dA8Hdmd3mppUX/Ey345opDYtuaU=
+
+Name: assets/units/extractor/extractor_common.ini
+SHA1-Digest: C16t69lQWFEntPv5cu5vdXkcJcI=
+
+Name: assets/units/extractor/extractor_t2.png
+SHA1-Digest: xaD1C1MYqBHxrOChYnwN09Lkx4U=
+
+Name: assets/units/extractor/extractor_t3.png
+SHA1-Digest: yqgzZruvNwUOsW6EbMqAAiIvvxc=
+
+Name: assets/units/extractor/extractor_t3_overclocked.png
+SHA1-Digest: SmXdbXyQy8WNuiHr/qyWhtPwRm8=
+
+Name: assets/units/extractor/extractor_t3_reinforced.png
+SHA1-Digest: DkrTgv2WBtpltdS3m9hsnixiZ64=
+
+Name: assets/units/fabricator/fabricatorT1.ini
+SHA1-Digest: sUVrm0CDUzj8Zsk9GZP/79n3o2k=
+
+Name: assets/units/fabricator/fabricatorT1.png
+SHA1-Digest: 7jeHAWnVaiUfkVNvLFDOOnMCEh8=
+
+Name: assets/units/fabricator/fabricatorT2.ini
+SHA1-Digest: 3XeAwOrS+94hyPAJjVw24TMUEoI=
+
+Name: assets/units/fabricator/fabricatorT2.png
+SHA1-Digest: lENt20txJzr1QxqIQvJQcsdwIzk=
+
+Name: assets/units/fabricator/fabricatorT3.ini
+SHA1-Digest: GbQXls+QUln5jRytIgh+1ADRoCQ=
+
+Name: assets/units/fabricator/fabricatorT3.png
+SHA1-Digest: gXRmmN/YH9qWleaxe2IAiOiL3Jg=
+
+Name: assets/units/fabricator/fabricator_dead.png
+SHA1-Digest: VDIBF1snP3eTiK0WAwqRq7WHS3o=
+
+Name: assets/units/fire_bee/body.png
+SHA1-Digest: A6HDFo9w114ZdmDu3LBJo0eHtUg=
+
+Name: assets/units/fire_bee/body_dead.png
+SHA1-Digest: 3Pv0U+FBW/8y2Tl6S/29ju4cwNk=
+
+Name: assets/units/fire_bee/fire_bee.ini
+SHA1-Digest: kX+4zrAhEthdbvbcLDIt9WWHAe0=
+
+Name: assets/units/fire_bee/small_laser_turret.png
+SHA1-Digest: XMIMpJozbSy/pWmdreMYQqv+AM8=
+
+Name: assets/units/heavy_aa_ship/anti_air_top_flakgun.png
+SHA1-Digest: kQrtb5TPBtFEeSed7sPi3Cj6aGY=
+
+Name: assets/units/heavy_aa_ship/heavy_aa_ship.ini
+SHA1-Digest: EY/La5nO6Ycl3xDKOZxmrkk8Ky8=
+
+Name: assets/units/heavy_aa_ship/heavy_aa_ship.png
+SHA1-Digest: kS1/JFgVGqMzpRP48HiAtAe7evQ=
+
+Name: assets/units/heavy_aa_ship/heavy_aa_ship_dead.png
+SHA1-Digest: H7gUjE2krWsU2fGc9clT2ghZ5vM=
+
+Name: assets/units/heavy_battleship/heavy_battleship.ini
+SHA1-Digest: UxAMpt7OTcRN5CgHtC8w/IhodE8=
+
+Name: assets/units/heavy_battleship/heavy_battleship.png
+SHA1-Digest: gglNXdcK/uQTvcGNlLiBz8UqDrM=
+
+Name: assets/units/heavy_battleship/heavy_battleship_dead.png
+SHA1-Digest: VfyaXvVnyQjNWW1/FKQzJouAsJc=
+
+Name: assets/units/heavy_interceptor/base.png
+SHA1-Digest: G/4Y6FgMHfcNEZp/tSed9nbYB1Y=
+
+Name: assets/units/heavy_interceptor/base2.png
+SHA1-Digest: SWRDPHwsGMEjJTqbTjHAh5J5jgc=
+
+Name: assets/units/heavy_interceptor/base_dead.png
+SHA1-Digest: fc8EQusqHNk3P03zNePhownfMS4=
+
+Name: assets/units/heavy_interceptor/base_shadow.png
+SHA1-Digest: Blbk0FfsYMCENIOhBvksA3i6Kuo=
+
+Name: assets/units/heavy_interceptor/heavyInterceptor.ini
+SHA1-Digest: tzIri0jJSPHg0s1M1ku+dx9YDAU=
+
+Name: assets/units/heavy_interceptor/turret.png
+SHA1-Digest: GEVlgIaXCATPLY6Q7fo2FBILNPE=
+
+Name: assets/units/heavy_missile_ship/body.png
+SHA1-Digest: SiHd1idw5HgS59eZOBFIHf6K8kE=
+
+Name: assets/units/heavy_missile_ship/body_dead.png
+SHA1-Digest: A8E0ss4x6Wprr4mhgHUoOkE1I0g=
+
+Name: assets/units/heavy_missile_ship/heavy_missile_ship.ini
+SHA1-Digest: L6360y5iOk1cER7hiZWP2RyLPyw=
+
+Name: assets/units/heavy_sub/base.png
+SHA1-Digest: FNiKvCl5y/oqxfyhesEtZuJPvm0=
+
+Name: assets/units/heavy_sub/base_dead.png
+SHA1-Digest: YEohPHGeJmdcKXGQNL7FO3ajE4A=
+
+Name: assets/units/heavy_sub/heavy_sub.ini
+SHA1-Digest: t5eFoU5wa9pSoeA1afhoD2Tt+qc=
+
+Name: assets/units/helicopter/helicopter.ini
+SHA1-Digest: lhYOTOv1TYNFTZcCQZAK1JJyhkw=
+
+Name: assets/units/helicopter/helicopter.png
+SHA1-Digest: UD3c72ei8TZ/gD1WsPak7tATGLU=
+
+Name: assets/units/helicopter/helicopter_blades.png
+SHA1-Digest: aKANKXTatwROAZFem01w03UTknw=
+
+Name: assets/units/helicopter/helicopter_dead.png
+SHA1-Digest: e/8scKWPHotfsKlEBlEG85MHXFc=
+
+Name: assets/units/interceptor/interceptor.ini
+SHA1-Digest: WfS3CMQ2nGLDhYVeCFx2rxtIIVM=
+
+Name: assets/units/interceptor/interceptor.png
+SHA1-Digest: LYL1s08FQ+K/kOfSMWoyp7IoZFU=
+
+Name: assets/units/interceptor/interceptor_dead.png
+SHA1-Digest: XIF/mvu3Y8e5UyuNXtDpSNHRa+Q=
+
+Name: assets/units/interceptor/interceptor_shadow.png
+SHA1-Digest: 3A7j5lQ73f0ce0y3FtcO7CJYmvE=
+
+Name: assets/units/interceptor/interceptor_turret.png
+SHA1-Digest: t8oISdGZK1I57HN2ZiYHta5bq2E=
+
+Name: assets/units/laboratory/base.png
+SHA1-Digest: tXAOUaaQll6CWjZRfUuiHTwnYDQ=
+
+Name: assets/units/laboratory/base_dead.png
+SHA1-Digest: kbOBguHcDLn6w+zL6a+ReWzb4G8=
+
+Name: assets/units/laboratory/laboratory.ini
+SHA1-Digest: 0w75ij91He3r653Av7oXwWrTeZ8=
+
+Name: assets/units/laser_tank/laser_tank.ini
+SHA1-Digest: xiDrDQIK3v+OOqAgXYgbTDQE75o=
+
+Name: assets/units/laser_tank/laser_tank.png
+SHA1-Digest: Z060UTVrFupi5pFIXp3HL2zV7DM=
+
+Name: assets/units/laser_tank/laser_tank_barrel.png
+SHA1-Digest: tRel+cakLurxX/dxASThPErOTt4=
+
+Name: assets/units/laser_tank/laser_tank_charge.png
+SHA1-Digest: D6FILaS9fl1b6AjEVKgR+3nI65Y=
+
+Name: assets/units/laser_tank/laser_tank_dead.png
+SHA1-Digest: hJBp4VrH3Rs20I2HHKvLBuEKbg4=
+
+Name: assets/units/laser_tank/laser_tank_turret.png
+SHA1-Digest: +X/qQNv+PFjj5HnuQ4qdreGru9g=
+
+Name: assets/units/light_gunship/base.png
+SHA1-Digest: 28T2RpT+D0HXF+afsJFeVaW3SIA=
+
+Name: assets/units/light_gunship/base_dead.png
+SHA1-Digest: xp26KUmLvgs2jQHVn52MwAWBxqY=
+
+Name: assets/units/light_gunship/light_gunship.ini
+SHA1-Digest: fcFVdNy1RkdmtP1FptGFK9zM08A=
+
+Name: assets/units/light_sub/base.png
+SHA1-Digest: vJOQrTyiv+roEaFWSzVyd9lA/sk=
+
+Name: assets/units/light_sub/base_dead.png
+SHA1-Digest: wMhkFaXsH79cgBgwwsd5EyGO2lo=
+
+Name: assets/units/light_sub/light_sub.ini
+SHA1-Digest: RJQGzJz9E/muGk7rwY9rxXUzbgw=
+
+Name: assets/units/mammoth_tank/mammoth_tank.ini
+SHA1-Digest: c2NIlWG7je2tQlDSsNV2bM8AkQU=
+
+Name: assets/units/mammoth_tank/mammoth_tank.png
+SHA1-Digest: Z0KnP7mXAnYxmOADQvp0j5LEL4Y=
+
+Name: assets/units/mammoth_tank/mammoth_tank_coil.png
+SHA1-Digest: Ho1s1MkNRlVgyf2PjuecalL3plw=
+
+Name: assets/units/mammoth_tank/mammoth_tank_dead.png
+SHA1-Digest: /soPf7XX4jnouQrdMtHTZZGYmIg=
+
+Name: assets/units/mammoth_tank/mammoth_tank_turret.png
+SHA1-Digest: e5rb6Mwj6XTAcyaUfvZwqVMoxGk=
+
+Name: assets/units/mech_engineer/body.png
+SHA1-Digest: FlI7ZrZyxWjSIJiWcGOG+HKXjkw=
+
+Name: assets/units/mech_engineer/body_dead.png
+SHA1-Digest: ta9chVapi6RVd7NjktUJExBGmHg=
+
+Name: assets/units/mech_engineer/cannon.png
+SHA1-Digest: kHHF8g/2NEQCiHfOi3jPO7uuaeo=
+
+Name: assets/units/mech_engineer/foot.png
+SHA1-Digest: GOyfUhl2Lk/dhQ80EAqRxVZnEJA=
+
+Name: assets/units/mech_engineer/leg.png
+SHA1-Digest: JZHvcR+ymGYc0yteKAsLrG+c4kc=
+
+Name: assets/units/mech_engineer/mech_engineer.ini
+SHA1-Digest: DRNWsrFqHN9ai/SRnHn0fQY89r8=
+
+Name: assets/units/mech_factory/mechFactory.ini
+SHA1-Digest: ut9VQpXosipN51EEJTbrQ6eR6hs=
+
+Name: assets/units/mech_factory/mechFactoryBottom.png
+SHA1-Digest: 6kaimv0Oaf05RSNqME90GecEfLk=
+
+Name: assets/units/mech_factory/mechFactoryDead.png
+SHA1-Digest: wXG8yAwV8DaoZwciY2/nx6KLoxA=
+
+Name: assets/units/mech_factory/mechFactoryDoor.png
+SHA1-Digest: dtMgR6CTjpcAj8OSKzxqgJrfAQY=
+
+Name: assets/units/mech_factory/mechFactoryT2.ini
+SHA1-Digest: 01f5FS8uZ92txWh99V4ciZFDgSI=
+
+Name: assets/units/mech_factory/mechFactoryTop.png
+SHA1-Digest: 3VTThSNwz/6kz+0NBy+NfmmOBPc=
+
+Name: assets/units/mech_factory/mechFactoryTopT2.png
+SHA1-Digest: VdGz2KtiQ8yPtI7ux7vwpxgnZIM=
+
+Name: assets/units/mech_factory/mechFactoryTopT3.png
+SHA1-Digest: vYpf66GXFk/ediY6SF6ina1nQSE=
+
+Name: assets/units/mechs_large/ArtilleryTurret.png
+SHA1-Digest: ozvSDBUzrjxhFOu6SP58t5oiABk=
+
+Name: assets/units/mechs_large/bunkerTurret.png
+SHA1-Digest: v3ZEDGtosSoosy6IWb9nvN0mNUw=
+
+Name: assets/units/mechs_large/foot.png
+SHA1-Digest: d7wuy5EHKIZLZ4LpHAaEFNcujC8=
+
+Name: assets/units/mechs_large/foot_med.png
+SHA1-Digest: k0J/3KAcQifhAd+gb2iaywGe3W0=
+
+Name: assets/units/mechs_large/foot_small.png
+SHA1-Digest: 1KoCDgXSzeN0IsoCOr7F7ofHsLY=
+
+Name: assets/units/mechs_large/foot_small2.png
+SHA1-Digest: jFEJrubz8TOCr6eRptZbmiqSung=
+
+Name: assets/units/mechs_large/heavyMisssileTurret.png
+SHA1-Digest: WPiav4kt0uXeCy6Je4Nwgcn4dT8=
+
+Name: assets/units/mechs_large/leg.png
+SHA1-Digest: sIiOTSmdAWeZfuTFYca4euJtdJo=
+
+Name: assets/units/mechs_large/legs.png
+SHA1-Digest: qZZCp7NmxPnh1pRU0OFh5b8ym3s=
+
+Name: assets/units/mechs_large/mech_artillery.ini
+SHA1-Digest: Osgtjr+28gGqQR6/0PNAeqXGPl4=
+
+Name: assets/units/mechs_large/mech_bunker.ini
+SHA1-Digest: UeG1v+JwjAP5jBKuG3u2RePa4sM=
+
+Name: assets/units/mechs_large/mech_bunker_deployed.ini
+SHA1-Digest: uw3FF9jlOgs+X1y5BwVbevqo2pA=
+
+Name: assets/units/mechs_large/mech_flame.ini
+SHA1-Digest: L737Tw/t68+nVCYxNZKpqor/7QQ=
+
+Name: assets/units/mechs_large/mech_flying_landed.ini
+SHA1-Digest: qQKMOxEjSDM6kTEtkDu2WpQEkts=
+
+Name: assets/units/mechs_large/mech_flying_takeoff.ini
+SHA1-Digest: FQ9c2i0nei8EpuZeKqoWoP3qag8=
+
+Name: assets/units/mechs_large/mech_heavyMissile.ini
+SHA1-Digest: G8qMd88xd6fkt6ymNNuErTkwNwQ=
+
+Name: assets/units/mechs_large/mech_large_common.ini
+SHA1-Digest: 8ytwg82+9x+75p6Ok6BDZC2H5lk=
+
+Name: assets/units/mechs_large/mech_laser.ini
+SHA1-Digest: GWiAHuNoo5AC/EdeS3pCD2PvVFg=
+
+Name: assets/units/mechs_large/mech_lightning.ini
+SHA1-Digest: 9pRnU2Gb1w7CoMQbiTCacfoxvBs=
+
+Name: assets/units/mechs_large/mech_med_common.ini
+SHA1-Digest: 8VtGhQszoc8ANJqRalCEgqjZdww=
+
+Name: assets/units/mechs_large/mech_minigun.ini
+SHA1-Digest: qH8kdNMBLuZCg5RvO/SnStGgRSc=
+
+Name: assets/units/mechs_large/smallTurret.png
+SHA1-Digest: UZXGcrY1x6ANeblisTBj7XZcPo8=
+
+Name: assets/units/mechs_large/smallTurret2.png
+SHA1-Digest: I6BWnJViNqA6OnIhntSroUsJpSU=
+
+Name: assets/units/mechs_large/topArtillery.png
+SHA1-Digest: Id2FI6h+zMsi+xXxghT1mHRgBww=
+
+Name: assets/units/mechs_large/topBunker.png
+SHA1-Digest: epTTk5AmmtLe2OLkIawvWe/Umjs=
+
+Name: assets/units/mechs_large/topBunkerDead.png
+SHA1-Digest: EfIpOUWrnMPj03Hxh4Sg6MSyuLQ=
+
+Name: assets/units/mechs_large/topFlame.png
+SHA1-Digest: rr1NHgZrmeCt3ZDhzqAVFs09wwg=
+
+Name: assets/units/mechs_large/topFlying.png
+SHA1-Digest: gJg8kkgu1A4BwjOTE60Ol4Znx/o=
+
+Name: assets/units/mechs_large/topHeavyMissile.png
+SHA1-Digest: dvnVFaxgGIV702msX+Hr6Lm3/8w=
+
+Name: assets/units/mechs_large/topLaser.png
+SHA1-Digest: afCEftrBNCD057WnB9rTZssaS2A=
+
+Name: assets/units/mechs_large/topLightning.png
+SHA1-Digest: Ip+v069SRueLwYN0KzWfF8V6hMk=
+
+Name: assets/units/mechs_large/topMinigun.png
+SHA1-Digest: PFb5RcqqdegaZ6rK3pGCKEZbQJ8=
+
+Name: assets/units/mechs_small/foot.png
+SHA1-Digest: 2/Z6E9FuecH0bOp7yJOO75LATD0=
+
+Name: assets/units/mechs_small/leg.png
+SHA1-Digest: TjKPAPfrUxkLu4IzB3p526qaj/w=
+
+Name: assets/units/mechs_small/legs.png
+SHA1-Digest: qZZCp7NmxPnh1pRU0OFh5b8ym3s=
+
+Name: assets/units/mechs_small/legs_ld.png
+SHA1-Digest: rm8FoZM8OejYbllELT4+Xt7MTqg=
+
+Name: assets/units/mechs_small/mech_gun.ini
+SHA1-Digest: MLq5sJWuuhow/R6ZCU0V1T+HBGk=
+
+Name: assets/units/mechs_small/mech_missile.ini
+SHA1-Digest: oWElwK3wJN0qroh1GE+uus0ACVw=
+
+Name: assets/units/mechs_small/mechs_small_common.ini
+SHA1-Digest: OGKynLO5uGG0YYqMvdg8hmY8uSU=
+
+Name: assets/units/mechs_small/topGun.png
+SHA1-Digest: DdIjqZd5qiLsUC8BUtB9Y7E0+Lk=
+
+Name: assets/units/mechs_small/topMissile.png
+SHA1-Digest: OhN/r+OYuzt3Zz6A9LrnPDOe0q0=
+
+Name: assets/units/miscellaneous/example_faction_picker.ini
+SHA1-Digest: RNBDTI9L87fRMN0I53DA7g1XGkg=
+
+Name: assets/units/miscellaneous/flare_10s.ini
+SHA1-Digest: PK1nP+ccZrAERyXx3Ccodv0j9ck=
+
+Name: assets/units/miscellaneous/picker.png
+SHA1-Digest: xbjc4xPUiYht0yVX5jcN7No79b8=
+
+Name: assets/units/missile_airship/body.png
+SHA1-Digest: vF071nThopIap2bnAwYP5uLQduk=
+
+Name: assets/units/missile_airship/body_dead.png
+SHA1-Digest: Km+zMRm/azSzKuQiwx5vvo189tE=
+
+Name: assets/units/missile_airship/missile_airship.ini
+SHA1-Digest: NtCiR0mf/a9rkiwzBRdCrYe6cgU=
+
+Name: assets/units/missile_tank/missile_tank.ini
+SHA1-Digest: ClSptnpk2/nnWjdNpge/SMoyOrM=
+
+Name: assets/units/missile_tank/missile_tank.png
+SHA1-Digest: 4aWTtjjOT7o4MGm0Ynw2Bgnevqc=
+
+Name: assets/units/missile_tank/missile_tank_dead.png
+SHA1-Digest: UoYPH8Ig2YPtDhjCcpoFJtIeRnw=
+
+Name: assets/units/missile_tank/missile_tank_turret.png
+SHA1-Digest: LZj/cgFlo5CXyTpuZqdJNmbMYnA=
+
+Name: assets/units/missing_unit/missing.ini
+SHA1-Digest: F98HgkjWEjHcvNwo/cH6B/jWZBo=
+
+Name: assets/units/missing_unit/missing.png
+SHA1-Digest: VQmbrmy5FlM8/zImXUfrTbi5Krw=
+
+Name: assets/units/modular_spider/antiair.ini
+SHA1-Digest: qn5TjLvRWLPHOpVmmCwSEEgNMIY=
+
+Name: assets/units/modular_spider/antiairFlak.ini
+SHA1-Digest: ePiZimORQOABMqxt8DX77RgLoTc=
+
+Name: assets/units/modular_spider/antiairT2.ini
+SHA1-Digest: zEyG3dxltfEX59DiJt/uVx5EagE=
+
+Name: assets/units/modular_spider/antinuke.ini
+SHA1-Digest: xOQ8T1cDL8VhiiQ7+He4aC862Vc=
+
+Name: assets/units/modular_spider/antinuke.png
+SHA1-Digest: 2AzlAdGd6zA4VAXt/Z7r1pnve8k=
+
+Name: assets/units/modular_spider/artillery.ini
+SHA1-Digest: k4gpiD67SKxAnoRINGnztgj1MXs=
+
+Name: assets/units/modular_spider/baseSlot.ini
+SHA1-Digest: BD3X9IDQGzlr6zyaPQfP3xsquyo=
+
+Name: assets/units/modular_spider/blink.ini
+SHA1-Digest: nCyLea3ac/Rm0EVLogDC1U8qznI=
+
+Name: assets/units/modular_spider/blink.png
+SHA1-Digest: M7clr6TvGwT7j1lAPHk3J+VS71c=
+
+Name: assets/units/modular_spider/body.png
+SHA1-Digest: Pl9n4bBcxr+AOOdHA6j38QVFGDI=
+
+Name: assets/units/modular_spider/body_dead.png
+SHA1-Digest: 78pUwm6NjYpKKSe5y5K60ez/cQM=
+
+Name: assets/units/modular_spider/body_ui.png
+SHA1-Digest: lEnTVAfkJIre/rorXKZpLaoXa1E=
+
+Name: assets/units/modular_spider/common_slot.ini
+SHA1-Digest: ZUGguvvV5kaS226SpTxrpdcrwJk=
+
+Name: assets/units/modular_spider/common_weapon_slot.ini
+SHA1-Digest: QQZM2kHgNjG00TboO4wGMyhCCBI=
+
+Name: assets/units/modular_spider/emptySlot.ini
+SHA1-Digest: WSm88+EUG9onMetP/CSlZ0CNKrU=
+
+Name: assets/units/modular_spider/fabricator.ini
+SHA1-Digest: jf5Ds2lVsDzVC7w6Wu6VyY6u1k4=
+
+Name: assets/units/modular_spider/fabricatorT1.png
+SHA1-Digest: BY/njKyGubgHbhbQhz2Jo4R+R+o=
+
+Name: assets/units/modular_spider/fabricatorT2.ini
+SHA1-Digest: 5e7ySUpF2PpXWSJLdJBQoP+mY58=
+
+Name: assets/units/modular_spider/fabricatorT2.png
+SHA1-Digest: Vw3WlHHeN4wbnvyFjxfm/C3IQlk=
+
+Name: assets/units/modular_spider/gunturret.ini
+SHA1-Digest: mP2NHHW7R7ywR77VUKCCUgGViw0=
+
+Name: assets/units/modular_spider/gunturretT2.ini
+SHA1-Digest: sl09gACMVLtG8UUXblATCZZrgXk=
+
+Name: assets/units/modular_spider/icon_selected.png
+SHA1-Digest: BwjWDmXeesIKmVDmOffuI1L1Lk8=
+
+Name: assets/units/modular_spider/laser_defense.ini
+SHA1-Digest: QVdWn//NbpG5O4qNBmg1u9ymGPw=
+
+Name: assets/units/modular_spider/laser_defense.png
+SHA1-Digest: v1/VpfhK6bO8NnFSWen0GfhQzlM=
+
+Name: assets/units/modular_spider/leg.png
+SHA1-Digest: 0z5aZil9CNwbx0m9YB9TjrbKoDk=
+
+Name: assets/units/modular_spider/lightning.ini
+SHA1-Digest: XNkd2PRjVse/hGuIrDO/y9UPaLc=
+
+Name: assets/units/modular_spider/modular_spider.ini
+SHA1-Digest: H4UYMzT8nVG6rPu7V/BNlw1rSp8=
+
+Name: assets/units/modular_spider/modular_spider_nonEmpty.ini
+SHA1-Digest: 8E5DSg9rRYp37ImeckEn1O8NnxE=
+
+Name: assets/units/modular_spider/shieldGen.ini
+SHA1-Digest: itoK/8v/t7v3V+92v5OsM3EM0ls=
+
+Name: assets/units/modular_spider/shieldGen.png
+SHA1-Digest: yAsS6wPeH0GAsIbwD8qUU13wLOs=
+
+Name: assets/units/modular_spider/smallgun.ini
+SHA1-Digest: BYO8fK4byqpoQm7ST0qzsYSf4Cs=
+
+Name: assets/units/modular_spider/smallgunT2.ini
+SHA1-Digest: KQHc8ELm8pnjt3LZ/RTcG2CzDJI=
+
+Name: assets/units/modular_spider/speed.ini
+SHA1-Digest: CalofoP7queihzU4pP24vG4s8rw=
+
+Name: assets/units/modular_spider/speed.png
+SHA1-Digest: cfhE30JfyMmGgHLMacB64fK5+pc=
+
+Name: assets/units/modular_spider/speed_incomplete.ini
+SHA1-Digest: YDxbd2Gdw0He4MZfWJOXd50EmX4=
+
+Name: assets/units/nautilus/body.png
+SHA1-Digest: 71MP8X0WFV+XDGonNiwZ8DzZ7XM=
+
+Name: assets/units/nautilus/body2.png
+SHA1-Digest: VVrPLhPBW9t8Y9cwClQ6SpPVBAQ=
+
+Name: assets/units/nautilus/bodyShadow1.png
+SHA1-Digest: ISdYiVZrPAcPH5VJKeb0KDzpG5w=
+
+Name: assets/units/nautilus/bodyShadow2.png
+SHA1-Digest: Nq1vQfJCs68Opl8bHa8Yy54IWBo=
+
+Name: assets/units/nautilus/body_dead.png
+SHA1-Digest: 4sI6tDWH5QX9a+ePrL5omnAYisg=
+
+Name: assets/units/nautilus/foot.png
+SHA1-Digest: hFntYbdiU/uBUlu7eSToNUZ0ChY=
+
+Name: assets/units/nautilus/leg.png
+SHA1-Digest: PnIP3DFJXXWQGD8DdKQGjj8/CQA=
+
+Name: assets/units/nautilus/nautilus.ini
+SHA1-Digest: jcahZTxxocl/yT6g9lGMMbZ15zM=
+
+Name: assets/units/nautilus/nautilusLand.ini
+SHA1-Digest: KgoOUhZZ+DEzfKyyTp3sZJ8U2rY=
+
+Name: assets/units/nautilus/nautilusSurface.ini
+SHA1-Digest: JeW+FjrKj1EfBJczcLInAo4hxCs=
+
+Name: assets/units/nautilus/robotCrab/base.png
+SHA1-Digest: kpAzyg5ENJ4EmX/KN3LDMLssEag=
+
+Name: assets/units/nautilus/robotCrab/base_dead.png
+SHA1-Digest: tmFM0f1WptAQUnf/SVVB2a37jNU=
+
+Name: assets/units/nautilus/robotCrab/leg.png
+SHA1-Digest: f+kuXfu49dKD0SjhjIOf8/IuwoA=
+
+Name: assets/units/nautilus/robotCrab/robotCrab.ini
+SHA1-Digest: jdUtDeGlEcnsUbW3tgRg+DO5Cmg=
+
+Name: assets/units/nautilus/robotCrab/robotCrabWater.ini
+SHA1-Digest: CTvj6JdQHJjNhJDOUMPyGIaacxA=
+
+Name: assets/units/nautilus/robotCrab/turret.png
+SHA1-Digest: XFY6m6g/NDU8dRpgK8cMJ8itayc=
+
+Name: assets/units/nautilus/siloLeft.png
+SHA1-Digest: kBDsEVPAOCxL2mC903DhislcTYk=
+
+Name: assets/units/nautilus/siloRight.png
+SHA1-Digest: Vpn32aLJzGBYR4kKUtMMs1mVFcQ=
+
+Name: assets/units/nukes/antinuke_launcher.ini
+SHA1-Digest: rCzVuWYqZ7zNdp/Gfp6k7zarWlA=
+
+Name: assets/units/nukes/antinuke_launcher_back.png
+SHA1-Digest: ug8e+A6we2S2tMc7iZRgweajQQo=
+
+Name: assets/units/nukes/antinuke_launcher_dead.png
+SHA1-Digest: SczBT90GAyhx1e/QhjWS65Npcok=
+
+Name: assets/units/nukes/antinuke_launcher_door_l.png
+SHA1-Digest: +O8i40oKNNtO+FWQiZzZmOrpwrM=
+
+Name: assets/units/nukes/antinuke_launcher_door_r.png
+SHA1-Digest: H+JpYO/RTzPEhdcOBGVpbupLYWM=
+
+Name: assets/units/nukes/antinuke_launcher_front.png
+SHA1-Digest: Ny5OL79gGsvHwzCO2E+lkjG7diQ=
+
+Name: assets/units/nukes/nuke_launcher.ini
+SHA1-Digest: +95YauAJYPkoYF8GmkwyHwZhYX8=
+
+Name: assets/units/nukes/nuke_launcher_back.png
+SHA1-Digest: 0uyQ1nHyhxmr/WewWV/4BTr51sc=
+
+Name: assets/units/nukes/nuke_launcher_dead.png
+SHA1-Digest: Yoba3xmy2px4f7k5cB2tK8vTP5U=
+
+Name: assets/units/nukes/nuke_launcher_door_l.png
+SHA1-Digest: yF14R+UcB120kbqkqjo8ziyO/jc=
+
+Name: assets/units/nukes/nuke_launcher_door_r.png
+SHA1-Digest: yp7U9Y9uxK9VSzNVvAtm9P1C6es=
+
+Name: assets/units/nukes/nuke_launcher_front.png
+SHA1-Digest: 51uGJYjYtuTTwxybttoNSXwvYk8=
+
+Name: assets/units/outpost/outpost.ini
+SHA1-Digest: al8Lr5eKMlX7N7xJjlrS9dSFR1k=
+
+Name: assets/units/outpost/outpost.png
+SHA1-Digest: B108fonwQ1gOmSpvbLO8mWb2UoI=
+
+Name: assets/units/outpost/outpostT2.ini
+SHA1-Digest: pRmsdCILdlCw3E9eL+pVKffwJM4=
+
+Name: assets/units/plasma_tank/plasma_tank.ini
+SHA1-Digest: r/Cg+lgOigWFMI+rVIFkzgeKpYk=
+
+Name: assets/units/plasma_tank/plasma_tank.png
+SHA1-Digest: oVxPEJ2Ra4RbvJBheJ308BAj9/4=
+
+Name: assets/units/plasma_tank/plasma_tank_dead.png
+SHA1-Digest: uAI+wiTjSXjHgMno2g46aeXoPpE=
+
+Name: assets/units/plasma_tank/turret.png
+SHA1-Digest: K6apiOQaUmRVgMoDVYY//ufyadg=
+
+Name: assets/units/resource_deposits/creditsCrate.ini
+SHA1-Digest: oTQu2lDFRqzocQQ3majWi4LWvaM=
+
+Name: assets/units/resource_deposits/creditsCrate.png
+SHA1-Digest: W4iVziC3x1Ka5GzqfPIVx/y9SiA=
+
+Name: assets/units/resource_deposits/crystal.png
+SHA1-Digest: BpyAhqEjx+CJQ3/WT/OkB8FGyFU=
+
+Name: assets/units/resource_deposits/crystal_mid.ini
+SHA1-Digest: qnTrbta08rfby/OHSCexRxu8iS4=
+
+Name: assets/units/scout/base.png
+SHA1-Digest: elDLVD9yzABMLr3nYSAFmj41bbI=
+
+Name: assets/units/scout/base_dead.png
+SHA1-Digest: UEC+x6+e76KbTQj40no1HNEKkoA=
+
+Name: assets/units/scout/scout.ini
+SHA1-Digest: 5mwH6FRwqEzuyrq8Mgis0xgO1mc=
+
+Name: assets/units/shared/area_guide.png
+SHA1-Digest: Gv+buCCBcpMPjeXvHWk5wshLE1w=
+
+Name: assets/units/shared/beam1.png
+SHA1-Digest: OL5KKlM7oXuS/o0Z9/TwbEJPXuA=
+
+Name: assets/units/shared/beam1_end.png
+SHA1-Digest: h837h/9eJaO3aBCXFjq11ffy8Xc=
+
+Name: assets/units/shared/beam1_start.png
+SHA1-Digest: /xMjpKxR9MHrD8qVAuVy+SOu9h0=
+
+Name: assets/units/shared/beam2.png
+SHA1-Digest: i3A1L4zjZzBSkT627JUkXt22v70=
+
+Name: assets/units/shared/beam3.png
+SHA1-Digest: nPSLrNZ3qXapHhrCGd7u/nSm9Q4=
+
+Name: assets/units/shared/blank.png
+SHA1-Digest: p2Yeawr1L0wU+oy2hSgFF72EP6k=
+
+Name: assets/units/shared/cone_inverted_normal_128.png
+SHA1-Digest: R3YxxL87jZAT9PSk2zNH5vy3kbI=
+
+Name: assets/units/shared/debug_marker.png
+SHA1-Digest: FMLkZdp8GUzxwTJp0ZFcgWh2858=
+
+Name: assets/units/shared/experimental_tank_turret.png
+SHA1-Digest: WFoV2Rirupj3o4i2ZcxZ5LDpdwQ=
+
+Name: assets/units/shared/experimental_tank_turret2.png
+SHA1-Digest: fT6/k0CdoJTZJGuFKcMEUTUnJY0=
+
+Name: assets/units/shared/experimental_tank_turret3.png
+SHA1-Digest: CD1Dph0AQrfRCE9rxU00B7p2KOA=
+
+Name: assets/units/shared/foot.png
+SHA1-Digest: +H3es1M8shtAtY6qOwVMoux42Yw=
+
+Name: assets/units/shared/glow_green.png
+SHA1-Digest: a7sVQ6z4RJyc3JbYfb8BwzEtJBo=
+
+Name: assets/units/shared/glow_sharp.png
+SHA1-Digest: TkoRAecvRTu+FkiXM6MC9d4HuL0=
+
+Name: assets/units/shared/icon_attack_point.png
+SHA1-Digest: C/5C6Q3b7bwsl0PmJU+ZZodhUhg=
+
+Name: assets/units/shared/icon_build.png
+SHA1-Digest: Qyq/Zlvm/uuHGA5h5NSs0uqTNGs=
+
+Name: assets/units/shared/icon_downgrade.png
+SHA1-Digest: i+Vve0OuB0DgeIjPHPjkC16BacU=
+
+Name: assets/units/shared/icon_nuke_stockpile.png
+SHA1-Digest: KmOJ9ESVZsXtytus5H+jCZboUWc=
+
+Name: assets/units/shared/icon_off.png
+SHA1-Digest: BR/NZ+WZYxTvoFClZQX7ifq+glY=
+
+Name: assets/units/shared/icon_on.png
+SHA1-Digest: LHLSpfXOpd9Uu+0eS58ibYi/BbE=
+
+Name: assets/units/shared/icon_sell_top.png
+SHA1-Digest: bcXnSC4rQ9nq8BfA1hicSolgL40=
+
+Name: assets/units/shared/icon_upgrade.png
+SHA1-Digest: wtlDFhrrXd7jRhxFX6fFI45+KWU=
+
+Name: assets/units/shared/icon_upgrade_top.png
+SHA1-Digest: 61SgTdRsz6o9hk99933Vjuoe7vI=
+
+Name: assets/units/shared/large_turret.png
+SHA1-Digest: uzlvUjvSV/wsP/3az+Le58PczHU=
+
+Name: assets/units/shared/leg.png
+SHA1-Digest: 7zjVygwrlzihagcPe3bofcMRL2U=
+
+Name: assets/units/shared/light_25.png
+SHA1-Digest: 3So1T52dStzeDPFyvDksZwexE3c=
+
+Name: assets/units/shared/light_50.png
+SHA1-Digest: qtZSkI/PYglT6eNGNfHhQuHdyD0=
+
+Name: assets/units/shared/lighting_charge.png
+SHA1-Digest: cppCfkBHl8ZZGfbA01NYwA5X2OA=
+
+Name: assets/units/shared/lighting_charge2.png
+SHA1-Digest: 1Z5Rs73U9nbAdKjZpBAMH+ZnwR4=
+
+Name: assets/units/shared/lightning_shock.png
+SHA1-Digest: g0/CzYQp/k+gW4kL2vMIE4+ms9U=
+
+Name: assets/units/shared/mammoth_tank_turret.png
+SHA1-Digest: QhLATDFN8zAI6/Ldp6GSodXNpAw=
+
+Name: assets/units/shared/mega_tank_turret.png
+SHA1-Digest: WqDjQAMYPIPg3MaCQq8sZhBf0Dc=
+
+Name: assets/units/shared/mega_tank_turret2.png
+SHA1-Digest: gFzpBZc/cvoczO9718WCaspEW7E=
+
+Name: assets/units/shared/nano_turret.png
+SHA1-Digest: 0ZdfcZdmhPHcvmZnIoatQKEDu8c=
+
+Name: assets/units/shared/no_icon.png
+SHA1-Digest: 3i+VLBCuGFo9aI1Sez98knAfscQ=
+
+Name: assets/units/shared/ripple.png
+SHA1-Digest: RwbI+07APr/OOhEq4kdNuo6pv9M=
+
+Name: assets/units/shared/ripple_normal_128.png
+SHA1-Digest: RxlbcTob7Eu7HVJ87gZnQuk/u5A=
+
+Name: assets/units/shared/shockwave_normal_128.png
+SHA1-Digest: Yc3MnqUIjcT/c2RWmlRU4s4N150=
+
+Name: assets/units/shared/small_laser_turret.png
+SHA1-Digest: hpxRitHlv7aunYreLwHZSdBBVCQ=
+
+Name: assets/units/shared/small_laser_turretT2.png
+SHA1-Digest: e91ZATipwDS2Jx21/5MipRpoaQE=
+
+Name: assets/units/shared/spark.png
+SHA1-Digest: uW4ufoculQNk2e8o+0fnH/jGQ/4=
+
+Name: assets/units/shared/turret_artillery_large.png
+SHA1-Digest: Na5kotvpGJuGDy0l22e3v2lQP4M=
+
+Name: assets/units/shared/turret_large_laser.png
+SHA1-Digest: rpbHayu/18Nmb2DR9ZeJbSTzXpk=
+
+Name: assets/units/shared/turret_main.png
+SHA1-Digest: Y4K5vbsaLn0OgdHzWBSU0/gvsg0=
+
+Name: assets/units/shared/turret_missile.png
+SHA1-Digest: cn0/o+H7IC4YAjFQAOIZZykTkxk=
+
+Name: assets/units/shared/turret_small.png
+SHA1-Digest: hpxRitHlv7aunYreLwHZSdBBVCQ=
+
+Name: assets/units/shared/white_pixel.png
+SHA1-Digest: 8V6xiIlCOYm84w+1jaGOJQGL/DA=
+
+Name: assets/units/spy_drone/base.png
+SHA1-Digest: dslpjxtHV5nTjSLe3f+lygI6ugA=
+
+Name: assets/units/spy_drone/base_dead.png
+SHA1-Digest: kGV3UvGZ4HcJ2zR50RHicBHbwDs=
+
+Name: assets/units/spy_drone/spy_drone.ini
+SHA1-Digest: yHMHtiSe7qk0TRdo7BC3jZS9l2w=
+
+Name: assets/units/tanks/artillery.ini
+SHA1-Digest: YWsorcizsnfJ/mg8UGckg1qnJHs=
+
+Name: assets/units/tanks/artillery.png
+SHA1-Digest: UUBJV3onxWMDT0VPesUa41bGkKo=
+
+Name: assets/units/tanks/artillery_dead.png
+SHA1-Digest: m5gr4wlGWO8QZVxbWjOETxoFKl8=
+
+Name: assets/units/tanks/heavy_artillery.ini
+SHA1-Digest: ue4BqFkbhlr4cQE9mUJlSJM4PIg=
+
+Name: assets/units/tanks/heavy_artillery.png
+SHA1-Digest: o0m8EvP4p+v917VIMxZam1xn6HM=
+
+Name: assets/units/tanks/heavy_artillery_dead.png
+SHA1-Digest: u0UPe3sdj7oFe92WyUh7alQbQDY=
+
+Name: assets/units/tanks/heavy_artillery_turret.png
+SHA1-Digest: I9qd4/LFAkYkUxwmlzVKvP4xuAE=
+
+Name: assets/units/tanks/tank.ini
+SHA1-Digest: eWEfjwW8mpm+jau7QTyb15jHt14=
+
+Name: assets/units/tanks/tank.png
+SHA1-Digest: 24dIyxBz5O9kKqopEr1b5C4Bctg=
+
+Name: assets/units/tanks/tank_dead.png
+SHA1-Digest: fENKW3H45kHgUnhYBtzuAXjm6jk=
+
+Name: assets/units/tanks/tank_turret.png
+SHA1-Digest: weeNlLw5EBVU2YIGZCOdDLzkG00=
+
+Name: assets/units/test_tank/tank.ini
+SHA1-Digest: xnPVFmDj0rRnWJ6fWKbgskFIqUg=
+
+Name: assets/units/test_tank/tank.png
+SHA1-Digest: 24dIyxBz5O9kKqopEr1b5C4Bctg=
+
+Name: assets/units/test_tank/tank_dead.png
+SHA1-Digest: fENKW3H45kHgUnhYBtzuAXjm6jk=
+
+Name: assets/units/test_tank/tank_turret.png
+SHA1-Digest: weeNlLw5EBVU2YIGZCOdDLzkG00=
+
+Name: assets/units/turrets/anti_air_top.png
+SHA1-Digest: MebLmaroVyEVbLBG3jQUjpiO3mw=
+
+Name: assets/units/turrets/anti_air_top_flakgun.png
+SHA1-Digest: DudDygdJPyz9Zy3mV5VXaeuyT5E=
+
+Name: assets/units/turrets/anti_air_top_l2.png
+SHA1-Digest: 2MKr9P2ZBu1164EKuHMyC4pxA+w=
+
+Name: assets/units/turrets/anti_air_top_l3.png
+SHA1-Digest: TngRYK5vbERwqeLwZkn/aCflVaM=
+
+Name: assets/units/turrets/radar.png
+SHA1-Digest: AX1fwCjRc09hBAGcknbs4m/a9TA=
+
+Name: assets/units/turrets/turret_antiair.ini
+SHA1-Digest: izw+NNcMMGcaP477j6ZO2c3CVd8=
+
+Name: assets/units/turrets/turret_antiair_flakgun.ini
+SHA1-Digest: Bnnbt2cMo6jjm/x0d1xaNN9oOOQ=
+
+Name: assets/units/turrets/turret_antiair_t2.ini
+SHA1-Digest: JgoGvwQgcx6c07yjYoRgK1zPcWM=
+
+Name: assets/units/turrets/turret_antiair_t3.ini
+SHA1-Digest: UpWQ5fhrHzH4iIPu2SRe/myULC4=
+
+Name: assets/units/turrets/turret_base.png
+SHA1-Digest: +xqvVOj4wkBF63KhxLZ8rqBridI=
+
+Name: assets/units/turrets/turret_base2.png
+SHA1-Digest: ebTO1PwgSnEEBghK5AO0kGp1RlE=
+
+Name: assets/units/turrets/turret_base2B.png
+SHA1-Digest: 3cfiR/u6hHyGwpDlBZc749pwyAg=
+
+Name: assets/units/turrets/turret_base_dead.png
+SHA1-Digest: p4uei201GTWmbXMlYiXr0NmRBGU=
+
+Name: assets/units/turrets/turret_common_land.ini
+SHA1-Digest: pI7qbaf5Zd0UkXnCjh5qp6nWv3w=
+
+Name: assets/units/turrets/turret_t1.ini
+SHA1-Digest: tMqtYoLXVVq3aZSNHtR5upVYDAA=
+
+Name: assets/units/turrets/turret_t1_artillery.ini
+SHA1-Digest: ze7T34WEyvZMdsvsP/Cu6+gLUnA=
+
+Name: assets/units/turrets/turret_t1_lightning.ini
+SHA1-Digest: QveidPK9M1xrgPUsSQO+Yg1tNlk=
+
+Name: assets/units/turrets/turret_t2_artillery.ini
+SHA1-Digest: 6S5/OhVIN+GwLNDdv5B4Nibzns4=
+
+Name: assets/units/turrets/turret_t2_flame.ini
+SHA1-Digest: Pse3wznwnlSKVkWwSbXJFO8rctg=
+
+Name: assets/units/turrets/turret_t2_gun.ini
+SHA1-Digest: 0YxqLnC5E1u6QcgPR+aIRbSbdu0=
+
+Name: assets/units/turrets/turret_t2_lightning.ini
+SHA1-Digest: Gecu3NjB/KXUqSEMKPPyZVjhWCc=
+
+Name: assets/units/turrets/turret_t3_gun.ini
+SHA1-Digest: OYfrGOnbuULcE5INXRvZhDvXyfk=
+
+Name: assets/units/turrets/turret_top.png
+SHA1-Digest: ETv6aDKhVdCeeoKlXzdU9cdb8uI=
+
+Name: assets/units/turrets/turret_top_artillery.png
+SHA1-Digest: O5r7Dy/9OkAiSKwyt1yjFXCj69g=
+
+Name: assets/units/turrets/turret_top_artillery_l2.png
+SHA1-Digest: bViVqlSPtcLlK/483ebdQlIBZ24=
+
+Name: assets/units/turrets/turret_top_flame.png
+SHA1-Digest: waRGlfI+8xbbNeIWhkiuR+j5yBY=
+
+Name: assets/units/turrets/turret_top_l2.png
+SHA1-Digest: 03W4ScLRKlEeZGhAuKNG/NJlZXs=
+
+Name: assets/units/turrets/turret_top_l3.png
+SHA1-Digest: 9RAaRKh0EQhHcwsW1hUgDHNvcR8=
+
+Name: assets/units/turrets/turret_top_lightning.png
+SHA1-Digest: wXdLnoQbqVSc0IeEHJnK2ljna3k=
+
+Name: assets/units/turrets/turret_top_lightning_l2.png
+SHA1-Digest: pvWaevd/jABz3mFBFOyz3S8qWPc=
+
+Name: classes.dex
+SHA1-Digest: KLjeb6jz+67RiPohL0yh1GmPMJs=
+
+Name: res/anim/mainfadein.xml
+SHA1-Digest: 0GyBWY7v2MDIP+d9h6nLle4gAE8=
+
+Name: res/anim/splashfadeout.xml
+SHA1-Digest: 2kNQmw1YlfgCcW0Yl2MTbZiCqt4=
+
+Name: res/drawable-v26/icon_round.xml
+SHA1-Digest: T6wcWzy02WenEf6pQdhxHtrVXLk=
+
+Name: res/drawable/air_factory.png
+SHA1-Digest: QeXn5xP4xVKvyZAIFeRq3PyKCl4=
+
+Name: res/drawable/air_factory_dead.png
+SHA1-Digest: +Uzou2f++DLnMjitcwrzBnnoCwI=
+
+Name: res/drawable/air_factory_t2.png
+SHA1-Digest: u2vSBidmW6DQLICnXZnkNoQ7sGc=
+
+Name: res/drawable/air_factory_t2_dead.png
+SHA1-Digest: 8dGgMa1e9PruAQz48wZ5jKfA5hs=
+
+Name: res/drawable/amphibious_jet.png
+SHA1-Digest: wIf+F3zmDbeXQtWMHZG+RemRAGU=
+
+Name: res/drawable/amphibious_jet_dead.png
+SHA1-Digest: 3vni2ZU4oN3YTIlN/Zs1st2wuMo=
+
+Name: res/drawable/amphibious_jet_p1.png
+SHA1-Digest: DT69sDPYeWrM9v/K+XBODEHcpzo=
+
+Name: res/drawable/amphibious_jet_p2.png
+SHA1-Digest: UHS+o6w4LI1o/AMjiWvMzcQFn54=
+
+Name: res/drawable/amphibious_jet_shadow.png
+SHA1-Digest: aiYSnGYDAXdmfd1cGtykHbfvR1s=
+
+Name: res/drawable/anti_air_top.png
+SHA1-Digest: DKj7Gnzn7U7VDZL1qm6b4jby0UY=
+
+Name: res/drawable/anti_air_top_flakgun.png
+SHA1-Digest: nnYB8IfFueu/bkZMCSrxRaLQJQM=
+
+Name: res/drawable/anti_air_top_l2.png
+SHA1-Digest: lw/ftxbIwHwlS65kzYIiIUVO4HI=
+
+Name: res/drawable/antinuke_launcher.png
+SHA1-Digest: eQSEY2C1s1GF0sp5Bu5rSW5fqo4=
+
+Name: res/drawable/antinuke_launcher_dead.png
+SHA1-Digest: E3TvPqEqPFMkNx34ixlRcUm0IlM=
+
+Name: res/drawable/artillery1.png
+SHA1-Digest: 6OXNXIj6xh+UNb6flokJL53SEP4=
+
+Name: res/drawable/artillery1_dead.png
+SHA1-Digest: xNRmnW2mxI5QrYvuN87UrrKixJo=
+
+Name: res/drawable/artillery2.png
+SHA1-Digest: Tt9ebl1KYm4zX/2u2KLln2Ofb70=
+
+Name: res/drawable/attack_submarine.png
+SHA1-Digest: NzD/DP04s9nqea4VCa9p0YXi0DY=
+
+Name: res/drawable/attack_submarine_dead.png
+SHA1-Digest: ZYzWI9fEMrs6HwXNcKxN/DKlp7w=
+
+Name: res/drawable/back.png
+SHA1-Digest: cfEqYR3QPsWWqUgEJ6mXcCohekQ=
+
+Name: res/drawable/back_circle.png
+SHA1-Digest: cX3VVzaRxvt80Ny1YmJr7vE0p88=
+
+Name: res/drawable/backrepeat.xml
+SHA1-Digest: evk6LxfrHyAcr6sRhRE4bOsGD8A=
+
+Name: res/drawable/base.png
+SHA1-Digest: 4zGZe9mFNlRtuJl+jA7x+kDco38=
+
+Name: res/drawable/base_back.png
+SHA1-Digest: 2Jd7tv7jy/bzyA80PGk1KjJS5YA=
+
+Name: res/drawable/base_dead.png
+SHA1-Digest: xJt4zNfhF1gZEt7cq/Wl4ChH4nE=
+
+Name: res/drawable/base_no_front.png
+SHA1-Digest: 58UI5GdMHs0PkOnEPnugXGKGHjY=
+
+Name: res/drawable/battle_ship2.png
+SHA1-Digest: JoUX5pDPV7FdHWYqaZJoOF2lFm8=
+
+Name: res/drawable/battle_ship2_dead.png
+SHA1-Digest: WT3GgAojHckFPnpMetqjwdVdeDo=
+
+Name: res/drawable/battle_ship2_turret.png
+SHA1-Digest: g+X0Tg82jbgXiOGVvMJ8Ah3tYEo=
+
+Name: res/drawable/battle_ship_experimental.png
+SHA1-Digest: 3OjvY4IVmQ6uGAsyW3b5tZHu3LU=
+
+Name: res/drawable/battle_ship_t2.png
+SHA1-Digest: TDLeb9DEdENOn0dr6t7XhpV1kMA=
+
+Name: res/drawable/battle_ship_t2_dead.png
+SHA1-Digest: rZQKuWN7vYoSs0p0X4Qk4owk2II=
+
+Name: res/drawable/battle_ship_t2_turret.png
+SHA1-Digest: uzYxr3OoxesVHOM61PQ8P2EvFGk=
+
+Name: res/drawable/battle_ship_turret.png
+SHA1-Digest: aePuToISi2gabhAay+zy6AEnCqA=
+
+Name: res/drawable/blood_mark.png
+SHA1-Digest: LlOw73AuN/7VbiYxCpJ5cHOcvg8=
+
+Name: res/drawable/border_shadow.xml
+SHA1-Digest: 9Z07sGJuDcobHkSSoNGaVtVS4sE=
+
+Name: res/drawable/btn_black.9.png
+SHA1-Digest: PxH1rzPxUkkU5B3XHGnlzSqoKBA=
+
+Name: res/drawable/btn_dropdown.xml
+SHA1-Digest: lMlnp3lLzKGq4Aa5tcPesnDGKaQ=
+
+Name: res/drawable/btn_dropdown_normal.9.png
+SHA1-Digest: R9ySsX51W0tN4yIY+qkljq8/Bkg=
+
+Name: res/drawable/btn_dropdown_pressed.9.png
+SHA1-Digest: 9/bO1texB6kTa88p0CSOTrnYSXY=
+
+Name: res/drawable/btn_dropdown_selected.9.png
+SHA1-Digest: pNyJEyEf+/9bQZncS/rABJvgciY=
+
+Name: res/drawable/btn_orange.9.png
+SHA1-Digest: YVwRxM+cBS9Bz9wj75s1QT9ESDM=
+
+Name: res/drawable/btn_red.9.png
+SHA1-Digest: UFtSyuMdw8CeNlDL5CbzIlI6JJo=
+
+Name: res/drawable/builder.png
+SHA1-Digest: SOX+f0b9IrpvxgUarlLBQQPUiaU=
+
+Name: res/drawable/builder_charge.png
+SHA1-Digest: T7ye/yb0HBzWQHtYPlEEoPyYGoQ=
+
+Name: res/drawable/builder_dead.png
+SHA1-Digest: dghHVWvAXxhF23xc0to45l6h4uc=
+
+Name: res/drawable/builder_decharge.png
+SHA1-Digest: p4U/SO7yd3S/smGro0MchCJAlmM=
+
+Name: res/drawable/builder_ship.png
+SHA1-Digest: JPziks6QIjfsdFdsDUPefm4Nt9s=
+
+Name: res/drawable/builder_ship_dead.png
+SHA1-Digest: nhQkjzK/uLsWaZ23gLvF2yQVJ5M=
+
+Name: res/drawable/builder_ship_turret.png
+SHA1-Digest: 6HETrUnunru/OrbO43x3+H55Z9o=
+
+Name: res/drawable/button_add.png
+SHA1-Digest: bXvbckwjiuXyuLwkyRIsx3WV5is=
+
+Name: res/drawable/button_more.png
+SHA1-Digest: OThQaqjtknKBGpWTTdzRcw3toog=
+
+Name: res/drawable/button_no.png
+SHA1-Digest: cF1mAO8cP9hrmw4tlwXsMEejS0M=
+
+Name: res/drawable/button_subtract.png
+SHA1-Digest: NWua4U0bW8orNw/iKToW/nJqThQ=
+
+Name: res/drawable/button_yes.png
+SHA1-Digest: UvqB9b5MSrTSH81NikCru+hjUls=
+
+Name: res/drawable/cell_shape.xml
+SHA1-Digest: ud15QuDhGWmp02RCY3PWKAuiSDs=
+
+Name: res/drawable/crystal.png
+SHA1-Digest: F3gQBYhtOUGYhI3Y7qtMZxMN6MI=
+
+Name: res/drawable/custombutton.xml
+SHA1-Digest: BCbP+d9mGyg0YM1RQ1hzSg/LxFc=
+
+Name: res/drawable/dropship.png
+SHA1-Digest: 9J1Y5Y4wIZNFB1dZg2dH0K8uZhA=
+
+Name: res/drawable/dropship_dead.png
+SHA1-Digest: H+nn/fREctryEoFLLnPay1QzYuU=
+
+Name: res/drawable/dropship_shadow.png
+SHA1-Digest: xO/vf5mfefUNUeXoLScbc3GkAu8=
+
+Name: res/drawable/dust.png
+SHA1-Digest: bfSABo4M1RJX8F7FPda4d9Q0J3w=
+
+Name: res/drawable/effects.png
+SHA1-Digest: dsZotzWk8ZPqWkVA2QujaFiZr2k=
+
+Name: res/drawable/effects2.png
+SHA1-Digest: lD4r0nPgD2JYOb7p3mxUaUddaTs=
+
+Name: res/drawable/effects3.png
+SHA1-Digest: NH9VBJwvA26on70CvfUlvp8w2eQ=
+
+Name: res/drawable/error.png
+SHA1-Digest: WX6BqhZlKLWaEN9gCe1kVp/mYjU=
+
+Name: res/drawable/error_general.png
+SHA1-Digest: 11wvoC186cfxsp783WDWi3EQc3Y=
+
+Name: res/drawable/error_missingmap.png
+SHA1-Digest: 90S3OTkcOQP/ffXr+w3zZu9kXW0=
+
+Name: res/drawable/error_outmem.png
+SHA1-Digest: gWxunDUt/JLVW/QXMx/43NlXnG0=
+
+Name: res/drawable/error_toolargethumb.png
+SHA1-Digest: i9xejARLYfeOlMi8QYBHaAEXeKc=
+
+Name: res/drawable/experimental_hovertank.png
+SHA1-Digest: wRnPNiQG21Hlbwj5ATGZ2WsOrEU=
+
+Name: res/drawable/experimental_hovertank_dead.png
+SHA1-Digest: W6MlJfDvbpZeaYiQDuzYdHy8Xlg=
+
+Name: res/drawable/experimental_hovertank_shield.png
+SHA1-Digest: 58V9IyODO+xCZBn6bHrNp30qLos=
+
+Name: res/drawable/experimental_hovertank_turret.png
+SHA1-Digest: W0dizdAtYg27QMBKO5yAU6KT1Hw=
+
+Name: res/drawable/experimental_tank.png
+SHA1-Digest: PGPtP+QGm9b9Zw+yaK6hobQpQgE=
+
+Name: res/drawable/experimental_tank_dead.png
+SHA1-Digest: iiGxc+IKfqEhj1rulwdfyrwCKwg=
+
+Name: res/drawable/experimental_tank_turret.png
+SHA1-Digest: BrdyZp4P3zsnz2EfBswBjR/Jn9Y=
+
+Name: res/drawable/experimental_unit_factory_base.png
+SHA1-Digest: reFTbezSSzlsOdCIMSxA9RapDOk=
+
+Name: res/drawable/experimental_unit_factory_dead.png
+SHA1-Digest: 5hQ8Y23UA+mmACBrI6SOpq7wSVE=
+
+Name: res/drawable/experimental_unit_factory_front.png
+SHA1-Digest: LYT+RKrqKFZRuxlZSK+jdjzSeD0=
+
+Name: res/drawable/explode_big.png
+SHA1-Digest: ZvF7gEi/XbPFLlBUjR9J41GDQ58=
+
+Name: res/drawable/explode_big2.png
+SHA1-Digest: RRgAt5FnnaRgbleb8Cre9XfmB/A=
+
+Name: res/drawable/explode_bits.png
+SHA1-Digest: LSqTt4YfpZ7IMZRypSvemhvXw3Y=
+
+Name: res/drawable/explode_bits_bug.png
+SHA1-Digest: F9xfr5QshFGHK3bpV6ziOlUQyPY=
+
+Name: res/drawable/extractor.png
+SHA1-Digest: HB2FuTtQ7xjHW1+hmaE6++Q8qik=
+
+Name: res/drawable/extractor_back.png
+SHA1-Digest: PQaHDiUb2ObDM3MSgd8LFiuxjiI=
+
+Name: res/drawable/extractor_dead.png
+SHA1-Digest: 7QGSSiZoA7Ivn/V+VpW8tH+b+EI=
+
+Name: res/drawable/extractor_t2.png
+SHA1-Digest: HLaLgu5f2xU4W0Sb0bU1pm3ZxbQ=
+
+Name: res/drawable/extractor_t3.png
+SHA1-Digest: B0vSbBie2LMWNWy4/zYft9nGOvY=
+
+Name: res/drawable/fast.png
+SHA1-Digest: 18FTv71V1crq6lbD6K7d8VzNNsc=
+
+Name: res/drawable/fire.png
+SHA1-Digest: v7xzAqyl9KvDqvxVH7EN5VxY6gc=
+
+Name: res/drawable/flame.png
+SHA1-Digest: blaS4Uu06YRm4RXWPwklIxp9ZfE=
+
+Name: res/drawable/flame_large.png
+SHA1-Digest: VF7caGc4iUYgaPaKP8Waay98sbs=
+
+Name: res/drawable/fog_dithering.png
+SHA1-Digest: vqlJexKDnMl0rM/IbPoCLckml7E=
+
+Name: res/drawable/fog_smooth.png
+SHA1-Digest: +FjaZLUFeJARcNAdDDJvn19zLE0=
+
+Name: res/drawable/gun_boat.png
+SHA1-Digest: ZoyM4uDHnDrVU2DEspY1vr1jrxs=
+
+Name: res/drawable/gun_boat_dead.png
+SHA1-Digest: PSIMBaMjnRM4juk2r4X8Q3P0Da0=
+
+Name: res/drawable/gunship.png
+SHA1-Digest: +oTTcXrpb8kny9ZhqTMNk89fS1Q=
+
+Name: res/drawable/gunship_dead.png
+SHA1-Digest: BR4wT1TJIxSUjY60NdupHh7pEPM=
+
+Name: res/drawable/gunship_shadow.png
+SHA1-Digest: nBzjRP3LtDv8B0E9F5d9BGY/8tc=
+
+Name: res/drawable/heavy_hover_tank.png
+SHA1-Digest: j7bi9womGnu0GQkzs9BFiV3cTEU=
+
+Name: res/drawable/heavy_hover_tank_dead.png
+SHA1-Digest: nknm37TZqJchiNPDcj3xBBM6s8Y=
+
+Name: res/drawable/heavy_hover_tank_shadow.png
+SHA1-Digest: lcr00OSHaAbEad2MjBm5VyOYwAY=
+
+Name: res/drawable/heavy_tank.png
+SHA1-Digest: V4/QJCG8wTuEKY8xA36+YqX5mII=
+
+Name: res/drawable/heavy_tank_dead.png
+SHA1-Digest: LNyBld06CjCTXv3HDp+ylN2qHq0=
+
+Name: res/drawable/heavy_tank_turret.png
+SHA1-Digest: 4PJd/76iRO++LUVRZ663JPknPyY=
+
+Name: res/drawable/helicopter.png
+SHA1-Digest: sb1HUmOaoZBgjUJ7vxnvnDlbwRA=
+
+Name: res/drawable/helicopter_blades.png
+SHA1-Digest: UmDbFHcPO2uNEyQKzkfO40YmYw8=
+
+Name: res/drawable/helicopter_dead.png
+SHA1-Digest: yx+4PmtWVB9sgvPE91oMRrr0xy4=
+
+Name: res/drawable/helicopter_shadow.png
+SHA1-Digest: hI8AwMc0tTa+GFpy6sKOyfoHmS4=
+
+Name: res/drawable/helicopter_shadow_blades.png
+SHA1-Digest: Epnk3Pfihf/cSmOROfx6WNJ7O2k=
+
+Name: res/drawable/help1.png
+SHA1-Digest: 3uIDOABGRnAJixDD8HBBMbJjL3I=
+
+Name: res/drawable/help2.png
+SHA1-Digest: xD+YEqULy/Eawz8qCe12ZBpMNzI=
+
+Name: res/drawable/help3.png
+SHA1-Digest: Oy9Xmf7v0OB20sO4fBk9sgCa6XY=
+
+Name: res/drawable/help4.png
+SHA1-Digest: 1kTgPdL9zIBMNyXOblYzZL8j/zk=
+
+Name: res/drawable/hover_tank.png
+SHA1-Digest: 00XywVaJ3FnHBmoOedbwTCFv59k=
+
+Name: res/drawable/hover_tank_dead.png
+SHA1-Digest: JxBU2v3VmVYAOAgJ/kIOWiiilSU=
+
+Name: res/drawable/hover_tank_shadow.png
+SHA1-Digest: 8PYX7IZpyASoFNuHNRfBG3o+0AM=
+
+Name: res/drawable/hovercraft.png
+SHA1-Digest: 1j0DQP7l8asTUsNWekZ8OadXQ3A=
+
+Name: res/drawable/hovercraft_dead.png
+SHA1-Digest: JQgyiArBlPIbczkZ4a3i4TPeIkc=
+
+Name: res/drawable/hovercraft_shadow.png
+SHA1-Digest: KDuWpS2kKA4Q5a5FKRcfD7QU0uk=
+
+Name: res/drawable/icon.png
+SHA1-Digest: UhpEshQzo8TYl9H+AXS3USBBREI=
+
+Name: res/drawable/icon2.png
+SHA1-Digest: MHwMwtqUmjhnZ9EoDzDyTH3XwnI=
+
+Name: res/drawable/icon_back_round.png
+SHA1-Digest: WDXO3c7xD9yojVBZzXYBOvZ/rm4=
+
+Name: res/drawable/icon_rally.png
+SHA1-Digest: fV88Qmlc08HpNe+XftswTypQT3E=
+
+Name: res/drawable/icon_save.png
+SHA1-Digest: XWvPFJ3HrGFUpQeDhhDkCicYjIo=
+
+Name: res/drawable/icon_search.png
+SHA1-Digest: DiYKkO0jXVfb/8Z9qqiLAY/poTM=
+
+Name: res/drawable/icon_upgrade.png
+SHA1-Digest: 0h7qxMwFIIEgMbhAN2TZxlCJ5Z4=
+
+Name: res/drawable/icon_window.png
+SHA1-Digest: RjhmlhZusiSzloh8vy2TvGDCJMw=
+
+Name: res/drawable/icon_window128.png
+SHA1-Digest: Yua1+Dryxg2DLsLUBU80ZiZZT2E=
+
+Name: res/drawable/icon_window16.png
+SHA1-Digest: EH8Wryqrv+0ENHowbuE0y+lquPw=
+
+Name: res/drawable/icon_window24.png
+SHA1-Digest: TZBMZAhK+LfzObVdv5mzqanAkv4=
+
+Name: res/drawable/ladybug.png
+SHA1-Digest: T4xhCstCxah22XotZiXoH4yMHAU=
+
+Name: res/drawable/land_factory.png
+SHA1-Digest: XwVlN+3NiSDqJpfilgFa8isbJUY=
+
+Name: res/drawable/land_factory_back.png
+SHA1-Digest: Mo1u0RQ6+H76c9PkSzCJpj+s9RY=
+
+Name: res/drawable/land_factory_dead.png
+SHA1-Digest: 7eUjaZ5DzDQGpMF/5eo0ugGB+XE=
+
+Name: res/drawable/land_factory_front.png
+SHA1-Digest: wbr2rnkib5srf664kGV72tekV+c=
+
+Name: res/drawable/land_factory_front_t2.png
+SHA1-Digest: XcilSQEakjTCPRTBEmXqgGPgi94=
+
+Name: res/drawable/large_gunship.png
+SHA1-Digest: /2mVKOX/Ot9b/bzumkJOTlHu8Qo=
+
+Name: res/drawable/large_gunship_shadow.png
+SHA1-Digest: AB7pRayWmeSMx7MrddT8gJxUFj8=
+
+Name: res/drawable/laser_defence.png
+SHA1-Digest: yF8oQS/Iyu4FMfNsUVTh1wM5jEE=
+
+Name: res/drawable/laser_defence_dead.png
+SHA1-Digest: VU5yHNO+Mh+vXiYNSCWSN/OIQW0=
+
+Name: res/drawable/laser_defence_t2.png
+SHA1-Digest: jOpikVek/eH7OzJEcqAqc8lwP1k=
+
+Name: res/drawable/laser_tank_base.png
+SHA1-Digest: +BaCnymdxW9OJahFtWnsuNk6OuM=
+
+Name: res/drawable/laser_tank_charge.png
+SHA1-Digest: uA3U7mM3BljZaMh3WlacXRA/vz8=
+
+Name: res/drawable/laser_tank_dead.png
+SHA1-Digest: JXdoUfVFAX3ROIVx3yZAwB/AA3A=
+
+Name: res/drawable/laser_tank_turrent.png
+SHA1-Digest: oTmO/+AdkzPvCMiX9BzGtRayGEo=
+
+Name: res/drawable/lava_bubble.png
+SHA1-Digest: 289dVVF3rv7rfK2XaD+0wTI65K4=
+
+Name: res/drawable/light_50.png
+SHA1-Digest: TzQGNrZ6zs9610BkyL0U0f/cqMo=
+
+Name: res/drawable/lighting_charge.png
+SHA1-Digest: ZoJLms1jW9RGHOiEIBH5bo/9Fyc=
+
+Name: res/drawable/lock_icon_menu.png
+SHA1-Digest: MTH/DpQiSJq2bVul26oQZYzwtl0=
+
+Name: res/drawable/logo.png
+SHA1-Digest: Hub0hyvtLQRpeIbl3YS8tXzRr3A=
+
+Name: res/drawable/mammoth_tank.png
+SHA1-Digest: KowjGMuF/LbSMZxmMiL6sN8WBa8=
+
+Name: res/drawable/mammoth_tank_dead.png
+SHA1-Digest: 0TlVElOx5Afx/atuRgYk/MRFDKE=
+
+Name: res/drawable/mammoth_tank_turret.png
+SHA1-Digest: oWFq3ks7jHwlvoGa3cBNAR2l3AQ=
+
+Name: res/drawable/mega_tank.png
+SHA1-Digest: +b049RCV4HMIJlSEiJeIhDYt8X0=
+
+Name: res/drawable/mega_tank_dead.png
+SHA1-Digest: 5CvVeplOGLTW/a3rmv2nofAMdPk=
+
+Name: res/drawable/mega_tank_turret.png
+SHA1-Digest: zlHG669oIPBI0Y/N5KZwQkT0qPA=
+
+Name: res/drawable/menu.png
+SHA1-Digest: qsPaD3oUw/Ydz/ZBMi1AQUU4zW0=
+
+Name: res/drawable/metal.png
+SHA1-Digest: e/v5+daZLGt8cYveugvluGLUgqI=
+
+Name: res/drawable/metal_dark.png
+SHA1-Digest: sxoN5QhMBli7B4hGSjbyPKtErNw=
+
+Name: res/drawable/noise.png
+SHA1-Digest: NGMhAS4PRT5DI+RRKjA1QGRAdbo=
+
+Name: res/drawable/noise3.png
+SHA1-Digest: sbaAeTK6x3tvXBvIcrCYBnpREWI=
+
+Name: res/drawable/nuke_launcher.png
+SHA1-Digest: 8uX/ZHpFv29HRlblDA9uuKpE3oE=
+
+Name: res/drawable/nuke_launcher2.png
+SHA1-Digest: IaqVMJ524ehuZDJwn4Cs4myHSbQ=
+
+Name: res/drawable/nuke_launcher_dead.png
+SHA1-Digest: A5AxYX+PkTDSueD2i1r7DZA514k=
+
+Name: res/drawable/palm_leaves.png
+SHA1-Digest: bpDxrhlOR/bB8NL78WgcjNBCOoM=
+
+Name: res/drawable/palm_tree.png
+SHA1-Digest: IBd3aGvFkrfyc0a4MiWXDuotU3k=
+
+Name: res/drawable/pause.png
+SHA1-Digest: dKQZsbolxsLgGq8fDKBAt3BDedg=
+
+Name: res/drawable/plasma_shot.png
+SHA1-Digest: z8Qn1C8nXY6zU6vANuOqWWEyc+A=
+
+Name: res/drawable/pointer.png
+SHA1-Digest: bQujn008nYR41wkMYZdKU2b969A=
+
+Name: res/drawable/power.png
+SHA1-Digest: rBzZPJNQWsnUg2Rs6gGJtmz9FNA=
+
+Name: res/drawable/power_dead.png
+SHA1-Digest: F/hT08vqC7WDF6QIZ4so6LSpQNg=
+
+Name: res/drawable/power_t2.png
+SHA1-Digest: Aq9/0KIrwzxZq7rRKfNZWjqYsNo=
+
+Name: res/drawable/power_t3.png
+SHA1-Digest: jhGxpQ6CLTLviJ7gNRcigHvYuZo=
+
+Name: res/drawable/projectiles.png
+SHA1-Digest: Rregs2hra8XnxJLokMqPDuQdY7c=
+
+Name: res/drawable/projectiles2.png
+SHA1-Digest: l9QGgbf1Ef10BzUhLnrsuD3/QTc=
+
+Name: res/drawable/projectiles_large.png
+SHA1-Digest: 09mkvgSPjPz2sfpZpVpdP95SV6Q=
+
+Name: res/drawable/queenbug.png
+SHA1-Digest: 6eU24hpxWVq/3f0qISv2ZzqmSk0=
+
+Name: res/drawable/repair_bay.png
+SHA1-Digest: AOONL9wRuU9Zqk3f2B5So0HSY0s=
+
+Name: res/drawable/repair_bay_dead.png
+SHA1-Digest: AgFlRDOocXLPRoBqYTjtOP2UpK4=
+
+Name: res/drawable/replay_leaderboard.png
+SHA1-Digest: 5+QMrYlhGnxYG9La8j6g5L4lx9E=
+
+Name: res/drawable/replay_pause.png
+SHA1-Digest: e6eQMRIVfmK3yefRSqfGU0ptZ3M=
+
+Name: res/drawable/ripple_normal_128.png
+SHA1-Digest: BHLg7Mm/QUDO9ozD5t9tnz23r6Q=
+
+Name: res/drawable/rounded_border.xml
+SHA1-Digest: QPbyUesgpIewhwlP3xFoROz7u+0=
+
+Name: res/drawable/rounded_dark_box.png
+SHA1-Digest: 7twv+bZbWiWc6u82506k26bVH88=
+
+Name: res/drawable/rounded_dark_box_titled.png
+SHA1-Digest: Crn7A2Vm679qbfba6OHbtUfM9zw=
+
+Name: res/drawable/rounded_glow_button.png
+SHA1-Digest: hPyg+LgnU36Tpx3MKO0+Dq+p8s8=
+
+Name: res/drawable/rounded_glow_highlight_button.png
+SHA1-Digest: cxZUxikdMKQw7MWaiHQ0z/Up3e0=
+
+Name: res/drawable/rounded_green.png
+SHA1-Digest: ZeuL8v/8CA7gmrBa6VO/+kMNbSQ=
+
+Name: res/drawable/rounded_shadow.png
+SHA1-Digest: sJttNmuaDgNbFrqaH83bKp7h1Yk=
+
+Name: res/drawable/rounded_white_button.png
+SHA1-Digest: 8ywtWqMkyE0YkUghCd02/I7CQN8=
+
+Name: res/drawable/scorch_mark.png
+SHA1-Digest: g6creBq9IzXF4H4wlKJNniuB/iE=
+
+Name: res/drawable/scorch_mark_nuke.png
+SHA1-Digest: R+dHLgStvE6OttSFte4TLt1yjww=
+
+Name: res/drawable/scout_ship.png
+SHA1-Digest: SJAp2MygChPgHnudEkmZ0VgaEkM=
+
+Name: res/drawable/scout_ship_dead.png
+SHA1-Digest: /yxlSDkErndLR6GERhaHX1A76zg=
+
+Name: res/drawable/sea_factory.png
+SHA1-Digest: +DxfahTNpr1Sed6lCOPBLQ0WTDA=
+
+Name: res/drawable/sea_factory_dead.png
+SHA1-Digest: q1Xu3OfI1gm24REMs0s5Q7tUE9c=
+
+Name: res/drawable/sea_factory_t2.png
+SHA1-Digest: +O2Cq5rjnM+LXL12Kiu+nN5LZns=
+
+Name: res/drawable/shield_mid.png
+SHA1-Digest: X3BaqwmpDBy2o57iQ6TyhW+Uw00=
+
+Name: res/drawable/ship.png
+SHA1-Digest: e0/tSklEFHWxlXrheXqqBhH1Iqk=
+
+Name: res/drawable/ship_dead.png
+SHA1-Digest: GiIFEGX6dk11azbtUvFrp/SedAM=
+
+Name: res/drawable/ship_scout_turret.png
+SHA1-Digest: hjbM9qzsLD4sOOvLcouCrhvyp1c=
+
+Name: res/drawable/ship_shadow.png
+SHA1-Digest: lVcNJRiWy8IjZsjkPyDC3TC9mGw=
+
+Name: res/drawable/shockwave.png
+SHA1-Digest: 6Lv9R3YF8t7Ka197uaZ9V+9sx5I=
+
+Name: res/drawable/shockwave2.png
+SHA1-Digest: 3jriTArqr+8ZvagapvcaU5or/RM=
+
+Name: res/drawable/shockwave_large.png
+SHA1-Digest: SHRWqjk4FyxVKuFG122VGQ40U6U=
+
+Name: res/drawable/shockwave_normal_128.png
+SHA1-Digest: imj0k+aPrpZSbMI96viV2PZBiTc=
+
+Name: res/drawable/shockwave_normal_256.png
+SHA1-Digest: 1ihuGVJs40OFX57JcZyfF8/xar0=
+
+Name: res/drawable/shockwave_normal_64.png
+SHA1-Digest: KWrT8DU0zqTkAFCgVrQm6h3TA9w=
+
+Name: res/drawable/small_trees.png
+SHA1-Digest: zkSvf36KYLuv+YoQ1j8IGnJN7QI=
+
+Name: res/drawable/smoke_black.png
+SHA1-Digest: pCUoK48kgtEZKYDgmcLxrwFC8DQ=
+
+Name: res/drawable/smoke_black_small.png
+SHA1-Digest: BL6uxq0OPk9QhRsfKsD84FrU+08=
+
+Name: res/drawable/smoke_white.png
+SHA1-Digest: JXTC/k5tmV5z+z+dvH5J+R7twzI=
+
+Name: res/drawable/stats_button_armyvalue.png
+SHA1-Digest: cmjRwqYSMpxC8mGAbMO025bt6U0=
+
+Name: res/drawable/stats_button_buildingvalue.png
+SHA1-Digest: L3RH7w79y0PJajCP5fQLJgar3xk=
+
+Name: res/drawable/stats_button_income.png
+SHA1-Digest: 398pS9b5yNAFxgoKCmD8ZVXV+IE=
+
+Name: res/drawable/stats_button_info.png
+SHA1-Digest: IuORTLFGJPZIuw+2euHMnPsXVtE=
+
+Name: res/drawable/stats_button_totalvalue.png
+SHA1-Digest: T8gVGFXwX0UqAWgBkTsM+SSkWBs=
+
+Name: res/drawable/stats_toggle_relative.png
+SHA1-Digest: +zs0LVKHRP3f9BCMCJI22bfr8zA=
+
+Name: res/drawable/stats_toggle_teams.png
+SHA1-Digest: T0CeXVw1QEmTZ5iVawWkxZdkZkw=
+
+Name: res/drawable/supply_depot.png
+SHA1-Digest: nSHrC71uOa5voVZ4g3r6zobA008=
+
+Name: res/drawable/supply_depot_dead.png
+SHA1-Digest: bhGN/r3g2qK0wagu0jSeifv+oSw=
+
+Name: res/drawable/supply_depot_t2.png
+SHA1-Digest: BUihiPhcCCQFRmouBK/YFcZ+ZF0=
+
+Name: res/drawable/tank1.png
+SHA1-Digest: 6lZ9rVi82Vz44Vx0VI5sddch79w=
+
+Name: res/drawable/tank1_dead.png
+SHA1-Digest: vHKXhHKHJN6MhMrDcLwRw2fdbRw=
+
+Name: res/drawable/tank1_turret.png
+SHA1-Digest: wRTcQqYLp1ysRgR5HHtEtOy7Zs0=
+
+Name: res/drawable/tank2.png
+SHA1-Digest: CAu2HkJoipu0qB3wM0T8Yqwcd1c=
+
+Name: res/drawable/tank2_dead.png
+SHA1-Digest: f80EGMLTnKFibsxC60NeXUX5qqI=
+
+Name: res/drawable/tank2_shadow.png
+SHA1-Digest: p23ES1jZNkTl/PYeQomfpKhaNJ8=
+
+Name: res/drawable/tank2_turret.png
+SHA1-Digest: 5MZ8gfwSxHMyNfVp+OVdlylw3+o=
+
+Name: res/drawable/temp_workaround_bug_image.png
+SHA1-Digest: wRTcQqYLp1ysRgR5HHtEtOy7Zs0=
+
+Name: res/drawable/title.png
+SHA1-Digest: q+wwKCVpwIK37C+TX1LfEd3Tu4Y=
+
+Name: res/drawable/touch_indicator.png
+SHA1-Digest: 5NAKfqy7IIPyFI3O9tnWW0cqIJs=
+
+Name: res/drawable/trees.png
+SHA1-Digest: yy6hQehHXlyfrUC0+rdD7TPf+tE=
+
+Name: res/drawable/trees_snow.png
+SHA1-Digest: xgAJmFe3hndqHwiDFBOepfFiGlM=
+
+Name: res/drawable/turret_base.png
+SHA1-Digest: V4hNHpz0aAIZXUWX2rN14C0h6F4=
+
+Name: res/drawable/turret_base_dead.png
+SHA1-Digest: dPYuum83WKjOf+jAFZ1QSTMDtwU=
+
+Name: res/drawable/turret_top.png
+SHA1-Digest: B01UhUYcrv7fZ3hlkSgIVtv36Nw=
+
+Name: res/drawable/turret_top_artillery.png
+SHA1-Digest: 5xZIbsV60StaPZsDupzHwzpl5lI=
+
+Name: res/drawable/turret_top_flame.png
+SHA1-Digest: xICFtf/XIt34jMxJ1riHhEFmQAU=
+
+Name: res/drawable/turret_top_l2.png
+SHA1-Digest: RJK07iIapBd30zzDJhexwk8Zmds=
+
+Name: res/drawable/turret_top_l3.png
+SHA1-Digest: zMCu8N6SrAl6AmTjplaWZAFGgO8=
+
+Name: res/drawable/unit_icon_air.png
+SHA1-Digest: dkR59utUhzoNFOF021eoOZHCBiE=
+
+Name: res/drawable/unit_icon_builder.png
+SHA1-Digest: y5Z9ydswssSWZpoYbdoizgSYU58=
+
+Name: res/drawable/unit_icon_building.png
+SHA1-Digest: zywZQcAZO8/Sgaqmxkv6j9En708=
+
+Name: res/drawable/unit_icon_building_air_turrent.png
+SHA1-Digest: 19YFbLSQm10FQxDiemR0cKF2Xzk=
+
+Name: res/drawable/unit_icon_building_turrent.png
+SHA1-Digest: VDO1EHaB5vZ1lb1fnjOQRT4pN54=
+
+Name: res/drawable/unit_icon_hover.png
+SHA1-Digest: Gt1PMNB7JcLhL7GMZzBSNyeI/LE=
+
+Name: res/drawable/unit_icon_land.png
+SHA1-Digest: bprs63JdxK9ymZgoQCSr6Ta531s=
+
+Name: res/drawable/unit_icon_land_exp.png
+SHA1-Digest: LhveMo3cy7CMLXA+SyNIPcIfUnA=
+
+Name: res/drawable/unit_icon_underwater.png
+SHA1-Digest: WHe3xHq+faYRDw0VZoDWicfM0tE=
+
+Name: res/drawable/unit_icon_water.png
+SHA1-Digest: x1ymW9e2euKaZTbapIqA2lEk8FU=
+
+Name: res/drawable/wall_b.png
+SHA1-Digest: NGiiSrR9JITXymyAvS41OsSvnms=
+
+Name: res/drawable/wall_h.png
+SHA1-Digest: 9fpSmNApxfR5Jx9GA4kxusXCjpY=
+
+Name: res/drawable/wall_v.png
+SHA1-Digest: jWrlB4ONesFh1aQS6cyxLkZ++ZY=
+
+Name: res/drawable/water_cloud.jpg
+SHA1-Digest: PL9heggVDkxScveKvI1oUd+0CCA=
+
+Name: res/drawable/water_layer1.png
+SHA1-Digest: ecsLz31U2O9UfCl0N8Zoqn4VT4g=
+
+Name: res/drawable/water_layer2.png
+SHA1-Digest: eY9flmieF4tRjkaYA0LhuiWI/rw=
+
+Name: res/drawable/zoom_button.png
+SHA1-Digest: agumVrAACOQZ7ee/AVgolVGJK3s=
+
+Name: res/layout-v11/alert_chat.xml
+SHA1-Digest: zT3xvq129L41DcB2dQs6izDf3bI=
+
+Name: res/layout-v11/multiplayer_battleroom.xml
+SHA1-Digest: 4K7YvycW8VaUVevCZxjVw6ezoOY=
+
+Name: res/layout/alert_chat.xml
+SHA1-Digest: wPIFOkGScdJF5ZrdRCfWmakQx0Q=
+
+Name: res/layout/credits.xml
+SHA1-Digest: R7zX2TMeHYk02WMvZMH+eyzKJOM=
+
+Name: res/layout/intro_screen.xml
+SHA1-Digest: RMvab6MyQgo/qwofBw+bHIYSLeI=
+
+Name: res/layout/level_options_popup.xml
+SHA1-Digest: CfdiafhuktvTO3t7xR9EruaJC6k=
+
+Name: res/layout/level_select.xml
+SHA1-Digest: MsSbV6Pk8T32HyEF9Dh3t3Dj0fM=
+
+Name: res/layout/level_select_grid.xml
+SHA1-Digest: 1vUYuNpZTcwEln54Q/Q3RsxIzoE=
+
+Name: res/layout/load_level.xml
+SHA1-Digest: TZIuuleFQ7kSf5lvntXMLDkcdIA=
+
+Name: res/layout/main.xml
+SHA1-Digest: skaoGFQ6pS/osiSfiKhZsPdv5Fw=
+
+Name: res/layout/menu.xml
+SHA1-Digest: U2e1e6uoyV6kXySYPFjXE/aGq4U=
+
+Name: res/layout/mods.xml
+SHA1-Digest: BdZGCcdKCNDu0+CT1AhRpHEffco=
+
+Name: res/layout/multiplayer_battleroom.xml
+SHA1-Digest: ZiAG2j6ZfRzFagUE2uqtCcq3d/4=
+
+Name: res/layout/multiplayer_battleroom_gameoptions.xml
+SHA1-Digest: WDbx8SrFCMbv1SZcOL+ZCFuQOuI=
+
+Name: res/layout/multiplayer_battleroom_playerpopup.xml
+SHA1-Digest: bk1DWBU5qvrzO95TOT1Mu8mJ9ro=
+
+Name: res/layout/multiplayer_lobby.xml
+SHA1-Digest: z4T3V1Yp0Bvl94Ld3PBM6lJqfEY=
+
+Name: res/layout/multiplayer_lobby_hostgame.xml
+SHA1-Digest: TgSuINm6ZkT9sc1fIxL1ul/t/QE=
+
+Name: res/layout/new_mission_starter.xml
+SHA1-Digest: 9ii0DtpNj5UNo6NowP2LykW0CME=
+
+Name: res/layout/quick_help.xml
+SHA1-Digest: F5D9FqcMLl35zzyqt/axHmZ8aF8=
+
+Name: res/layout/replay_select.xml
+SHA1-Digest: JEUq1uvI85OHsXN/tMhwqR+FRBg=
+
+Name: res/layout/settings.xml
+SHA1-Digest: pcjCYJXpDNBFp0B3sMXseriqMcs=
+
+Name: res/layout/settings_keyboard.xml
+SHA1-Digest: P0ACTNjMc8kn6gpdh0ziUpLiTcY=
+
+Name: res/raw/attack.wav
+SHA1-Digest: vIia1SIzxGE+ydWCZA3DQQO6N4o=
+
+Name: res/raw/attack2.wav
+SHA1-Digest: yUqdUUZlxXTaejKsWQvhUvQM5hI=
+
+Name: res/raw/bug_attack.ogg
+SHA1-Digest: CbT2qSpS7Dd+UFh5ac5mXNJO3Jc=
+
+Name: res/raw/bug_die.ogg
+SHA1-Digest: cyPqihA5Mn6LBELbb2v/rfVjNvw=
+
+Name: res/raw/buiding_explode.ogg
+SHA1-Digest: kdzRTFEk330jWtQnZhOhYjp+RVU=
+
+Name: res/raw/cannon_firing.ogg
+SHA1-Digest: 2Rb/0t3fJFuvE92lD8uCYwNB+jM=
+
+Name: res/raw/click.ogg
+SHA1-Digest: TQj/aYYffr++6gwkiu8Ujm2y1ZY=
+
+Name: res/raw/click_add.ogg
+SHA1-Digest: pt19fST5aiIIcv1TRlIooSnAPLU=
+
+Name: res/raw/click_remove.ogg
+SHA1-Digest: 2oR4PAKp9Zg4CTG+7CDlNsBHIaU=
+
+Name: res/raw/firing3.ogg
+SHA1-Digest: rYINv5p8Fy2S0SPNHb8zCHgQdVI=
+
+Name: res/raw/firing4.ogg
+SHA1-Digest: 00VhT0GiW+MDou/wn+Ob3PqE374=
+
+Name: res/raw/gun_fire.ogg
+SHA1-Digest: n1i1jEy+3vVJZ0mZ2z1eWzrmLvE=
+
+Name: res/raw/interface_error.ogg
+SHA1-Digest: E2bpNJFBqbBLL1k4aMmmBKKu8Cs=
+
+Name: res/raw/large_gun_fire1.ogg
+SHA1-Digest: QErmQfmy+sH/4TtOKbdp4dVT9vs=
+
+Name: res/raw/large_gun_fire2.ogg
+SHA1-Digest: yhrEFspVyf2rqd6uwaSab2894xM=
+
+Name: res/raw/laser_deflect.ogg
+SHA1-Digest: TMgTwPykN7NYQheyOvKcSAY1rZ8=
+
+Name: res/raw/laser_deflect2.ogg
+SHA1-Digest: YZ9Vz1A0rjf2mloA7d/CMMSO+eA=
+
+Name: res/raw/lighting_burst.ogg
+SHA1-Digest: P8HxiTniDrbp2kKSWbEuBq0IxbI=
+
+Name: res/raw/message.ogg
+SHA1-Digest: odJDmW/4NxaqOnnVrhL9UtIJMJk=
+
+Name: res/raw/missile_fire.ogg
+SHA1-Digest: 7Faq91gl94LkjjtWTt7TwDkNXSg=
+
+Name: res/raw/missile_hit.ogg
+SHA1-Digest: FmpDP0LKFXBSZbDZHxktU8XIIA4=
+
+Name: res/raw/move.wav
+SHA1-Digest: ZUVFJkP8JdkpR5IpEsdoytuNNY8=
+
+Name: res/raw/nuke_explode.ogg
+SHA1-Digest: WpKPACV01LD9Ao9NAAgsKo1S39I=
+
+Name: res/raw/nuke_launch.ogg
+SHA1-Digest: V8ACAdY9mPbJ3DtRSLafkHJYIm8=
+
+Name: res/raw/plasma_fire.ogg
+SHA1-Digest: 9pkiq1o8Jia/9X3xBFuDzaDAjEY=
+
+Name: res/raw/plasma_fire2.ogg
+SHA1-Digest: QVe3YTaMFpZ1ZCCRjBK8iKEflSQ=
+
+Name: res/raw/tank_firing.ogg
+SHA1-Digest: 5Q5RhYH4TrAfNA+N4U8sPuW2LGs=
+
+Name: res/raw/unit_explode.ogg
+SHA1-Digest: pcv4OuA7P/qpkCEuF6jj1vf4MUs=
+
+Name: res/raw/unit_explode_old.ogg
+SHA1-Digest: zcdPrgM/Am8TqCKEt4i5YpYGawo=
+
+Name: res/raw/warning.ogg
+SHA1-Digest: 1QQ1wtg6a0u9cU7Hg0oRN8Cu/GM=
+
+Name: res/xml/provider_paths.xml
+SHA1-Digest: TEZ/QrzT5rA9G9KG3pLm+31RIJQ=
+
+Name: resources.arsc
+SHA1-Digest: MrSGKLr+WxkpAC2sc4FYTkoRf6E=
+

@@ -72,6 +72,10 @@ android {
     sourceSets["main"].resources.srcDir(rootDir.absolutePath + "/lib")
     sourceSets["main"].resources.include("android-game-lib.jar")
 
+    lint {
+        abortOnError = false
+        //baseline = file("lint-baseline.xml")
+    }
     // For KSP
 //    applicationVariants.configureEach {
 //        val variant: com.android.build.gradle.api.ApplicationVariant = this

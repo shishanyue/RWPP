@@ -9,6 +9,8 @@ package io.github.rwpp.desktop.impl.inject
 
 import io.github.rwpp.appKoin
 import io.github.rwpp.desktop.*
+import io.github.rwpp.desktop.impl.GameEngineInternal
+import io.github.rwpp.desktop.impl.PlayerInternal
 import io.github.rwpp.event.broadcastIn
 import io.github.rwpp.event.events.GameOverEvent
 import io.github.rwpp.event.events.PlayerDefeatedEvent
@@ -48,7 +50,7 @@ object PlayerInject {
             //当不存在其它队伍时，游戏结束
             if (lastTeam != null) {
                 logger.info("Game Over! Team $lastTeam wins!")
-                GameOverEvent(GameEngine.B().by, lastTeam).broadcastIn()
+                GameOverEvent(GameEngineInternal.B().by, lastTeam).broadcastIn()
                 gameOver = true
             }
         }

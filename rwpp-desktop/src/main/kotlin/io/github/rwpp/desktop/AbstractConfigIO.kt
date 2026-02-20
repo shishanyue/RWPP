@@ -9,6 +9,7 @@ package io.github.rwpp.desktop
 
 import com.corrodinggames.rts.gameFramework.SettingsEngine
 import io.github.rwpp.config.ConfigIO
+import io.github.rwpp.desktop.impl.GameEngineInternal
 import java.lang.reflect.Field
 
 abstract class AbstractConfigIO : ConfigIO {
@@ -17,16 +18,16 @@ abstract class AbstractConfigIO : ConfigIO {
     @Suppress("UNCHECKED_CAST")
     override fun <T> getGameConfig(name: String): T {
         val field = fieldCache.getOrPut(name) { SettingsEngine::class.java.getDeclaredField(name) }
-        return field.get(GameEngine.B().bQ) as T
+        return field.get(GameEngineInternal.B().bQ) as T
     }
 
     override fun setGameConfig(name: String, value: Any?) {
         val field = fieldCache.getOrPut(name) { SettingsEngine::class.java.getDeclaredField(name) }
-        field.set(GameEngine.B().bQ, value)
+        field.set(GameEngineInternal.B().bQ, value)
     }
 
     override fun saveAllConfig() {
         super.saveAllConfig()
-        GameEngine.B().bQ.save()
+        GameEngineInternal.B().bQ.save()
     }
 }

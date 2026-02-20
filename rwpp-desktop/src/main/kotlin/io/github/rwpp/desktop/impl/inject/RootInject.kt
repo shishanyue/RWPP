@@ -14,6 +14,7 @@ import com.corrodinggames.librocket.scripts.ScriptContext
 import com.corrodinggames.librocket.scripts.ScriptEngine
 import io.github.rwpp.appKoin
 import io.github.rwpp.desktop.*
+import io.github.rwpp.desktop.impl.GameEngineInternal
 import io.github.rwpp.event.broadcastIn
 import io.github.rwpp.event.events.QuitGameEvent
 import io.github.rwpp.event.events.ReturnMainMenuEvent
@@ -30,7 +31,7 @@ object RootInject {
     fun onShowMainMenu() {
         if(isGaming) {
             if(singlePlayer) appKoin.get<Game>().gameRoom.disconnect()
-            GameEngine.B().bS.u = false
+            GameEngineInternal.B().bS.u = false
             gameCanvas.isVisible = false
             rwppVisibleSetter(true)
             isGaming = false
@@ -51,7 +52,7 @@ object RootInject {
     @Inject("showBattleroom", InjectMode.Override)
     fun onShowBattleroom() {
         if(isGaming) {
-            GameEngine.B().bS.u = false
+            GameEngineInternal.B().bS.u = false
             gameCanvas.isVisible = false
             rwppVisibleSetter(true)
             isGaming = false

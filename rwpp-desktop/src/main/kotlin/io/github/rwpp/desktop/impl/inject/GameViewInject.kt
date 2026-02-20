@@ -14,11 +14,11 @@ import com.corrodinggames.rts.gameFramework.f.am
 import com.corrodinggames.rts.gameFramework.f.g
 import io.github.rwpp.appKoin
 import io.github.rwpp.config.Settings
-import io.github.rwpp.desktop.FClass
-import io.github.rwpp.desktop.GameEngine
-import io.github.rwpp.desktop.GameView
+import io.github.rwpp.desktop.impl.FClassInternal
+import io.github.rwpp.desktop.impl.GameEngineInternal
+import io.github.rwpp.desktop.impl.GameViewInternal
 import io.github.rwpp.game.Game
-import io.github.rwpp.game.units.GameUnit
+import io.github.rwpp.game.units.UnitRef
 import io.github.rwpp.i18n.readI18n
 import io.github.rwpp.inject.Inject
 import io.github.rwpp.inject.InjectClass
@@ -27,26 +27,26 @@ import io.github.rwpp.utils.Reflect
 import kotlin.math.roundToInt
 
 
-@InjectClass(GameView::class)
+@InjectClass(GameViewInternal::class)
 object GameViewInject {
     var buttons: java.util.ArrayList<Any?>? = null
-    val render: g by lazy { GameEngine.B().bS }
+    val render: g by lazy { GameEngineInternal.B().bS }
     var unitGroups: ArrayList<am>? = null
     val room by lazy { appKoin.get<Game>().gameRoom }
     val settings by lazy { appKoin.get<Settings>() }
 
     @Inject("a", InjectMode.InsertAfter)
-    fun GameView.onAddGameAction(am: com.corrodinggames.rts.game.units.am?, arrayList: java.util.ArrayList<Any?>?) {
+    fun GameViewInternal.onAddGameAction(am: com.corrodinggames.rts.game.units.am?, arrayList: java.util.ArrayList<Any?>?) {
         buttons = buttons ?: Reflect.get(this, "aq")
 
-        if (settings.showExtraButton && GameEngine.B().bS.bZ.isEmpty()) {
+        if (settings.showExtraButton && GameEngineInternal.B().bS.bZ.isEmpty()) {
             buttons!!.add(ShowAttackRangeBuilding)
             buttons!!.add(ShowAttackRangeUnits)
         }
 
         if (settings.showExtraButton
-            && GameEngine.B().bS.bZ.size == 1
-            && (GameEngine.B().bS.bZ.first() as GameUnit).player.team != room.localPlayer.team)  {
+            && GameEngineInternal.B().bS.bZ.size == 1
+            && (GameEngineInternal.B().bS.bZ.first() as UnitRef).player.team != room.localPlayer.team)  {
             buttons!!.add(
                 ShowAttackRange
             )
@@ -70,10 +70,10 @@ object GameViewInject {
 
         // com.corrodinggames.rts.game.units.a.s
         override fun c(amVar: com.corrodinggames.rts.game.units.am?, z: Boolean): Boolean {
-            //GameEngine.B().bS.g.n()
-            val unit = GameEngine.B().bS.bZ.firstOrNull()
+            //GameEngineInternal.B().bS.g.n()
+            val unit = GameEngineInternal.B().bS.bZ.firstOrNull()
             if (unit != null) {
-                (unit as GameUnit).comp.showAttackRange = !unit.comp.showAttackRange
+                (unit as UnitRef).comp.showAttackRange = !unit.comp.showAttackRange
             }
             return true
         }
@@ -93,7 +93,7 @@ object GameViewInject {
         }
 
         override fun c(amVar: com.corrodinggames.rts.game.units.am?, z: Boolean): Boolean {
-            //GameEngine.B().bS.g.n()
+            //GameEngineInternal.B().bS.g.n()
 
             settings.showBuildingAttackRange = !settings.showBuildingAttackRange
             return true
@@ -115,7 +115,7 @@ object GameViewInject {
         }
 
         override fun c(amVar: com.corrodinggames.rts.game.units.am?, z: Boolean): Boolean {
-            //GameEngine.B().bS.g.n()
+            //GameEngineInternal.B().bS.g.n()
             val index = Settings.unitAttackRangeTypes.indexOf(settings.showAttackRangeUnit)
             settings.showAttackRangeUnit = Settings.unitAttackRangeTypes.getOrNull(index + 1) ?: Settings.unitAttackRangeTypes.first()
             return true
@@ -123,9 +123,9 @@ object GameViewInject {
     }
 
     @Inject("e", InjectMode.Override)
-    fun GameView.unitGroupUI(f: Float) {
+    fun GameViewInternal.unitGroupUI(f: Float) {
         unitGroups = unitGroups ?: Reflect.get(this, "aA")
-        val B = GameEngine.B()
+        val B = GameEngineInternal.B()
         val i = (B.cH - (30.0f * B.cj))
         val i3 = ((B.cq - 20.0f).roundToInt()) / 3
         var i2 = ((B.cl - B.cq) - i3 * (settings.maxDisplayUnitGroupCount - 3) - settings.displayUnitGroupXOffset + 10)
@@ -162,9 +162,9 @@ object GameViewInject {
                 } else {
                     VariableScope.nullOrMissingString + amVar.a.size
                 }
-                amVar.d = FClass.a(amVar.d, 0.01f * f)
-                amVar.e = FClass.a(amVar.e, 0.01f * f)
-                amVar.f = FClass.a(amVar.f, 0.01f * f)
+                amVar.d = FClassInternal.a(amVar.d, 0.01f * f)
+                amVar.e = FClassInternal.a(amVar.e, 0.01f * f)
+                amVar.f = FClassInternal.a(amVar.f, 0.01f * f)
 
                 render!!.a(
                     i2.roundToInt(),

@@ -7,6 +7,7 @@
 
 package io.github.rwpp.desktop
 
+import io.github.rwpp.desktop.impl.PlayerInternal
 import java.util.concurrent.CopyOnWriteArraySet
 
 @Volatile

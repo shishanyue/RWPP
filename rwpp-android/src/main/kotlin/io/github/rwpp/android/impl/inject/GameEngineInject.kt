@@ -8,7 +8,7 @@
 package io.github.rwpp.android.impl.inject
 
 import android.util.Log
-import io.github.rwpp.android.impl.GameEngine
+import io.github.rwpp.android.impl.GameEngineInternal
 import io.github.rwpp.android.isReturnToBattleRoom
 import io.github.rwpp.inject.Inject
 import io.github.rwpp.inject.InjectClass
@@ -16,7 +16,7 @@ import io.github.rwpp.inject.InjectMode
 import io.github.rwpp.inject.InterruptResult
 import io.github.rwpp.ui.UI
 
-@InjectClass(GameEngine::class)
+@InjectClass(GameEngineInternal::class)
 object GameEngineInject {
     @Inject("g", InjectMode.Override)
     fun onSendWarning(message: String) {

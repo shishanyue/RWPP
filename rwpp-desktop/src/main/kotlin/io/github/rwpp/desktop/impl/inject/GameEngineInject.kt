@@ -7,13 +7,13 @@
 
 package io.github.rwpp.desktop.impl.inject
 
-import io.github.rwpp.desktop.GameEngine
+import io.github.rwpp.desktop.impl.GameEngineInternal
 import io.github.rwpp.inject.Inject
 import io.github.rwpp.inject.InjectClass
 import io.github.rwpp.inject.InjectMode
 import io.github.rwpp.inject.InterruptResult
 
-@InjectClass(GameEngine::class)
+@InjectClass(GameEngineInternal::class)
 object GameEngineInject {
     val interruptResult = InterruptResult()
     @Inject("c", injectMode = InjectMode.InsertBefore)

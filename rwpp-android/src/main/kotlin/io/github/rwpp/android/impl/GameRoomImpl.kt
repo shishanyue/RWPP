@@ -9,7 +9,6 @@ package io.github.rwpp.android.impl
 
 import android.annotation.SuppressLint
 import android.content.Intent
-import com.corrodinggames.rts.appFramework.InGameActivity
 import com.corrodinggames.rts.appFramework.LevelSelectActivity
 import com.corrodinggames.rts.appFramework.MultiplayerBattleroomActivity
 import com.corrodinggames.rts.game.a.a
@@ -31,7 +30,7 @@ import io.github.rwpp.game.Player
 import io.github.rwpp.game.data.RoomOption
 import io.github.rwpp.game.map.*
 import io.github.rwpp.game.team.TeamMode
-import io.github.rwpp.game.units.UnitType
+import io.github.rwpp.game.units.AbstractUnitTypeBase
 import io.github.rwpp.mapDir
 import io.github.rwpp.net.packets.GamePacket
 import io.github.rwpp.utils.Reflect
@@ -43,75 +42,75 @@ class GameRoomImpl(private val game: GameImpl) : GameRoom {
         get() = PlayerInternal.c
         set(value) { PlayerInternal.b(value, true) }
     override val isHost: Boolean
-        get() = GameEngine.t().bU.D
+        get() = GameEngineInternal.t().bU.D
     override val isHostServer: Boolean
-        get() = GameEngine.t().bU.I
+        get() = GameEngineInternal.t().bU.I
     override val localPlayer: Player
         get() {
-            val t = GameEngine.t()
+            val t = GameEngineInternal.t()
             return (t.bU.A as Player?) ?: ConnectingPlayer
         }
     override var sharedControl: Boolean
-        get() = GameEngine.t().bU.aA.l
-        set(value) { GameEngine.t().bU.aA.l = value }
+        get() = GameEngineInternal.t().bU.aA.l
+        set(value) { GameEngineInternal.t().bU.aA.l = value }
     override val randomSeed: Int
-        get() = GameEngine.t().bU.aA.q
+        get() = GameEngineInternal.t().bU.aA.q
     override val mapType: MapType
-        get() = MapType.entries[GameEngine.t().bU.aA.a.ordinal]
+        get() = MapType.entries[GameEngineInternal.t().bU.aA.a.ordinal]
     override var selectedMap: GameMap
         get() = game.getAllMaps().firstOrNull {
             if (isHost)
-                (lastMapPath ?: GameEngine.t().bU.aB).endsWith(getMapRealPath(it))
-            else GameEngine.t().bU.aA.b.contains(it.displayName())
-        } ?: NetworkMap(LevelSelectActivity.convertLevelFileNameForDisplay(GameEngine.t().bU.aA.b))
+                (lastMapPath ?: GameEngineInternal.t().bU.aB).endsWith(getMapRealPath(it))
+            else GameEngineInternal.t().bU.aA.b.contains(it.displayName())
+        } ?: NetworkMap(LevelSelectActivity.convertLevelFileNameForDisplay(GameEngineInternal.t().bU.aA.b))
         set(value) {
             lastMapPath = null
             if (isHostServer) {
-                GameEngine.t().bU.i("-map" + com.corrodinggames.rts.gameFramework.e.a.q(LevelSelectActivity.convertLevelFileNameForDisplay(value.mapName)) + "'")
+                GameEngineInternal.t().bU.i("-map" + com.corrodinggames.rts.gameFramework.e.a.q(LevelSelectActivity.convertLevelFileNameForDisplay(value.mapName)) + "'")
             } else {
-                GameEngine.t().bU.aB = getMapRealPath(value)
-                GameEngine.t().bU.aA.a = com.corrodinggames.rts.gameFramework.j.at.entries[value.mapType.ordinal]
-                GameEngine.t().bU.aA.b = (value.mapName + value.getMapSuffix())
+                GameEngineInternal.t().bU.aB = getMapRealPath(value)
+                GameEngineInternal.t().bU.aA.a = com.corrodinggames.rts.gameFramework.j.at.entries[value.mapType.ordinal]
+                GameEngineInternal.t().bU.aA.b = (value.mapName + value.getMapSuffix())
                 MapChangedEvent(value.displayName()).broadcastIn()
                 updateUI()
             }
         }
     override var displayMapName: String
-        get() = LevelSelectActivity.convertLevelFileNameForDisplay(GameEngine.t().bU.aA.b)
-        set(value) { GameEngine.t().bU.aA.b = value }
+        get() = LevelSelectActivity.convertLevelFileNameForDisplay(GameEngineInternal.t().bU.aA.b)
+        set(value) { GameEngineInternal.t().bU.aA.b = value }
     override var startingCredits: Int
-        get() = GameEngine.t().bU.aA.c
-        set(value) { GameEngine.t().bU.aA.c = value }
+        get() = GameEngineInternal.t().bU.aA.c
+        set(value) { GameEngineInternal.t().bU.aA.c = value }
     override var startingUnits: Int
-        get() = GameEngine.t().bU.aA.g
-        set(value) { GameEngine.t().bU.aA.g = value }
+        get() = GameEngineInternal.t().bU.aA.g
+        set(value) { GameEngineInternal.t().bU.aA.g = value }
     override var fogMode: FogMode
-        get() = FogMode.entries[GameEngine.t().bU.aA.d.coerceAtLeast(0)]
-        set(value) { GameEngine.t().bU.aA.d = value.ordinal }
+        get() = FogMode.entries[GameEngineInternal.t().bU.aA.d.coerceAtLeast(0)]
+        set(value) { GameEngineInternal.t().bU.aA.d = value.ordinal }
     override var revealedMap: Boolean
-        get() = GameEngine.t().bU.aA.e
-        set(value) { GameEngine.t().bU.aA.e = value }
+        get() = GameEngineInternal.t().bU.aA.e
+        set(value) { GameEngineInternal.t().bU.aA.e = value }
     override var aiDifficulty: Int
-        get() = GameEngine.t().bU.aA.f
-        set(value) {  GameEngine.t().bU.aA.f = value }
+        get() = GameEngineInternal.t().bU.aA.f
+        set(value) {  GameEngineInternal.t().bU.aA.f = value }
     override var incomeMultiplier: Float
-        get() = GameEngine.t().bU.aA.h
-        set(value) { GameEngine.t().bU.aA.h = value}
+        get() = GameEngineInternal.t().bU.aA.h
+        set(value) { GameEngineInternal.t().bU.aA.h = value}
     override var noNukes: Boolean
-        get() = GameEngine.t().bU.aA.i
-        set(value) {  GameEngine.t().bU.aA.i = value }
+        get() = GameEngineInternal.t().bU.aA.i
+        set(value) {  GameEngineInternal.t().bU.aA.i = value }
     override var allowSpectators: Boolean
-        get() = GameEngine.t().bU.aA.o
-        set(value) { GameEngine.t().bU.aA.o = value }
+        get() = GameEngineInternal.t().bU.aA.o
+        set(value) { GameEngineInternal.t().bU.aA.o = value }
     override var lockedRoom: Boolean
-        get() = GameEngine.t().bU.aA.p
+        get() = GameEngineInternal.t().bU.aA.p
         set(value) {
-            GameEngine.t().bU.aA.p = value
+            GameEngineInternal.t().bU.aA.p = value
             if(isHost && value) sendSystemMessage("Room has been locked. Now player can't join the room")
         }
     override var teamLock: Boolean
-        get() = GameEngine.t().bU.aA.m
-        set(value) { GameEngine.t().bU.aA.m = value }
+        get() = GameEngineInternal.t().bU.aA.m
+        set(value) { GameEngineInternal.t().bU.aA.m = value }
     override val mods: Array<String>
         get() = roomMods
     override val isStartGame: Boolean
@@ -126,7 +125,7 @@ class GameRoomImpl(private val game: GameImpl) : GameRoom {
     override var isRWPPRoom: Boolean = false
     override var option: RoomOption = RoomOption()
     override val isConnecting: Boolean
-        get() = GameEngine.t().bU.C
+        get() = GameEngineInternal.t().bU.C
 
     private var mapIndex = 0
     private var lastMapPath: String? = null
@@ -336,23 +335,23 @@ class GameRoomImpl(private val game: GameImpl) : GameRoom {
     }
 
     override fun sendChatMessage(message: String) {
-        GameEngine.t().bU.k(message)
+        GameEngineInternal.t().bU.k(message)
     }
 
     override fun sendSystemMessage(message: String) {
-        GameEngine.t().bU.h(message)
+        GameEngineInternal.t().bU.h(message)
     }
 
     override fun sendQuickGameCommand(command: String) {
-        GameEngine.t().bU.i(command)
+        GameEngineInternal.t().bU.i(command)
     }
 
     override fun pauseOrResumeGame(pause: Boolean) {
         if (isSinglePlayerGame) {
             _gameSpeed = if (pause) 0f else 1f
         } else {
-            GameEngine.t().bU.al = pause
-            GameEngine.t().bU.am = pause
+            GameEngineInternal.t().bU.al = pause
+            GameEngineInternal.t().bU.am = pause
         }
     }
 
@@ -360,7 +359,7 @@ class GameRoomImpl(private val game: GameImpl) : GameRoom {
         if (player != null && player != localPlayer) {
             player.client?.sendPacketToClient(GamePacket.getChatPacket(title, message, color))
         } else {
-            Reflect.call(GameEngine.t().bU, "a",
+            Reflect.call(GameEngineInternal.t().bU, "a",
                 listOf(
                     com.corrodinggames.rts.gameFramework.j.c::class,
                     Int::class,
@@ -375,7 +374,7 @@ class GameRoomImpl(private val game: GameImpl) : GameRoom {
     override fun sendSurrender(player: Player) {
         if (isHost) {
             val pVar = player as com.corrodinggames.rts.game.p
-            val t = GameEngine.t()
+            val t = GameEngineInternal.t()
             pVar.F = true
             val b2: e = t.cc.b()
             b2.i = pVar
@@ -387,19 +386,19 @@ class GameRoomImpl(private val game: GameImpl) : GameRoom {
 
     override fun spawnUnit(
         player: Player,
-        unitType: UnitType,
+        abstractUnitTypeBase: AbstractUnitTypeBase,
         x: Float,
         y: Float,
         size: Int
     ) {
         if (isHost) {
             val pVar = player as com.corrodinggames.rts.game.p
-            val t = GameEngine.t()
+            val t = GameEngineInternal.t()
             val b2: e = t.cc.b()
             b2.i = pVar
             b2.s = true
             b2.v = 5
-            b2.a(x, y, unitType as com.corrodinggames.rts.game.units.el, size)
+            b2.a(x, y, abstractUnitTypeBase as com.corrodinggames.rts.game.units.el, size)
             t.bU.a(b2)
         }
     }
@@ -409,7 +408,7 @@ class GameRoomImpl(private val game: GameImpl) : GameRoom {
         if (isHost) {
             mainThreadChannel.trySend {
                 Reflect.call<ae, Any>(
-                    GameEngine.t().bU,
+                    GameEngineInternal.t().bU,
                     "a",
                     listOf(Boolean::class, Boolean::class, Boolean::class),
                     listOf(false, false, true)
@@ -423,7 +422,7 @@ class GameRoomImpl(private val game: GameImpl) : GameRoom {
     override fun addAI(count: Int) {
 
         repeat(count) {
-            val t: k = GameEngine.t()
+            val t: k = GameEngineInternal.t()
             if(!t.bU.D) {
                 if(t.bU.I) {
                     t.bU.i("-addai")
@@ -483,7 +482,7 @@ class GameRoomImpl(private val game: GameImpl) : GameRoom {
             this.allowSpectators = allowSpectators
         }
 
-        val t = GameEngine.t()
+        val t = GameEngineInternal.t()
         if (isHostServer) {
             if(fogMode != this.fogMode) {
                 t.bU.i("-fog ${ae.a(fogMode.ordinal)}")
@@ -518,10 +517,10 @@ class GameRoomImpl(private val game: GameImpl) : GameRoom {
             this.teamMode = teamMode
             if (teamMode != null) {
                 when(teamMode.name) {
-                    "2t" -> GameEngine.t().bU.a(com.corrodinggames.rts.gameFramework.j.ba.a)
-                    "3t" -> GameEngine.t().bU.a(com.corrodinggames.rts.gameFramework.j.ba.b)
-                    "FFA" -> GameEngine.t().bU.a(com.corrodinggames.rts.gameFramework.j.ba.c)
-                    "spectators" -> GameEngine.t().bU.a(com.corrodinggames.rts.gameFramework.j.ba.d)
+                    "2t" -> GameEngineInternal.t().bU.a(com.corrodinggames.rts.gameFramework.j.ba.a)
+                    "3t" -> GameEngineInternal.t().bU.a(com.corrodinggames.rts.gameFramework.j.ba.b)
+                    "FFA" -> GameEngineInternal.t().bU.a(com.corrodinggames.rts.gameFramework.j.ba.c)
+                    "spectators" -> GameEngineInternal.t().bU.a(com.corrodinggames.rts.gameFramework.j.ba.d)
                     else -> synchronized(Logic) { teamMode.onInit(this) }
                 }
             }
@@ -538,12 +537,12 @@ class GameRoomImpl(private val game: GameImpl) : GameRoom {
 
 
     override fun kickPlayer(player: Player) {
-        GameEngine.t().bU.d(player as com.corrodinggames.rts.game.p)
+        GameEngineInternal.t().bU.d(player as com.corrodinggames.rts.game.p)
     }
 
     override fun disconnect(reason: String) {
         io.github.rwpp.android.isSinglePlayerGame = false
-        if(isConnecting) GameEngine.t().bU.b(reason)
+        if(isConnecting) GameEngineInternal.t().bU.b(reason)
         isRWPPRoom = false
         option = RoomOption()
         roomMods = arrayOf()
@@ -560,7 +559,7 @@ class GameRoomImpl(private val game: GameImpl) : GameRoom {
     }
 
     override fun updateUI() {
-        val ae = GameEngine.t().bU
+        val ae = GameEngineInternal.t().bU
         ae.b()
         ae.p()
         ae.n()
@@ -569,7 +568,7 @@ class GameRoomImpl(private val game: GameImpl) : GameRoom {
 
     override fun startGame() {
         uiHandler.post {
-            val t: k = GameEngine.t()
+            val t: k = GameEngineInternal.t()
             gameOver = false
             defeatedPlayerSet.clear()
             isGaming = true
@@ -580,12 +579,12 @@ class GameRoomImpl(private val game: GameImpl) : GameRoom {
                     gameMapTransformer!!.invoke(xmlMap)
                     val path = "$mapDir/generated_${mapIndex++}.tmx"
                     val file = xmlMap.saveToFile(path)
-                    lastMapPath = lastMapPath ?: GameEngine.t().bU.aB
-                    GameEngine.t().bU.aB = path
+                    lastMapPath = lastMapPath ?: GameEngineInternal.t().bU.aB
+                    GameEngineInternal.t().bU.aB = path
                     GlobalEventChannel.filter(DisconnectEvent::class).subscribeOnce {
                         file.delete()
                     }
-                    GameEngine.t().bU.aA.a = com.corrodinggames.rts.gameFramework.j.at.entries[1]
+                    GameEngineInternal.t().bU.aA.a = com.corrodinggames.rts.gameFramework.j.at.entries[1]
                     updateUI()
                 }
                 t.bU.q()

@@ -10,7 +10,7 @@ package io.github.rwpp.desktop.impl.inject
 //import io.github.rwpp.appKoin
 //import io.github.rwpp.config.Settings
 //import io.github.rwpp.core.Logic
-//import io.github.rwpp.desktop.GameEngine
+//
 //import io.github.rwpp.game.units.GameUnit
 //import io.github.rwpp.inject.Inject
 //import io.github.rwpp.inject.InjectClass
@@ -24,7 +24,7 @@ package io.github.rwpp.desktop.impl.inject
 //    @Inject("a", InjectMode.InsertBefore)
 //    fun com.corrodinggames.rts.gameFramework.f.g.onAddSelectedUnits(command: com.corrodinggames.rts.gameFramework.e): Any? {
 //        return if (settings.pathfindingOptimization && command.j?.d() == com.corrodinggames.rts.game.units.av.a) {
-//            val selectedUnits = GameEngine.B().bS.bZ
+//            val selectedUnits = GameEngineInternal.B().bS.bZ
 //            val x = command.j.g()
 //            val y = command.j.h()
 //            val allCommandPackets = mutableListOf(command)

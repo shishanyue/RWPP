@@ -8,8 +8,33 @@
 package io.github.rwpp.desktop.impl
 
 
+typealias GameMapTypeInternal = com.corrodinggames.rts.gameFramework.j.ai
+typealias PlayerInternal = com.corrodinggames.rts.game.n
+typealias ClientInternal = com.corrodinggames.rts.gameFramework.j.c
+typealias GameViewInternal = com.corrodinggames.rts.gameFramework.f.a
+typealias FClassInternal = com.corrodinggames.rts.gameFramework.f
+typealias NetPacketInternal = com.corrodinggames.rts.gameFramework.e
+typealias IAClassInternal = com.corrodinggames.rts.gameFramework.i.a
+typealias MapEngineInternal = com.corrodinggames.rts.game.b
 
-typealias UnitEngine =    com.corrodinggames.rts.game.units.custom.l
+typealias GameEngineInternal = com.corrodinggames.rts.gameFramework.l
+
+typealias AbstractUnitAgentInternal = com.corrodinggames.rts.game.units.y
+typealias UnitTypeRefBaseInternal = com.corrodinggames.rts.game.units.custom.l
+typealias AbstractUnitTypeBaseInternal = com.corrodinggames.rts.game.units.`as`
+typealias UnitRefInternal = com.corrodinggames.rts.game.units.am
+
+typealias VariableScopeInternal = com.corrodinggames.rts.game.units.custom.logicBooleans.VariableScope
+typealias LogicBooleanLoaderInternal = com.corrodinggames.rts.game.units.custom.logicBooleans.LogicBooleanLoader
+typealias LogicBooleanContextInternal = com.corrodinggames.rts.game.units.custom.logicBooleans.`LogicBooleanLoader$LogicBooleanContext`
+typealias LogicBooleanInternal = com.corrodinggames.rts.game.units.custom.logicBooleans.LogicBoolean
+typealias LogicBooleanGameFunctionsInternal = com.corrodinggames.rts.game.units.custom.logicBooleans.LogicBooleanGameFunctions
+typealias LogicNumberFunctionInternal = com.corrodinggames.rts.game.units.custom.logicBooleans.LogicNumberFunction
+typealias LogicBooleanParameterInternal = com.corrodinggames.rts.game.units.custom.logicBooleans.`LogicBoolean$Parameter`
+typealias LogicBooleanReturnTypeInternal = com.corrodinggames.rts.game.units.custom.logicBooleans.`LogicBoolean$ReturnType`
+typealias BooleanParseExceptionInternal = com.corrodinggames.rts.game.units.custom.logicBooleans.BooleanParseException
+
+
 typealias Graphics = com.corrodinggames.rts.gameFramework.f
 typealias DClass = com.corrodinggames.rts.java.d
 typealias AClass = com.corrodinggames.rts.java.d.a
@@ -23,7 +48,3 @@ typealias AMClass = com.corrodinggames.rts.gameFramework.am
 typealias VClass = com.corrodinggames.rts.java.v
 typealias RwOutputStream = com.corrodinggames.rts.gameFramework.j.`as`
 typealias JClass = com.corrodinggames.rts.gameFramework.j
-
-
-
-//typealias Graphics = com.corrodinggames.rts.gameFramework.f

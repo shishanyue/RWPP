@@ -17,7 +17,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import dalvik.system.BaseDexClassLoader
 import dalvik.system.PathClassLoader
-import io.github.rwpp.android.impl.GameEngine
+import io.github.rwpp.android.impl.GameEngineInternal
 import io.github.rwpp.android.impl.PlayerInternal
 import io.github.rwpp.utils.Reflect
 import io.github.rwpp.widget.loadingMessage
@@ -54,7 +54,7 @@ val cachePlayerSet = CopyOnWriteArraySet<PlayerInternal>()
 val loadingThread by lazy {
     Thread({
         while (true) {
-            val msg = GameEngine.t()?.dF
+            val msg = GameEngineInternal.t()?.dF
             if (msg != null) {
                 message = msg
                 loadingMessage = msg

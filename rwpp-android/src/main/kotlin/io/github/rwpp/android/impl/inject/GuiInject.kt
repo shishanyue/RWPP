@@ -13,15 +13,14 @@ import android.graphics.Rect
 import com.corrodinggames.rts.game.units.ce
 import com.corrodinggames.rts.game.units.custom.logicBooleans.VariableScope
 import com.corrodinggames.rts.gameFramework.ah
-import com.corrodinggames.rts.gameFramework.f.a
 import com.corrodinggames.rts.gameFramework.f.a.i
 import com.corrodinggames.rts.gameFramework.f.av
 import com.corrodinggames.rts.gameFramework.utility.`SlickToAndroidKeycodes$AndroidCodes`
-import io.github.rwpp.android.impl.GameEngine
+import io.github.rwpp.android.impl.GameEngineInternal
 import io.github.rwpp.appKoin
 import io.github.rwpp.config.Settings
 import io.github.rwpp.game.Game
-import io.github.rwpp.game.units.GameUnit
+import io.github.rwpp.game.units.UnitRef
 import io.github.rwpp.i18n.readI18n
 import io.github.rwpp.inject.Accessor
 import io.github.rwpp.inject.Inject
@@ -60,7 +59,7 @@ object GuiInject {
             buttons!!.add(ShowAttackRangeBuilding)
             buttons!!.add(ShowAttackRangeUnits)
         }
-        if (unit != null && settings.showExtraButton && (unit as GameUnit).player.team != room.localPlayer.team) {
+        if (unit != null && settings.showExtraButton && (unit as UnitRef).player.team != room.localPlayer.team) {
             buttons!!.add(ShowAttackRange)
         }
     }
@@ -72,13 +71,13 @@ object GuiInject {
         var sb: String?
         var z: Boolean
         var f2: Float
-        val engine = GameEngine.t()
+        val engine = GameEngineInternal.t()
         val i = (engine.cE - (engine.cg * 30.0f)).toInt()
         val i3 = ((engine.cn - 20.0f).toInt()) / 3
         var i2 = ((engine.ci - engine.cn) - i3 * (settings.maxDisplayUnitGroupCount - 3) - settings.displayUnitGroupXOffset + 10).toInt()
         val i4 = i3 - 5
         var i5 = 0
-        val render = GameEngine.t().bP
+        val render = GameEngineInternal.t().bP
         while (true) {
             val i6 = i5
             if (i6 >= unitGroups!!.size) {
@@ -209,8 +208,8 @@ object GuiInject {
 
     private fun GUI.drawGroupText(i: Int, i2: Int, i3: Int, str: String?, str2: String?, paint: Paint?, f: Float) {
         val i4 = (i3 * 2.5).toInt()
-        val render = GameEngine.t().bP
-        val engine = GameEngine.t()
+        val render = GameEngineInternal.t().bP
+        val engine = GameEngineInternal.t()
         val i5 = (40.0f * engine.cg).toInt()
         val i6: Float = (i + (i3 / 2)).toFloat()
         val i7 = ((i2 - i5) - (35.0f * engine.cg)).toInt()
@@ -250,9 +249,9 @@ object GuiInject {
 
         override fun c(unit: com.corrodinggames.rts.game.units.ce, z: Boolean): Boolean {
             //GameEngine.B().bS.g.n()
-            val unit = GameEngine.t().bP.bZ.firstOrNull()
+            val unit = GameEngineInternal.t().bP.bZ.firstOrNull()
             if (unit != null) {
-                (unit as GameUnit).comp.showAttackRange = !unit.comp.showAttackRange
+                (unit as UnitRef).comp.showAttackRange = !unit.comp.showAttackRange
             }
             return true
         }

@@ -31,7 +31,7 @@ import java.util.zip.ZipFile
 
 
 @Single(binds = [ExternalHandler::class, Initialization::class])
-class ExternalHandlerImpl : BaseExternalHandlerImpl() {
+class  ExternalHandlerImpl : BaseExternalHandlerImpl() {
     override fun enableResource(resource: Extension?) {
         if (resource?.config?.hasResource == false) return
         _usingResource = resource

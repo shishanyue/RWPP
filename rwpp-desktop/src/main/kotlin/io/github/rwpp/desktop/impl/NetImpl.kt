@@ -8,7 +8,6 @@
 package io.github.rwpp.desktop.impl
 
 import io.github.rwpp.core.Initialization
-import io.github.rwpp.desktop.GameEngine
 import io.github.rwpp.desktop.asGamePacket
 import io.github.rwpp.impl.BaseNetImpl
 import io.github.rwpp.net.Net
@@ -20,11 +19,11 @@ import java.net.URI
 @Single(binds = [Net::class, Initialization::class])
 class NetImpl : BaseNetImpl() {
     override fun sendPacketToServer(packet: Packet) {
-        GameEngine.B().bX.f(packet.asGamePacket())
+        GameEngineInternal.B().bX.f(packet.asGamePacket())
     }
 
     override fun sendPacketToClients(packet: Packet) {
-        GameEngine.B().bX.g(packet.asGamePacket())
+        GameEngineInternal.B().bX.g(packet.asGamePacket())
     }
 
     override fun openUriInBrowser(uri: String) {

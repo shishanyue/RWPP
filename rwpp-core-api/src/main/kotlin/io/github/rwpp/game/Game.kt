@@ -11,11 +11,11 @@ import io.github.rwpp.core.LoadingContext
 import io.github.rwpp.game.base.Difficulty
 import io.github.rwpp.game.map.*
 import io.github.rwpp.game.ui.GUI
-import io.github.rwpp.game.units.UnitType
+import io.github.rwpp.game.units.AbstractUnitTypeBase
 import io.github.rwpp.game.world.World
 import org.koin.core.component.KoinComponent
 
-interface Game : KoinComponent {
+interface  Game : KoinComponent {
     /**
      * Current game room.
      */
@@ -129,12 +129,12 @@ interface Game : KoinComponent {
     /**
      * Get all the unit list.
      */
-    fun getAllUnitTypes(): List<UnitType>
+    fun getAllUnitTypes(): List<AbstractUnitTypeBase>
 
     /**
      * Ban given unit, and all actions about the unit will not executed.
      */
-    fun onBanUnits(units: List<UnitType>)
+    fun onBanUnits(units: List<AbstractUnitTypeBase>)
 
     /**
      * Get all replays.

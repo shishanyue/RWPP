@@ -7,17 +7,17 @@
 
 package io.github.rwpp.android.impl.inject
 
-import io.github.rwpp.android.impl.NetPacket
+import io.github.rwpp.android.impl.NetPacketInternal
 import io.github.rwpp.appKoin
 import io.github.rwpp.config.Settings
 import io.github.rwpp.inject.Inject
 import io.github.rwpp.inject.InjectClass
 import io.github.rwpp.inject.InjectMode
 
-@InjectClass(NetPacket::class)
+@InjectClass(NetPacketInternal::class)
 object PacketInject {
     @Inject("a", InjectMode.InsertBefore)
-    fun NetPacket.onSendGameCommand(a: com.corrodinggames.rts.gameFramework.j.bg) {
+    fun NetPacketInternal.onSendGameCommand(a: com.corrodinggames.rts.gameFramework.j.bg) {
         if (settings.enhancedReinforceTroops) {
             val actionString = this.k.b
             if (actionString != "-1") {
@@ -30,7 +30,7 @@ object PacketInject {
         }
     }
 
-    private val wField = NetPacket::class.java.getDeclaredField("w").apply {
+    private val wField = NetPacketInternal::class.java.getDeclaredField("w").apply {
         isAccessible = true
     }
 

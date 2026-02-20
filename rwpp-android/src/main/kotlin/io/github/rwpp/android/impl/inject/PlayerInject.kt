@@ -9,7 +9,8 @@ package io.github.rwpp.android.impl.inject
 
 import io.github.rwpp.android.defeatedPlayerSet
 import io.github.rwpp.android.gameOver
-import io.github.rwpp.android.impl.GameEngine
+import io.github.rwpp.android.impl.GameEngineInternal
+import io.github.rwpp.android.impl.PlayerImpl
 import io.github.rwpp.android.impl.PlayerInternal
 import io.github.rwpp.android.isGaming
 import io.github.rwpp.appKoin
@@ -23,11 +24,13 @@ import io.github.rwpp.inject.InjectClass
 import io.github.rwpp.inject.InjectMode
 import io.github.rwpp.logger
 
-@InjectClass(com.corrodinggames.rts.game.p::class)
+@InjectClass(PlayerInternal::class)
 object PlayerInject {
     @Inject("a", InjectMode.InsertBefore)
-    fun com.corrodinggames.rts.game.p.onUpdate(delta: Float) {
-        if ((I || J) && isGaming && !defeatedPlayerSet.contains(this)) {
+    fun PlayerInternal.onUpdate(delta: Float) {
+        val isDefeated = (this as PlayerImpl).isDefeated
+
+        if (isDefeated && isGaming && !defeatedPlayerSet.contains(this)) {
             defeatedPlayerSet.add(this)
             PlayerDefeatedEvent(this as Player).broadcastIn()
 
@@ -46,7 +49,7 @@ object PlayerInject {
 
             if (lastTeam != null) {
                 logger.info("Game Over! Team $lastTeam wins!")
-                GameOverEvent(GameEngine.t().bv, lastTeam).broadcastIn()
+                GameOverEvent(GameEngineInternal.t().bv, lastTeam).broadcastIn()
                 gameOver = true
             }
         }

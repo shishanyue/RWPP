@@ -11,7 +11,7 @@ package io.github.rwpp.desktop.impl
 import com.corrodinggames.rts.game.n
 import io.github.rwpp.appKoin
 import io.github.rwpp.core.Logic
-import io.github.rwpp.desktop.GameEngine
+
 import io.github.rwpp.game.Game
 import io.github.rwpp.game.GameRoom
 import io.github.rwpp.game.Player
@@ -51,7 +51,7 @@ interface PlayerImpl : Player {
             if (room.isHost)
                 self.f(value)
             else if (room.isHostServer) {
-                GameEngine.B().bX.a(self, value, team)
+                GameEngineInternal.B().bX.a(self, value, team)
             }
         }
     override var team: Int
@@ -59,7 +59,7 @@ interface PlayerImpl : Player {
         set(value) {
             if (room.isHost)
                 self.r = value
-            else if (room.isHostServer) GameEngine.B().bX.b(self, value)
+            else if (room.isHostServer) GameEngineInternal.B().bX.b(self, value)
         }
     override var name: String
         get() = self.v ?: ""
@@ -92,7 +92,7 @@ interface PlayerImpl : Player {
         get() = self.o.roundToInt()
         set(value) { self.o = value.toDouble() }
     override val statisticsData: PlayerStatisticsData
-        get() = with(GameEngine.B().bY.a(self)) {
+        get() = with(GameEngineInternal.B().bY.a(self)) {
             PlayerStatisticsData(c, d, e, f, g, h)
         }
     override val income: Int
@@ -102,7 +102,7 @@ interface PlayerImpl : Player {
     override val isWipedOut: Boolean
         get() = self.G
     override val client: Client?
-        get() = GameEngine.B().bX.c(self) as Client?
+        get() = GameEngineInternal.B().bX.c(self) as Client?
 
     override val data: PlayerData
         get() = _data ?: run {
@@ -118,7 +118,7 @@ interface PlayerImpl : Player {
         aiDifficulty: Int?,
         autoTeamMode: Boolean
     ) {
-        val B = GameEngine.B()
+        val B = GameEngineInternal.B()
         var intValue: Int = spawnPoint
         var z = false
         var i = 0

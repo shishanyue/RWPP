@@ -11,8 +11,9 @@ import com.corrodinggames.rts.game.n
 import com.corrodinggames.rts.gameFramework.e
 import com.corrodinggames.rts.gameFramework.j.*
 import io.github.rwpp.*
-import io.github.rwpp.desktop.GameEngine
+
 import io.github.rwpp.desktop.bannedUnitList
+import io.github.rwpp.desktop.impl.GameEngineInternal
 import io.github.rwpp.desktop.impl.PlayerImpl
 import io.github.rwpp.event.broadcastIn
 import io.github.rwpp.event.events.ChatMessageEvent
@@ -58,7 +59,7 @@ object NetworkInject {
     fun onReceivePacket(auVar: au): Any {
         return when(val type = auVar.b) {
             InternalPacketType.PREREGISTER_INFO.type -> {
-                with(GameEngine.B().bX) {
+                with(GameEngineInternal.B().bX) {
                     if (this.C) return@with
                     val kVar16 = k(auVar)
                     val cVar14 = auVar.a
@@ -118,7 +119,7 @@ object NetworkInject {
     fun onPlayerJoin(c: c) {
         val asVar = `as`()
         try {
-            val B = GameEngine.B()
+            val B = GameEngineInternal.B()
             asVar.c(packageName + Toml.encodeToString(RoomOption.serializer(), gameRoom.option))
             asVar.a(2)
             asVar.a(B.bX.e)

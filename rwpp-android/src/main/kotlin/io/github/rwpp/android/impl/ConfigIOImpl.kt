@@ -11,7 +11,6 @@ import android.content.Context
 import com.corrodinggames.rts.gameFramework.SettingsEngine
 import io.github.rwpp.config.Config
 import io.github.rwpp.config.ConfigIO
-import io.github.rwpp.core.Initialization
 import kotlinx.serialization.InternalSerializationApi
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.serializer
@@ -73,17 +72,17 @@ class ConfigIOImpl : ConfigIO {
     @Suppress("unchecked_cast")
     override fun <T> getGameConfig(name: String): T {
         val field = fieldCache.getOrPut(name) { SettingsEngine::class.java.getDeclaredField(name) }
-        return field.get(GameEngine.t().bN) as T
+        return field.get(GameEngineInternal.t().bN) as T
     }
 
     override fun setGameConfig(name: String, value: Any?) {
         val field = fieldCache.getOrPut(name) { SettingsEngine::class.java.getDeclaredField(name) }
-        field.set(GameEngine.t().bN, value)
+        field.set(GameEngineInternal.t().bN, value)
     }
 
 
     override fun saveAllConfig() {
         super.saveAllConfig()
-        GameEngine.t().bN.save()
+        GameEngineInternal.t().bN.save()
     }
 }

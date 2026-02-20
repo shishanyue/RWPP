@@ -30,7 +30,7 @@ class ModManagerImpl : ModManager {
     private val game: Game = get()
     override suspend fun modReload() = withContext(Dispatchers.IO) {
         ReloadModEvent().broadcastIn()
-        val t = GameEngine.t()
+        val t = GameEngineInternal.t()
         modSaveChange()
         val aVar = t.bW
         t.bo = true
@@ -48,7 +48,7 @@ class ModManagerImpl : ModManager {
     }
 
     override suspend fun modSaveChange() {
-        val t = GameEngine.t()
+        val t = GameEngineInternal.t()
         t.bW.d()
         t.bN.save()
         val a2: Int = t.bW.a()
@@ -69,7 +69,7 @@ class ModManagerImpl : ModManager {
 
     @Suppress("unchecked_cast")
     override fun getAllMods(): List<Mod> {
-        val mods = GameEngine.t().bW.e as ArrayList<com.corrodinggames.rts.gameFramework.i.b>
+        val mods = GameEngineInternal.t().bW.e as ArrayList<com.corrodinggames.rts.gameFramework.i.b>
 
         return buildList {
             mods.forEach {

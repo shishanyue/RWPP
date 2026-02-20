@@ -9,6 +9,8 @@ package io.github.rwpp.desktop
 
 
 import com.corrodinggames.rts.gameFramework.j.au
+import io.github.rwpp.desktop.impl.GameEngineInternal
+import io.github.rwpp.desktop.impl.GameMapTypeInternal
 import io.github.rwpp.io.GameOutputStream
 import io.github.rwpp.net.Packet
 import java.io.ByteArrayOutputStream
@@ -16,8 +18,8 @@ import java.io.DataOutputStream
 
 
 fun initMap(force: Boolean = false) {
-    val B = GameEngine.B()
-    if (B.bX.ay.b == null || B.bX.az == null || force) B.bX.ay.a = GameMapType.a
+    val B = GameEngineInternal.B()
+    if (B.bX.ay.b == null || B.bX.az == null || force) B.bX.ay.a = GameMapTypeInternal.a
     if (B.bX.az == null || force) B.bX.az = "maps/skirmish/[z;p10]Crossing Large (10p).tmx"
     if (B.bX.ay.b == null || force) B.bX.ay.b = "[z;p10]Crossing Large (10p).tmx"
 }

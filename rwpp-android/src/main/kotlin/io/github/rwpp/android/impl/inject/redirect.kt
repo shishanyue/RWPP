@@ -28,7 +28,7 @@ import android.media.SoundPool
 import com.corrodinggames.rts.gameFramework.m.e
 import com.corrodinggames.rts.gameFramework.utility.o
 import io.github.rwpp.R
-import io.github.rwpp.android.impl.GameEngine
+import io.github.rwpp.android.impl.GameEngineInternal
 import io.github.rwpp.android.impl.getResourceFileName
 import io.github.rwpp.appKoin
 import io.github.rwpp.external.ExternalHandler
@@ -108,7 +108,7 @@ object ImageInject {
         if(!resFileExist) return Unit
 
         try {
-            val res = GameEngine.t().al.resources
+            val res = GameEngineInternal.t().al.resources
 
             val options = BitmapFactory.Options()
             if (bool) {
@@ -153,7 +153,7 @@ object ResInject {
                 this
             )
 
-            val res = GameEngine.t().al.resources
+            val res = GameEngineInternal.t().al.resources
 
             val path = resOutputDir + res.getResourceFileName(i)
             Reflect.set(bVar, "a", this)

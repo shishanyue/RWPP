@@ -10,7 +10,8 @@ package io.github.rwpp.desktop.impl.inject
 import android.app.Activity
 import com.corrodinggames.rts.gameFramework.h.a
 import com.corrodinggames.rts.gameFramework.j.ae
-import io.github.rwpp.desktop.GameEngine
+import io.github.rwpp.desktop.impl.GameEngineInternal
+
 import io.github.rwpp.desktop.rcnOption
 import io.github.rwpp.inject.Inject
 import io.github.rwpp.inject.InjectClass
@@ -52,6 +53,6 @@ object CallbackInject {
 
     @Inject("b", InjectMode.Override)
     fun com.corrodinggames.librocket.a.noMainMenu() {
-        GameEngine.B()?.a(null as Activity?, this.c, true)
+        GameEngineInternal.B()?.a(null as Activity?, this.c, true)
     }
 }

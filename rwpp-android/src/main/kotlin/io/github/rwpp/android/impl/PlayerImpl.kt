@@ -18,6 +18,7 @@ import io.github.rwpp.game.data.PlayerStatisticsData
 import io.github.rwpp.inject.NewField
 import io.github.rwpp.inject.SetInterfaceOn
 import io.github.rwpp.net.Client
+import io.github.rwpp.utils.Reflect
 import kotlin.math.roundToInt
 
 @SetInterfaceOn([PlayerInternal::class])
@@ -52,7 +53,7 @@ interface PlayerImpl : Player {
         set(value) {
             if (room.isHost) self.s = value
             else if (room.isHostServer) {
-                val t = GameEngine.t()
+                val t = GameEngineInternal.t()
                 t.bU.b(self, value)
             }
         }
@@ -98,23 +99,27 @@ interface PlayerImpl : Player {
         get() = self.p.roundToInt()
         set(value) { self.p = value.toDouble() }
     override val statisticsData: PlayerStatisticsData
-        get() = with(GameEngine.t().bV.a(self)) {
+        get() = with(GameEngineInternal.t().bV.a(self)) {
             PlayerStatisticsData(c, d, e, f, g, h)
         }
     override val income: Int
         get() = self.q()
     override val isDefeated: Boolean
-        get() = self.I || self.J
+        get() = isWipedOut || isDefeatedTech
     override val isWipedOut: Boolean
         get() = self.J
+    override val isDefeatedTech: Boolean
+        get() = self.I
     override val data: PlayerData
         get() = _data ?: run {
             _data = PlayerData()
             _data!!
         }
     override val client: Client?
-        get() = GameEngine.t().bU.c(self) as? Client
+        get() = GameEngineInternal.t().bU.c(self) as? Client
 
+    override val allPlayers: Array<Player>
+        get() = Reflect.get<Array<Player>>(self,"")!!
 
     override fun applyConfigChange(
         spawnPoint: Int,
@@ -124,7 +129,7 @@ interface PlayerImpl : Player {
         aiDifficulty: Int?,
         autoTeamMode: Boolean
     ) {
-        val t = GameEngine.t()
+        val t = GameEngineInternal.t()
         var bl: Boolean
         var n: Int
         var n2: Int

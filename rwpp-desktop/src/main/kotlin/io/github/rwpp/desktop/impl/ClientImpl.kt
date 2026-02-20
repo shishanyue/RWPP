@@ -8,7 +8,6 @@
 package io.github.rwpp.desktop.impl
 
 import com.corrodinggames.rts.gameFramework.j.c
-import io.github.rwpp.desktop.GameEngine
 import io.github.rwpp.desktop.asGamePacket
 import io.github.rwpp.inject.SetInterfaceOn
 import io.github.rwpp.net.Client
@@ -19,6 +18,6 @@ interface ClientImpl : Client {
     val self: c
 
     override fun sendPacketToClient(packet: Packet) {
-        GameEngine.B().bX.a(self, packet.asGamePacket())
+        GameEngineInternal.B().bX.a(self, packet.asGamePacket())
     }
 }

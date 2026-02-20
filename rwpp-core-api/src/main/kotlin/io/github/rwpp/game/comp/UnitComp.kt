@@ -13,7 +13,7 @@ import io.github.rwpp.game.Game
 import io.github.rwpp.game.base.BaseFactory
 import io.github.rwpp.game.base.GamePaint
 import io.github.rwpp.game.base.Rect
-import io.github.rwpp.game.units.GameUnit
+import io.github.rwpp.game.units.UnitRef
 import io.github.rwpp.game.units.MovementType
 import io.github.rwpp.game.world.World
 import io.github.rwpp.utils.argb
@@ -25,7 +25,7 @@ open class UnitComp {
     var showAttackRange: Boolean = false
 
     // showUnitWayPoint
-    open fun onDraw(unit: GameUnit, delta: Float) {
+    open fun onDraw(unit: UnitRef, delta: Float) {
         if (!unit.isDead && unit.maxAttackRange > 70) {
             if (settings.showUnitTargetLine
                 && (game.gameRoom.isSinglePlayerGame || game.gameRoom.localPlayer.team == unit.player.team)
@@ -57,7 +57,7 @@ open class UnitComp {
         }
     }
 
-    open fun onDrawBar(unit: GameUnit, rect: Rect, paint: GamePaint) {
+    open fun onDrawBar(unit: UnitRef, rect: Rect, paint: GamePaint) {
         var realPaint = paint
 
         //以颜色判断是否在绘制血条
@@ -74,11 +74,11 @@ open class UnitComp {
     }
 
     @Suppress("MemberVisibilityCanBePrivate")
-    fun getTeamPaint(target: GameUnit): GamePaint {
+    fun getTeamPaint(target: UnitRef): GamePaint {
         return if (game.gameRoom.localPlayer.team != target.player.team) paintRedStroke else paintGreenStroke
     }
 
-    private fun drawRange(unit: GameUnit, range: Float) {
+    private fun drawRange(unit: UnitRef, range: Float) {
         world.drawCircle(unit.x - world.cx, unit.y - world.cy, range, getTeamPaint(unit))
     }
 

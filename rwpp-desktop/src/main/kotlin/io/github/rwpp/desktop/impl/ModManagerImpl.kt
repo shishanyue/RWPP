@@ -10,8 +10,6 @@ package io.github.rwpp.desktop.impl
 import com.corrodinggames.rts.gameFramework.e.a
 import com.corrodinggames.rts.gameFramework.i.b
 import io.github.rwpp.appKoin
-import io.github.rwpp.desktop.GameEngine
-import io.github.rwpp.desktop.IAClass
 import io.github.rwpp.event.broadcastIn
 import io.github.rwpp.event.events.ReloadModEvent
 import io.github.rwpp.event.events.ReloadModFinishedEvent
@@ -33,7 +31,7 @@ class ModManagerImpl : ModManager {
         ReloadModEvent().broadcastIn()
         val latch = CountDownLatch(1)
         game.post {
-            val B = GameEngine.B()
+            val B = GameEngineInternal.B()
             B.bZ.e()
             B.bQ.save()
             try {
@@ -53,7 +51,7 @@ class ModManagerImpl : ModManager {
     }
 
     override suspend fun modUpdate() {
-        val B = GameEngine.B()
+        val B = GameEngineInternal.B()
         // getAllModList:
         // Number of mods:
         // Modded Custom
@@ -61,7 +59,7 @@ class ModManagerImpl : ModManager {
     }
 
     override suspend fun modSaveChange() {
-        val b = GameEngine.B()
+        val b = GameEngineInternal.B()
         b.bZ.e()
         b.bQ.save()
         val a2: Int = b.bZ.a(false)
@@ -76,9 +74,9 @@ class ModManagerImpl : ModManager {
 
     @Suppress("unchecked_cast")
     override fun getAllMods(): List<Mod> {
-        val mods = IAClass::class.java.getDeclaredField("e").run {
+        val mods = IAClassInternal::class.java.getDeclaredField("e").run {
             isAccessible = true
-            get(GameEngine.B().bZ)
+            get(GameEngineInternal.B().bZ)
         } as ArrayList<b>
 
         return buildList {

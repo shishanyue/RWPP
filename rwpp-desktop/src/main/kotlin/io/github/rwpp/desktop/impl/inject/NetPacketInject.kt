@@ -13,12 +13,12 @@ import com.corrodinggames.rts.gameFramework.e
 import com.corrodinggames.rts.gameFramework.utility.m
 import io.github.rwpp.appKoin
 import io.github.rwpp.config.Settings
-import io.github.rwpp.desktop.NetPacket
+import io.github.rwpp.desktop.impl.NetPacketInternal
 import io.github.rwpp.inject.Inject
 import io.github.rwpp.inject.InjectClass
 import io.github.rwpp.inject.InjectMode
 
-@InjectClass(NetPacket::class)
+@InjectClass(NetPacketInternal::class)
 object NetPacketInject {
     @Suppress("UNCHECKED_CAST")
     @Inject("a", injectMode = InjectMode.InsertBefore)
@@ -36,5 +36,5 @@ object NetPacketInject {
         return Unit
     }
 
-    private val vField = NetPacket::class.java.getDeclaredField("v").apply { isAccessible = true }
+    private val vField = NetPacketInternal::class.java.getDeclaredField("v").apply { isAccessible = true }
 }

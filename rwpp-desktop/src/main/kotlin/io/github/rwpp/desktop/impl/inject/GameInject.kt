@@ -9,8 +9,8 @@ package io.github.rwpp.desktop.impl.inject
 
 import com.corrodinggames.rts.game.i
 import io.github.rwpp.appKoin
-import io.github.rwpp.desktop.GameEngine
 import io.github.rwpp.desktop._gameSpeed
+import io.github.rwpp.desktop.impl.GameEngineInternal
 import io.github.rwpp.game.Game
 import io.github.rwpp.inject.Inject
 import io.github.rwpp.inject.InjectClass
@@ -30,12 +30,12 @@ object GameInject {
     @Inject("b", InjectMode.InsertBefore)
     fun updateAndRender(deltaSpeed: Float) {
         if (room.isHost && _gameSpeed != 1f) {
-            GameEngine.B().bX.K = 1f / _gameSpeed
-            GameEngine.B().bX.a(1f / _gameSpeed, "speed")
-            (GameEngine.B() as i).H = _gameSpeed
+            GameEngineInternal.B().bX.K = 1f / _gameSpeed
+            GameEngineInternal.B().bX.a(1f / _gameSpeed, "speed")
+            (GameEngineInternal.B() as i).H = _gameSpeed
         } else {
-            (GameEngine.B() as i).H = 1f
-            GameEngine.B().bX.K = null
+            (GameEngineInternal.B() as i).H = 1f
+            GameEngineInternal.B().bX.K = null
         }
     }
 }

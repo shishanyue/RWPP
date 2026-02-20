@@ -57,6 +57,8 @@ interface Player {
     val isDefeated: Boolean
     val isWipedOut: Boolean
 
+    val isDefeatedTech: Boolean
+
     val data: PlayerData
 
     val client: Client?
@@ -70,7 +72,12 @@ interface Player {
         autoTeamMode: Boolean = false
     )
 
-    companion object
+    val allPlayers:Array<Player>
+        get() = Player.allPlayers
+
+    companion object{
+        val allPlayers: Array<Player> = arrayOf()
+    }
 }
 
 fun Player.teamAlias() = when {

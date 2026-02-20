@@ -59,7 +59,7 @@ class GameImpl : AbstractGame() {
     }
 
     override val gui: GUI
-        get() = GameEngine.B().bS as GUI
+        get() = GameEngineInternal.B().bS as GUI
     override val world: World = WorldImpl()
 
     override fun post(action: () -> Unit) {
@@ -184,7 +184,7 @@ class GameImpl : AbstractGame() {
             main.d = object : DClass() {
                 //返回是否全屏，以便能处理边缘移动
                 override fun f(): Boolean {
-                    val B = GameEngine.B()
+                    val B = GameEngineInternal.B()
                     // 设置确认是否边缘移动
                     return B != null && appKoin.get<Settings>().isFullscreen && !appKoin.get<Settings>().mouseMoveView
                 }
@@ -214,10 +214,10 @@ class GameImpl : AbstractGame() {
             i.c();
             println("end libRocket setup");
             main.b("GuiEngine");
-            GameEngine.dz = main.e;
+            GameEngineInternal.dz = main.e;
 
 
-            println("GameEngine")
+            println("GameEngineInternal")
 
 
             l.ck = Point(displaySize.width, displaySize.height)
@@ -226,7 +226,7 @@ class GameImpl : AbstractGame() {
 
             with(main) {
                 val i = Reflect.get<a>(this, "i")!!
-                GameEngine.B().a(null, i.c, true);
+                GameEngineInternal.B().a(null, i.c, true);
                 com.corrodinggames.rts.a.a.b()
                 h = a3.bX
                 a3.bQ.slick2dFullScreen = false
@@ -320,7 +320,7 @@ class GameImpl : AbstractGame() {
     @Suppress("UNCHECKED_CAST")
     override fun getAllMaps(flush: Boolean): List<GameMap> {
         if(_maps.isEmpty() || flush) {
-            val B = GameEngine.B()
+            val B = GameEngineInternal.B()
             val levelDirs = com.corrodinggames.rts.gameFramework.e.a.a("/SD/rusted_warfare_maps", true)
             val mapFolders = mapOf(
                 MapType.SkirmishMap to File("assets/maps/skirmish"),

@@ -14,7 +14,8 @@ import com.corrodinggames.rts.gameFramework.l
 import com.corrodinggames.rts.java.Main
 import io.github.rwpp.appKoin
 import io.github.rwpp.config.Settings
-import io.github.rwpp.desktop.GameEngine
+import io.github.rwpp.desktop.impl.GameEngineInternal
+
 import io.github.rwpp.desktop.impl.RwOutputStream
 import io.github.rwpp.desktop.main
 import io.github.rwpp.event.broadcastIn
@@ -44,7 +45,7 @@ object MainInject {
         rwOutputStream.b("RWPP")
         rwOutputStream.a(null as c?)
         rwOutputStream.a(-1)
-        GameEngine.B().bX.a(client, rwOutputStream.b(141))
+        GameEngineInternal.B().bX.a(client, rwOutputStream.b(141))
     }
 
     @Inject("b", InjectMode.Override)
@@ -52,7 +53,7 @@ object MainInject {
         val f = Reflect.get<com.corrodinggames.rts.gameFramework.utility.aj>(this, "f")!!
         f.a(Runnable
         {
-            val B: l = GameEngine.B()
+            val B: l = GameEngineInternal.B()
             com.corrodinggames.rts.appFramework.n::class.java.getDeclaredMethod("r").invoke(null)
             if(B.bL == null || !B.bL.W) {
                 B.bX.af()
@@ -69,7 +70,7 @@ object MainInject {
                 p.c.root.resumeNonMenu()
                 return@Runnable
             }
-            GameEngine.T()
+            GameEngineInternal.T()
         })
 
         StartGameEvent().broadcastIn()

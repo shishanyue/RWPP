@@ -56,7 +56,7 @@ import io.github.rwpp.game.base.Difficulty
 import io.github.rwpp.game.map.FogMode
 import io.github.rwpp.game.map.MapType
 import io.github.rwpp.game.team.TeamMode
-import io.github.rwpp.game.units.UnitType
+import io.github.rwpp.game.units.AbstractUnitTypeBase
 import io.github.rwpp.i18n.readI18n
 import io.github.rwpp.platform.BackHandler
 import io.github.rwpp.platform.KickPlayerContextMenuAreaMultiplatform
@@ -93,7 +93,7 @@ fun MultiplayerRoomView(isSandboxGame: Boolean = false, onExit: () -> Unit) {
     var banUnitVisible by remember { mutableStateOf(false) }
     //var downloadModViewVisible by remember { mutableStateOf(false) }
     //var loadModViewVisible by remember { mutableStateOf(false) }
-    var selectedBanUnits by remember { mutableStateOf(listOf<UnitType>()) }
+    var selectedBanUnits by remember { mutableStateOf(listOf<AbstractUnitTypeBase>()) }
 
     var showMapSelectView by remember { mutableStateOf(false) }
     val isHost = remember(update) { room.isHost || room.isHostServer }

@@ -33,7 +33,7 @@ import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import com.corrodinggames.rts.appFramework.d
 import io.github.rwpp.*
-import io.github.rwpp.android.impl.GameEngine
+import io.github.rwpp.android.impl.GameEngineInternal
 import io.github.rwpp.app.PermissionHelper
 import io.github.rwpp.config.ConfigIO
 import io.github.rwpp.config.Settings
@@ -63,7 +63,7 @@ class MainActivity : ComponentActivity() {
             if(!isReturnToBattleRoom) {
                 ReturnMainMenuEvent().broadcastIn()
             } else {
-                GameEngine.t().a(appKoin.get(), gameView)
+                GameEngineInternal.t().a(appKoin.get(), gameView)
             }
             isReturnToBattleRoom = false
         }
@@ -163,7 +163,7 @@ class MainActivity : ComponentActivity() {
 
     override fun onPause() {
         super.onPause()
-        if(gameView != null) GameEngine.t()?.b(gameView)
+        if(gameView != null) GameEngineInternal.t()?.b(gameView)
     }
 //
 //    override fun onResume() {
@@ -174,14 +174,14 @@ class MainActivity : ComponentActivity() {
     override fun onStop() {
         super.onStop()
         configIO.saveAllConfig()
-        if(gameView != null) GameEngine.t()?.b(gameView)
+        if(gameView != null) GameEngineInternal.t()?.b(gameView)
     }
 
     companion object {
         var gameView: com.corrodinggames.rts.appFramework.ab? = null
 
         fun activityResume() {
-            GameEngine.t()?.let {
+            GameEngineInternal.t()?.let {
                 gameView = d.a(appKoin.get(), gameView)
                 it.a(appKoin.get(), gameView, true)
             }

@@ -18,9 +18,9 @@ import java.io.DataOutputStream
 import java.io.File
 
 fun initMap(force: Boolean = false) {
-    if(GameEngine.t().bU.aB == null || GameEngine.t().bU.aA.b == null || force) GameEngine.t().bU.aA.a = at.a
-    if (GameEngine.t().bU.aB == null || force) GameEngine.t().bU.aB = "maps/skirmish/[z;p10]Crossing Large (10p).tmx"
-    if (GameEngine.t().bU.aA.b == null || force) GameEngine.t().bU.aA.b = "[z;p10]Crossing Large (10p).tmx"
+    if(GameEngineInternal.t().bU.aB == null || GameEngineInternal.t().bU.aA.b == null || force) GameEngineInternal.t().bU.aA.a = at.a
+    if (GameEngineInternal.t().bU.aB == null || force) GameEngineInternal.t().bU.aB = "maps/skirmish/[z;p10]Crossing Large (10p).tmx"
+    if (GameEngineInternal.t().bU.aA.b == null || force) GameEngineInternal.t().bU.aA.b = "[z;p10]Crossing Large (10p).tmx"
 }
 
 fun Packet.asGamePacket(): com.corrodinggames.rts.gameFramework.j.bi {
@@ -37,7 +37,7 @@ fun Packet.asGamePacket(): com.corrodinggames.rts.gameFramework.j.bi {
 }
 
 fun sendKickToClient(c: com.corrodinggames.rts.gameFramework.j.c, reason: String) {
-    val t = GameEngine.t()
+    val t = GameEngineInternal.t()
     t.bU::class.java.getDeclaredMethod("b", com.corrodinggames.rts.gameFramework.j.c::class.java, String::class.java).apply {
         isAccessible = true
     }.invoke(t.bU, c, reason)

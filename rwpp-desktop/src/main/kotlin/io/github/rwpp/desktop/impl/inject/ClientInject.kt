@@ -8,7 +8,7 @@
 package io.github.rwpp.desktop.impl.inject
 
 import com.corrodinggames.rts.gameFramework.j.ad
-import io.github.rwpp.desktop.Client
+import io.github.rwpp.desktop.impl.ClientInternal
 import io.github.rwpp.event.broadcastIn
 import io.github.rwpp.event.events.PlayerLeaveEvent
 import io.github.rwpp.game.Player
@@ -16,10 +16,10 @@ import io.github.rwpp.inject.Inject
 import io.github.rwpp.inject.InjectClass
 import io.github.rwpp.inject.InjectMode
 
-@InjectClass(Client::class)
+@InjectClass(ClientInternal::class)
 object ClientInject {
     @Inject("a", InjectMode.InsertBefore)
-    fun Client.onPlayerDisconnect(
+    fun ClientInternal.onPlayerDisconnect(
         z1: Boolean,
         z2: Boolean,
         str: String?

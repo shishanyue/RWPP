@@ -10,7 +10,6 @@ package io.github.rwpp.desktop.impl
 import com.corrodinggames.librocket.scripts.ScriptEngine
 import io.github.rwpp.AppContext
 import io.github.rwpp.config.ConfigIO
-import io.github.rwpp.desktop.GameEngine
 import io.github.rwpp.impl.BaseAppContextImpl
 import org.koin.core.annotation.Single
 import org.koin.core.component.get
@@ -32,9 +31,9 @@ class AppContextImpl : BaseAppContextImpl() {
 
 
     override fun exit() {
-        GameEngine.B().bO
+        GameEngineInternal.B().bO
         val configIO: ConfigIO = get()
-        GameEngine.B().bQ.apply {
+        GameEngineInternal.B().bQ.apply {
             numLoadsSinceRunningGameOrNormalExit = 0
             numIncompleteLoadAttempts = 0
         }

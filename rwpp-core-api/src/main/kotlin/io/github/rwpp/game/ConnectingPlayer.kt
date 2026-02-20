@@ -49,6 +49,8 @@ object ConnectingPlayer : Player {
         get() = false
     override val isWipedOut: Boolean
         get() = false
+    override val isDefeatedTech: Boolean
+        get() = false
     override val data: PlayerData
         get() = PlayerData()
     override val client: Client?

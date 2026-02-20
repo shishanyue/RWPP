@@ -26,7 +26,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import io.github.rwpp.AppContext
 import io.github.rwpp.LocalWindowManager
-import io.github.rwpp.android.impl.GameEngine
+import io.github.rwpp.android.impl.GameEngineInternal
 import io.github.rwpp.app.PermissionHelper
 import io.github.rwpp.appKoin
 import io.github.rwpp.config.ConfigIO
@@ -151,8 +151,8 @@ class LoadingScreen : ComponentActivity() {
 
                                             async {
                                                 try {
-                                                    val engineImpl = GameEngine.dv.a(this@LoadingScreen)
-                                                    Reflect.reifiedSet<GameEngine>(null, "ak", engineImpl)
+                                                    val engineImpl = GameEngineInternal.dv.a(this@LoadingScreen)
+                                                    Reflect.reifiedSet<GameEngineInternal>(null, "ak", engineImpl)
                                                     loadingThread
                                                     engineImpl.a(this@LoadingScreen as Context)
                                                     val configIO = appKoin.get<ConfigIO>()

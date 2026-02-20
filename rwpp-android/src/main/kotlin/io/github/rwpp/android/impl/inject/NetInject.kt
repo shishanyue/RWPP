@@ -20,9 +20,7 @@ import com.corrodinggames.rts.gameFramework.k
 import io.github.rwpp.*
 import io.github.rwpp.android.bannedUnitList
 import io.github.rwpp.android.cachePlayerSet
-import io.github.rwpp.android.impl.ClientImpl
-import io.github.rwpp.android.impl.GameEngine
-import io.github.rwpp.android.impl.PlayerImpl
+import io.github.rwpp.android.impl.GameEngineInternal
 import io.github.rwpp.android.isReturnToBattleRoom
 import io.github.rwpp.event.broadcastIn
 import io.github.rwpp.event.events.ChatMessageEvent
@@ -52,8 +50,8 @@ object NetInject {
     @SuppressLint("WrongConstant")
     @Inject("X", InjectMode.Override)
     fun notify1() {
-        if (!GameEngine.aR) {
-            val t: k = GameEngine.t()
+        if (!GameEngineInternal.aR) {
+            val t: k = GameEngineInternal.t()
             val intent = Intent(
                 t.al,
                 ClosingActivity::class.java
@@ -97,8 +95,8 @@ object NetInject {
     @SuppressLint("WrongConstant")
     @Inject("d", InjectMode.Override)
     fun ae.notify2(arg1: String, arg2: String) {
-        if (!GameEngine.aR) {
-            val t: k = GameEngine.t()
+        if (!GameEngineInternal.aR) {
+            val t: k = GameEngineInternal.t()
             if (!this.G && !t.bY.g()) {
                 var isActivityVisible: Boolean =
                     MultiplayerBattleroomActivity.isActivityVisible()
@@ -163,7 +161,7 @@ object NetInject {
             InternalPacketType.PREREGISTER_INFO.type -> {
                 val r0 = com.corrodinggames.rts.gameFramework.j.j(packet);     // Catch: java.lang.Throwable -> L603
                 val r1 = packet.a
-                val r14 = GameEngine.t().bU
+                val r14 = GameEngineInternal.t().bU
                 val str = r0.b.readUTF() // Catch: java.lang.Throwable -> L603
                 if (str.startsWith(packageName)) {
                     val gameRoom = appKoin.get<Game>().gameRoom
@@ -210,9 +208,9 @@ object NetInject {
                     c.p = it
                 }
 
-                if (i >= 4) GameEngine.ab()
+                if (i >= 4) GameEngineInternal.ab()
 
-                val t = GameEngine.t()
+                val t = GameEngineInternal.t()
                 val gameRoom = appKoin.get<Game>().gameRoom
                 val a = com.corrodinggames.rts.gameFramework.j.bg()
                 a.b(packageName + Toml.encodeToString(RoomOption.serializer(), gameRoom.option))
@@ -350,7 +348,7 @@ object NetInject {
     @Inject("b", injectMode = InjectMode.Override)
     fun fuckCheck(z: Boolean) {
         // hack fix game frame
-        val t: k = GameEngine.t()
+        val t: k = GameEngineInternal.t()
         if (t.bu >= t.bU.Z) {
             if (t.bu > t.bU.Z) {
                 t.bu = t.bU.Z

@@ -16,9 +16,10 @@ import io.github.rwpp.event.events.RefreshUIEvent
 import io.github.rwpp.game.Game
 import io.github.rwpp.game.base.Difficulty
 import io.github.rwpp.game.map.MissionType
-import io.github.rwpp.game.units.UnitType
+import io.github.rwpp.game.units.AbstractUnitTypeBase
 import io.github.rwpp.logger
 import io.github.rwpp.core.LoadingContext
+import io.github.rwpp.desktop.impl.GameEngineInternal
 import io.github.rwpp.event.events.HostSinglePlayerGameEvent
 import io.github.rwpp.event.events.PlayerJoinEvent
 import kotlinx.coroutines.channels.Channel
@@ -40,7 +41,7 @@ abstract class AbstractGame : Game {
 //                get(root)
 //            } as a
 
-            val game = GameEngine.B()
+            val game = GameEngineInternal.B()
             game.bQ.aiDifficulty = Difficulty.Hard.ordinal - 2 // fuck code
 
 //            guiEngine.b(true)
@@ -90,7 +91,7 @@ abstract class AbstractGame : Game {
         password: String?,
         useMods: Boolean,
     ) {
-        val B = GameEngine.B()
+        val B = GameEngineInternal.B()
         B.bX.n = password
         B.bX.q = isPublic
         B.bX.o = useMods
@@ -165,7 +166,7 @@ abstract class AbstractGame : Game {
     }
 
     override fun getStartingUnitOptions(): List<Pair<Int, String>> {
-        val B: l = GameEngine.B()
+        val B: l = GameEngineInternal.B()
         val list = mutableListOf<Pair<Int, String>>()
         val it: Iterator<*> = B.bX.i().iterator()
         while(it.hasNext()) {
@@ -175,14 +176,14 @@ abstract class AbstractGame : Game {
         return list
     }
     @Suppress("UNCHECKED_CAST")
-    override fun getAllUnitTypes(): List<UnitType> {
-        return (com.corrodinggames.rts.game.units.ar.ae as ArrayList<UnitType>)
+    override fun getAllUnitTypes(): List<AbstractUnitTypeBase> {
+        return (com.corrodinggames.rts.game.units.ar.ae as ArrayList<AbstractUnitTypeBase>)
     }
 
-    override fun onBanUnits(units: List<UnitType>) {
-        bannedUnitList = units.map(UnitType::name)
+    override fun onBanUnits(units: List<AbstractUnitTypeBase>) {
+        bannedUnitList = units.map(AbstractUnitTypeBase::name)
         if(units.isNotEmpty())
-            gameRoom.sendSystemMessage("Host has banned these units (房间已经ban以下单位): ${units.map(UnitType::displayName).joinToString(", ")}")
+            gameRoom.sendSystemMessage("Host has banned these units (房间已经ban以下单位): ${units.map(AbstractUnitTypeBase::displayName).joinToString(", ")}")
     }
 
     private fun restrictedString(str: String?): String? {

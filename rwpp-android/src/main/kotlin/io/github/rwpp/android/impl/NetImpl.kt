@@ -20,11 +20,11 @@ import org.koin.core.annotation.Single
 @Single(binds = [Net::class, Initialization::class])
 class NetImpl : BaseNetImpl() {
     override fun sendPacketToServer(packet: Packet) {
-        GameEngine.t().bU.b(packet.asGamePacket())
+        GameEngineInternal.t().bU.b(packet.asGamePacket())
     }
 
     override fun sendPacketToClients(packet: Packet) {
-        GameEngine.t().bU.c(packet.asGamePacket())
+        GameEngineInternal.t().bU.c(packet.asGamePacket())
     }
 
     override fun openUriInBrowser(uri: String) {

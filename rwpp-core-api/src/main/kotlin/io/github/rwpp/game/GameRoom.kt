@@ -14,7 +14,7 @@ import io.github.rwpp.game.map.GameMap
 import io.github.rwpp.game.map.MapType
 import io.github.rwpp.game.map.XMLMap
 import io.github.rwpp.game.team.TeamMode
-import io.github.rwpp.game.units.UnitType
+import io.github.rwpp.game.units.AbstractUnitTypeBase
 import io.github.rwpp.net.Client
 
 interface GameRoom {
@@ -133,14 +133,14 @@ interface GameRoom {
     /**
      * Spawn a unit to the map. (if host)
      * @param player the player who spawns the unit.
-     * @param unitType the type of the unit to spawn.
+     * @param abstractUnitTypeBase the type of the unit to spawn.
      * @param x the x position of the unit.
      * @param y the y position of the unit.
      * @param size the size of the spawn radius.
      */
     fun spawnUnit(
         player: Player,
-        unitType: UnitType,
+        abstractUnitTypeBase: AbstractUnitTypeBase,
         x: Float,
         y: Float,
         size: Int = 0

@@ -15,7 +15,6 @@ import io.github.rwpp.event.events.ModCheckEvent
 import io.github.rwpp.event.events.PlayerJoinEvent
 import io.github.rwpp.game.Game
 import io.github.rwpp.game.mod.ModManager
-import io.github.rwpp.game.units.GameUnit
 import io.github.rwpp.io.SizeUtils
 import io.github.rwpp.logger
 import io.github.rwpp.modDir

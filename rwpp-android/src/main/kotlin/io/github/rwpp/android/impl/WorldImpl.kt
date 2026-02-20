@@ -13,9 +13,9 @@ import io.github.rwpp.game.world.World
 
 class WorldImpl : World {
     override val cx: Float
-        get() = GameEngine.t().ct
+        get() = GameEngineInternal.t().ct
     override val cy: Float
-        get() = GameEngine.t().cu
+        get() = GameEngineInternal.t().cu
 
     override fun getAllUnits(): List<Unit> {
         TODO("Not yet implemented")
@@ -40,7 +40,7 @@ class WorldImpl : World {
         radius: Float,
         paint: GamePaint
     ) {
-        GameEngine.t().bL.a(x, y, radius, (paint as GamePaintImpl).paint)
+        GameEngineInternal.t().bL.a(x, y, radius, (paint as GamePaintImpl).paint)
     }
 
     override fun drawLine(
@@ -50,6 +50,6 @@ class WorldImpl : World {
         endY: Float,
         paint: GamePaint
     ) {
-        GameEngine.t().bL.a(startX, startY, endX, endY, (paint as GamePaintImpl).paint)
+        GameEngineInternal.t().bL.a(startX, startY, endX, endY, (paint as GamePaintImpl).paint)
     }
 }

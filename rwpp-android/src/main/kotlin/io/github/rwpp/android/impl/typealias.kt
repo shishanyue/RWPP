@@ -7,7 +7,26 @@
 
 package io.github.rwpp.android.impl
 
-typealias GameEngine = com.corrodinggames.rts.gameFramework.k
+typealias GameEngineInternal = com.corrodinggames.rts.gameFramework.k
+
+typealias UnitTypeRefBaseInternal = com.corrodinggames.rts.game.units.custom.l
+typealias AbstractUnitTypeBaseInternal = com.corrodinggames.rts.game.units.el
+typealias UnitRefInternal = com.corrodinggames.rts.game.units.ce
+typealias AbstractUnitAgentInternal = com.corrodinggames.rts.game.units.bp
+
 typealias PlayerInternal = com.corrodinggames.rts.game.p
-typealias FClass = com.corrodinggames.rts.gameFramework.f
-typealias NetPacket = com.corrodinggames.rts.gameFramework.e
+
+typealias NetPacketInternal = com.corrodinggames.rts.gameFramework.e
+
+typealias NumberFunctionToolsInternal = com.corrodinggames.rts.gameFramework.f
+typealias VariableScopeInternal = com.corrodinggames.rts.game.units.custom.logicBooleans.VariableScope
+typealias LogicBooleanLoaderInternal = com.corrodinggames.rts.game.units.custom.logicBooleans.LogicBooleanLoader
+typealias LogicBooleanContextInternal = com.corrodinggames.rts.game.units.custom.logicBooleans.`LogicBooleanLoader$LogicBooleanContext`
+typealias LogicBooleanInternal = com.corrodinggames.rts.game.units.custom.logicBooleans.LogicBoolean
+typealias LogicBooleanGameFunctionsInternal = com.corrodinggames.rts.game.units.custom.logicBooleans.LogicBooleanGameFunctions
+typealias LogicNumberFunctionInternal = com.corrodinggames.rts.game.units.custom.logicBooleans.LogicNumberFunction
+typealias LogicBooleanParameterInternal = com.corrodinggames.rts.game.units.custom.logicBooleans.`LogicBoolean$Parameter`
+typealias LogicBooleanReturnTypeInternal = com.corrodinggames.rts.game.units.custom.logicBooleans.`LogicBoolean$ReturnType`
+typealias LogicBooleanParameterMappingInternal = com.corrodinggames.rts.game.units.custom.logicBooleans.`LogicBooleanLoader$ParameterMapping`
+typealias BooleanParseExceptionInternal = com.corrodinggames.rts.game.units.custom.logicBooleans.BooleanParseException
+typealias ParameterMappingFieldOrMethodInternal = com.corrodinggames.rts.game.units.custom.logicBooleans.`LogicBooleanLoader$ParameterMapping$FieldOrMethod`

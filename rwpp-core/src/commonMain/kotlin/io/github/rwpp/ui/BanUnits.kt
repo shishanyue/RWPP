@@ -33,7 +33,7 @@ import io.github.rwpp.LocalWindowManager
 import io.github.rwpp.config.Settings
 import io.github.rwpp.game.Game
 import io.github.rwpp.game.units.MovementType
-import io.github.rwpp.game.units.UnitType
+import io.github.rwpp.game.units.AbstractUnitTypeBase
 import io.github.rwpp.widget.*
 import org.koin.compose.koinInject
 
@@ -41,8 +41,8 @@ import org.koin.compose.koinInject
 fun BanUnitViewDialog(
     visible: Boolean,
     onDismissRequest: () -> Unit,
-    lastSelectedUnits: List<UnitType>,
-    onSelectedUnits: (List<UnitType>) -> Unit
+    lastSelectedUnits: List<AbstractUnitTypeBase>,
+    onSelectedUnits: (List<AbstractUnitTypeBase>) -> Unit
 ) {
 
     val game = koinInject<Game>()
@@ -50,7 +50,7 @@ fun BanUnitViewDialog(
     AnimatedAlertDialog(
         visible = visible, onDismissRequest = onDismissRequest
     ) { d ->
-        val selectedUnits = remember(lastSelectedUnits) { SnapshotStateList<UnitType>().apply { addAll(lastSelectedUnits) } }
+        val selectedUnits = remember(lastSelectedUnits) { SnapshotStateList<AbstractUnitTypeBase>().apply { addAll(lastSelectedUnits) } }
         BorderCard(
             modifier = Modifier
                // .fillMaxSize(LargeProportion())
@@ -65,7 +65,7 @@ fun BanUnitViewDialog(
             val current = LocalWindowManager.current
 
             val movementTypeToUnits = remember(allUnits) {
-                buildMap<MovementType, MutableList<UnitType>> {
+                buildMap<MovementType, MutableList<AbstractUnitTypeBase>> {
                     allUnits.forEach { u ->
                         getOrPut(u.movementType) { mutableListOf() }.add(u)
                     }
@@ -144,7 +144,7 @@ private fun BanUnitItem(
     index: Int,
     checked: Boolean,
     state: LazyListState,
-    unit: UnitType,
+    unit: AbstractUnitTypeBase,
     onChanged: (checked: Boolean) -> Unit
 ) {
     val (_, easing) = state.calculateDelayAndEasing(index, 5)

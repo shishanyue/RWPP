@@ -26,7 +26,7 @@ import io.github.rwpp.game.GameRoom
 import io.github.rwpp.game.base.Difficulty
 import io.github.rwpp.game.map.*
 import io.github.rwpp.game.ui.GUI
-import io.github.rwpp.game.units.UnitType
+import io.github.rwpp.game.units.AbstractUnitTypeBase
 import io.github.rwpp.game.world.World
 import io.github.rwpp.logger
 import kotlinx.coroutines.*
@@ -48,7 +48,7 @@ class GameImpl : Game, CoroutineScope {
 
     override val gameRoom: GameRoom = GameRoomImpl(this)
     override val gui: GUI by lazy {
-        GameEngine.t().bP as GUI
+        GameEngineInternal.t().bP as GUI
     }
     override val world: World = WorldImpl()
 
@@ -57,7 +57,7 @@ class GameImpl : Game, CoroutineScope {
     }
 
     override fun startNewMissionGame(difficulty: Difficulty, mission: Mission) {
-        val t = GameEngine.t()
+        val t = GameEngineInternal.t()
         t.bN.aiDifficulty = difficulty.ordinal - 2
         t.bN.save()
         LevelSelectActivity.loadSinglePlayerMapRaw("maps/${mission.type.pathName()}/${mission.mapName}.tmx", false, 0, 0, true, false)
@@ -71,7 +71,7 @@ class GameImpl : Game, CoroutineScope {
     }
 
     override fun hostStartWithPasswordAndMods(isPublic: Boolean, password: String?, useMods: Boolean) {
-        val t: k = GameEngine.t()
+        val t: k = GameEngineInternal.t()
         t.bU.n = password
         t.bU.o = useMods
         t.bU.q = isPublic
@@ -87,7 +87,7 @@ class GameImpl : Game, CoroutineScope {
     }
 
     override fun hostNewSinglePlayer(sandbox: Boolean) {
-        val t = GameEngine.t()
+        val t = GameEngineInternal.t()
         LevelSelectActivity.loadSinglePlayerMapRaw("skirmish/[z;p10]Crossing Large (10p).tmx", true, 3, 1, true, true)
         t.bU.b("starting singleplayer")
         t.bU.y = "You"
@@ -100,19 +100,19 @@ class GameImpl : Game, CoroutineScope {
     }
 
     override fun setUserName(name: String) {
-        GameEngine.t().bU.a(name)
+        GameEngineInternal.t().bU.a(name)
     }
 
     override suspend fun directJoinServer(address: String, uuid: String?, context: LoadingContext): Result<String> {
-        GameEngine.t().a(appKoin.get(), gameView)
+        GameEngineInternal.t().a(appKoin.get(), gameView)
 
         isCancellingJob.set(false)
 
         initMap()
 
-        GameEngine.t().bU.by = uuid
+        GameEngineInternal.t().bU.by = uuid
         connectingJob = withContext(Dispatchers.IO) {
-            async { GameEngine.t().bU.c(address, false) }
+            async { GameEngineInternal.t().bU.c(address, false) }
         }
 
         val result = runCatching {
@@ -148,9 +148,9 @@ class GameImpl : Game, CoroutineScope {
     }
 
     override fun setTeamUnitCapHostGame(cap: Int) {
-        GameEngine.t().bz = cap
-        GameEngine.t().bU.az = cap
-        GameEngine.t().bU.ay = cap
+        GameEngineInternal.t().bz = cap
+        GameEngineInternal.t().bU.az = cap
+        GameEngineInternal.t().bU.ay = cap
     }
 
     override fun getAllMissionTypes(): List<MissionType> {
@@ -200,7 +200,7 @@ class GameImpl : Game, CoroutineScope {
     override fun getAllMaps(flush: Boolean): List<GameMap> {
         val assets = get<Context>().assets
         if(_maps.isEmpty() || flush) {
-            val t = GameEngine.t()
+            val t = GameEngineInternal.t()
             val levelDirs = com.corrodinggames.rts.gameFramework.e.a.a(LevelGroupSelectActivity.customLevelsDir, true)
             val mapPaths = mapOf<MapType, Array<String>?>(
                 MapType.CustomMap to t.bW.a(levelDirs, LevelGroupSelectActivity.customLevelsDir),
@@ -283,11 +283,11 @@ class GameImpl : Game, CoroutineScope {
     }
 
     @Suppress("UNCHECKED_CAST")
-    override fun getAllUnitTypes(): List<UnitType> {
-        return com.corrodinggames.rts.game.units.cj.ae as ArrayList<UnitType>
+    override fun getAllUnitTypes(): List<AbstractUnitTypeBase> {
+        return com.corrodinggames.rts.game.units.cj.ae as ArrayList<AbstractUnitTypeBase>
     }
 
-    override fun onBanUnits(units: List<UnitType>) {
+    override fun onBanUnits(units: List<AbstractUnitTypeBase>) {
         bannedUnitList = units.map { it.name }
         if(units.isNotEmpty()) gameRoom.sendSystemMessage("Host has banned these units (房间已经ban以下单位): ${
             units.joinToString(
@@ -317,7 +317,7 @@ class GameImpl : Game, CoroutineScope {
     }
 
     override fun watchReplay(replay: Replay) {
-        if (GameEngine.t().bY.b(replay.name)) {
+        if (GameEngineInternal.t().bY.b(replay.name)) {
             gameLauncher.launch(
                 Intent(get(), CustomInGameActivity::class.java)
             )
@@ -325,7 +325,7 @@ class GameImpl : Game, CoroutineScope {
     }
 
     override fun isGameCouldContinue(): Boolean {
-        val c = GameEngine.t()
+        val c = GameEngineInternal.t()
         return !(c == null || !c.bD || c.bE)
     }
 
