@@ -30,3 +30,7 @@ typealias LogicBooleanReturnTypeInternal = com.corrodinggames.rts.game.units.cus
 typealias LogicBooleanParameterMappingInternal = com.corrodinggames.rts.game.units.custom.logicBooleans.`LogicBooleanLoader$ParameterMapping`
 typealias BooleanParseExceptionInternal = com.corrodinggames.rts.game.units.custom.logicBooleans.BooleanParseException
 typealias ParameterMappingFieldOrMethodInternal = com.corrodinggames.rts.game.units.custom.logicBooleans.`LogicBooleanLoader$ParameterMapping$FieldOrMethod`
+
+
+typealias UnitConfigInternal = com.corrodinggames.rts.gameFramework.utility.ae
+typealias LogicMessageInternal = com.corrodinggames.rts.game.units.custom.aj
