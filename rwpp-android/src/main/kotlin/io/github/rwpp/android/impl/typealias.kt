@@ -34,3 +34,9 @@ typealias ParameterMappingFieldOrMethodInternal = com.corrodinggames.rts.game.un
 
 typealias UnitConfigInternal = com.corrodinggames.rts.gameFramework.utility.ae
 typealias LogicMessageInternal = com.corrodinggames.rts.game.units.custom.aj
+typealias SetOperationActionPartInternal = com.corrodinggames.rts.game.units.custom.a.a.j
+typealias CustomActionInternal = com.corrodinggames.rts.game.units.custom.a.d
+typealias CustomUnitInternal = com.corrodinggames.rts.game.units.custom.j
+typealias AbstractActionDataInternal = com.corrodinggames.rts.game.units.a.s
+
+typealias StaticTeamInfoInternal = com.corrodinggames.rts.game.d

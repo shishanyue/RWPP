@@ -3,6 +3,7 @@ package io.github.rwpp.game.utility
 import io.github.rwpp.game.units.custom.LogicMessage
 import io.github.rwpp.game.units.custom.UnitTypeRefBase
 import io.github.rwpp.game.units.custom.logicBooleans.LogicBoolean
+import io.github.rwpp.game.units.custom.logicBooleans.LogicBooleanReturnType
 
 
 interface UnitConfig {
@@ -36,10 +37,10 @@ interface UnitConfig {
 
     fun getValueAsNumber(unitTypeRefBase: UnitTypeRefBase?, sectionName: String?, key: String?): LogicBoolean
 
-    fun getValueAsLogicBoolean(unitTypeRefBase: UnitTypeRefBase?, sectionName: String?, key: String?, returnType: LogicBoolean?): LogicBoolean
+    fun getValueAsLogicBoolean(unitTypeRefBase: UnitTypeRefBase?, sectionName: String?, key: String?, returnType: LogicBooleanReturnType): LogicBoolean
 
     fun getValueAsSpawnUnitArgs(str: String?, unitTypeRefBase: UnitTypeRefBase?, str2: String?, str3: String?): LogicBoolean
 
-    fun getValueAsLogicBoolean(str: String?, unitTypeRefBase: UnitTypeRefBase?, str2: String?, str3: String?, returnType: LogicBoolean?): LogicBoolean?
+    fun getValueAsLogicBoolean(str: String?, unitTypeRefBase: UnitTypeRefBase?, str2: String?, str3: String?, returnType: LogicBooleanReturnType): LogicBoolean?
 
 }

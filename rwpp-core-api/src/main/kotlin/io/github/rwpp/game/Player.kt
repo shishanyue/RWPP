@@ -63,6 +63,8 @@ interface Player {
 
     val client: Client?
 
+
+
     fun applyConfigChange(
         spawnPoint: Int = this.spawnPoint,
         team: Int = this.team,
@@ -72,11 +74,32 @@ interface Player {
         autoTeamMode: Boolean = false
     )
 
-    val allPlayers:Array<Player>
+    val allPlayers:Array<Player?>
         get() = Player.allPlayers
 
+    val maxPlayerCount: Int
+        get() = Player.maxPlayerCount
+
+    fun getTeamId(number: Int): Player?{
+        return Player.getTeamId(number)
+    }
+
+    val allStaticTeamInfos:Array<StaticTeamInfo>
+        get() = Player.allStaticTeamInfos
+
     companion object{
-        val allPlayers: Array<Player> = arrayOf()
+        val allPlayers: Array<Player?> = arrayOf()
+
+        val defaultPlayerCount: Int = 10
+
+        val additionalPlayerCount: Int = 0
+
+        val maxPlayerCount: Int = defaultPlayerCount + additionalPlayerCount
+
+        val allStaticTeamInfos: Array<StaticTeamInfo> = arrayOf()
+        fun getTeamId(number: Int): Player?{
+            return null
+        }
     }
 }
 

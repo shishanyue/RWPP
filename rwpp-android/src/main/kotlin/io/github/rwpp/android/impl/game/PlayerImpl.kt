@@ -1,18 +1,14 @@
-/*
- * Copyright 2023-2025 RWPP contributors
- * 此源代码的使用受 GNU AFFERO GENERAL PUBLIC LICENSE version 3 许可证的约束, 可以在以下链接找到该许可证.
- * Use of this source code is governed by the GNU AGPLv3 license that can be found through the following link.
- * https://github.com/Minxyzgo/RWPP/blob/main/LICENSE
- */
+package io.github.rwpp.android.impl.game
 
-package io.github.rwpp.android.impl
-
-import com.corrodinggames.rts.game.p
+import io.github.rwpp.android.impl.GameEngineInternal
+import io.github.rwpp.android.impl.PlayerInternal
+import io.github.rwpp.android.impl.StaticTeamInfoInternal
 import io.github.rwpp.appKoin
 import io.github.rwpp.core.Logic
 import io.github.rwpp.game.Game
 import io.github.rwpp.game.GameRoom
 import io.github.rwpp.game.Player
+import io.github.rwpp.game.StaticTeamInfo
 import io.github.rwpp.game.data.PlayerData
 import io.github.rwpp.game.data.PlayerStatisticsData
 import io.github.rwpp.inject.NewField
@@ -20,9 +16,36 @@ import io.github.rwpp.inject.SetInterfaceOn
 import io.github.rwpp.net.Client
 import io.github.rwpp.utils.Reflect
 import kotlin.math.roundToInt
+import kotlin.text.get
 
 @SetInterfaceOn([PlayerInternal::class])
 interface PlayerImpl : Player {
+    companion object{
+        val neutralTeam = StaticTeamInfoInternal(-2)
+        val aggressiveTeam = StaticTeamInfoInternal(-1)
+        
+        val allPlayers: Array<Player?> = appKoin.get<Game>().gameRoom.getAllPlayers()
+
+        fun getTeamId(number: Int): Player?{
+
+            if (number == -1) {
+                return neutralTeam as Player;
+            }
+            if (number == -2) {
+                return aggressiveTeam as Player;
+            }
+            if (number >= Player.maxPlayerCount) {
+                GameEngineInternal.f("team index too high: $number");
+                return null;
+            }
+            if (number < 0) {
+                GameEngineInternal.f("team index too low: $number");
+                return null;
+            }
+            return allPlayers[number];
+        }
+    }
+
     private val room: GameRoom
         get() = appKoin.get<Game>().gameRoom
 
@@ -118,8 +141,8 @@ interface PlayerImpl : Player {
     override val client: Client?
         get() = GameEngineInternal.t().bU.c(self) as? Client
 
-    override val allPlayers: Array<Player>
-        get() = Reflect.get<Array<Player>>(self,"")!!
+    override val allPlayers: Array<Player?>
+        get() = PlayerImpl.allPlayers
 
     override fun applyConfigChange(
         spawnPoint: Int,
@@ -155,7 +178,7 @@ interface PlayerImpl : Player {
                         self.D = if(n3 == -99) null else Integer.valueOf(n3);
                     }
                     n3 = spawnPoint
-                    if(n3 == -3 || n3 > p.c - 1) {
+                    if(n3 == -3 || n3 > PlayerInternal.c - 1) {
                         n2 = -3;
                         n3 = 1;
                     } else {
@@ -163,8 +186,8 @@ interface PlayerImpl : Player {
                         if(n3 < 0) {
                             n2 = 0;
                         }
-                        if(n2 > p.c - 1) {
-                            n2 = p.c - 1;
+                        if(n2 > PlayerInternal.c - 1) {
+                            n2 = PlayerInternal.c - 1;
                             n3 = 0;
                         } else {
                             n3 = 0;
@@ -239,5 +262,9 @@ interface PlayerImpl : Player {
         }
         t.bU.b();
         t.bU.p();
+    }
+
+    override fun getTeamId(number: Int): Player? {
+        return super.getTeamId(number)
     }
 }

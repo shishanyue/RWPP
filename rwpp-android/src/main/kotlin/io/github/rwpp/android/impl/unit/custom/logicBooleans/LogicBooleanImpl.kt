@@ -3,6 +3,7 @@ package io.github.rwpp.android.impl.unit.custom.logicBooleans
 import io.github.rwpp.android.impl.AbstractUnitAgentInternal
 import io.github.rwpp.android.impl.LogicBooleanContextInternal
 import io.github.rwpp.android.impl.LogicBooleanInternal
+import io.github.rwpp.android.impl.UnitConfigInternal
 import io.github.rwpp.android.impl.UnitTypeRefBaseInternal
 import io.github.rwpp.game.units.AbstractUnitAgent
 import io.github.rwpp.game.units.UnitRef

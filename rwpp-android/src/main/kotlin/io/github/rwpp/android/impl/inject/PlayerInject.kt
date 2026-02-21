@@ -10,7 +10,7 @@ package io.github.rwpp.android.impl.inject
 import io.github.rwpp.android.defeatedPlayerSet
 import io.github.rwpp.android.gameOver
 import io.github.rwpp.android.impl.GameEngineInternal
-import io.github.rwpp.android.impl.PlayerImpl
+import io.github.rwpp.android.impl.game.PlayerImpl
 import io.github.rwpp.android.impl.PlayerInternal
 import io.github.rwpp.android.isGaming
 import io.github.rwpp.appKoin
