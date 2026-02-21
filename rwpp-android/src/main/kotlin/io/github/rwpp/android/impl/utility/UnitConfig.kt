@@ -7,6 +7,7 @@ import io.github.rwpp.android.impl.UnitTypeRefBaseInternal
 import io.github.rwpp.game.units.custom.LogicMessage
 import io.github.rwpp.game.units.custom.UnitTypeRefBase
 import io.github.rwpp.game.units.custom.logicBooleans.LogicBoolean
+import io.github.rwpp.game.units.custom.logicBooleans.LogicBooleanReturnType
 import io.github.rwpp.game.utility.UnitConfig
 import io.github.rwpp.inject.SetInterfaceOn
 import io.github.rwpp.utils.Reflect
@@ -89,13 +90,11 @@ interface UnitConfigImpl: UnitConfig {
         return UnitConfigInternal.a(str,unitTypeRefBase as UnitTypeRefBaseInternal,str2,str3) as LogicBoolean
     }
 
-    //TODO 无法编译
-    override fun getValueAsLogicBoolean(str: String?, unitTypeRefBase: UnitTypeRefBase?, str2: String?, str3: String?, returnType: LogicBooleanReturnTypeInternal?): LogicBoolean{
-        Reflect.call<UnitConfigInternal,
+    override fun getValueAsLogicBoolean(str: String?, unitTypeRefBase: UnitTypeRefBase?, str2: String?, str3: String?, returnType: LogicBooleanReturnType): LogicBoolean?{
+        return Reflect.call<UnitConfigInternal,
                 LogicBooleanInternal>(self,"a",
-            listOf(String::class, UnitTypeRefBaseInternal::class,String::class,String::class,LogicBooleanReturnTypeInternal::class),
-            listOf(str))
-        return UnitConfigInternal.a(str,unitTypeRefBase as UnitTypeRefBaseInternal,str2,str3,returnType as LogicBooleanReturnTypeInternal) as LogicBoolean
+            listOf(String::class, UnitTypeRefBaseInternal::class,String::class,String::class,LogicBooleanReturnType::class),
+            listOf(str,unitTypeRefBase as UnitTypeRefBaseInternal,str2,str3, returnType)) as LogicBoolean?
     }
 
 
