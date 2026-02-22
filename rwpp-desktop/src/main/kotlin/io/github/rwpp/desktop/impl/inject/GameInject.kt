@@ -12,6 +12,10 @@ import io.github.rwpp.appKoin
 import io.github.rwpp.desktop._gameSpeed
 import io.github.rwpp.desktop.impl.GameEngineInternal
 import io.github.rwpp.game.Game
+import io.github.rwpp.game.units.comp.EntityRangeUnitComp
+import io.github.rwpp.graphics.GL
+import io.github.rwpp.graphics.GL20
+import io.github.rwpp.graphics.GLConstants
 import io.github.rwpp.inject.Inject
 import io.github.rwpp.inject.InjectClass
 import io.github.rwpp.inject.InjectMode
@@ -36,6 +40,27 @@ object GameInject {
         } else {
             (GameEngineInternal.B() as i).H = 1f
             GameEngineInternal.B().bX.K = null
+        }
+    }
+
+    @Inject("b", InjectMode.InsertAfter)
+    fun injectRenderObject(draw: com.corrodinggames.rts.gameFramework.m.l, delta: Float) {
+        with(EntityRangeUnitComp) {
+            GL20.glEnable(GLConstants.GL_DEPTH_TEST)
+            GL20.glDepthMask(true)
+            GL20.glClear(GLConstants.GL_DEPTH_BUFFER_BIT)
+
+            GL20.glDepthRange(0.0, 1.0)
+            GL20.glDepthFunc(GLConstants.GL_LESS)
+            beforeDrawRange()
+            entityRangeShader?.bind()
+            GL.gameCanvas.scale(world.gameScale, world.gameScale)
+            layerGroups.values.forEach { group ->
+                group.forEach { GL.gameCanvas.drawRange(it, getTeamPaint(it.player.team), it.maxAttackRange) }
+            }
+            entityRangeShader?.unbind()
+            GL20.glDepthFunc(GLConstants.GL_LEQUAL) // 还原默认
+            GL20.glDisable(GLConstants.GL_DEPTH_TEST)
         }
     }
 }

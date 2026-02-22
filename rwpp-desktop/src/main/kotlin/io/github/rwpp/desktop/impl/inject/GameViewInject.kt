@@ -14,11 +14,14 @@ import com.corrodinggames.rts.gameFramework.f.am
 import com.corrodinggames.rts.gameFramework.f.g
 import io.github.rwpp.appKoin
 import io.github.rwpp.config.Settings
-import io.github.rwpp.desktop.impl.FClassInternal
-import io.github.rwpp.desktop.impl.GameEngineInternal
-import io.github.rwpp.desktop.impl.GameViewInternal
+import io.github.rwpp.desktop.FormatEngine
+import io.github.rwpp.desktop.GameEngine
+import io.github.rwpp.desktop.GameView
+import io.github.rwpp.desktop.isGaming
 import io.github.rwpp.game.Game
-import io.github.rwpp.game.units.UnitRef
+import io.github.rwpp.game.units.GameUnit
+import io.github.rwpp.game.units.comp.EntityRangeUnitComp
+import io.github.rwpp.graphics.GL
 import io.github.rwpp.i18n.readI18n
 import io.github.rwpp.inject.Inject
 import io.github.rwpp.inject.InjectClass
@@ -36,7 +39,23 @@ object GameViewInject {
     val settings by lazy { appKoin.get<Settings>() }
 
     @Inject("a", InjectMode.InsertAfter)
-    fun GameViewInternal.onAddGameAction(am: com.corrodinggames.rts.game.units.am?, arrayList: java.util.ArrayList<Any?>?) {
+    fun onRenderMenuItem(delta: Float, z: Boolean) {
+        if (settings.displayTimeInGame && isGaming) {
+            GL.showPing()
+            val gameEngine = GameEngine.B()
+            val x = gameEngine.cF / 2.0f
+            val textSize = 7 + gameEngine.bS.aE.k()
+            gameEngine.bO.a(
+                FormatEngine.a((gameEngine.by / 1000).toLong()),
+                x,
+                textSize,
+                gameEngine.bS.aE
+            )
+        }
+    }
+
+    @Inject("a", InjectMode.InsertAfter)
+    fun GameView.onAddGameAction(am: com.corrodinggames.rts.game.units.am?, arrayList: java.util.ArrayList<Any?>?) {
         buttons = buttons ?: Reflect.get(this, "aq")
 
         if (settings.showExtraButton && GameEngineInternal.B().bS.bZ.isEmpty()) {
@@ -73,7 +92,8 @@ object GameViewInject {
             //GameEngineInternal.B().bS.g.n()
             val unit = GameEngineInternal.B().bS.bZ.firstOrNull()
             if (unit != null) {
-                (unit as UnitRef).comp.showAttackRange = !unit.comp.showAttackRange
+                val comp = (unit as GameUnit).comp.first { it is EntityRangeUnitComp } as EntityRangeUnitComp
+                comp.showAttackRange = !comp.showAttackRange
             }
             return true
         }
@@ -162,9 +182,9 @@ object GameViewInject {
                 } else {
                     VariableScope.nullOrMissingString + amVar.a.size
                 }
-                amVar.d = FClassInternal.a(amVar.d, 0.01f * f)
-                amVar.e = FClassInternal.a(amVar.e, 0.01f * f)
-                amVar.f = FClassInternal.a(amVar.f, 0.01f * f)
+                amVar.d = FormatEngine.a(amVar.d, 0.01f * f)
+                amVar.e = FormatEngine.a(amVar.e, 0.01f * f)
+                amVar.f = FormatEngine.a(amVar.f, 0.01f * f)
 
                 render!!.a(
                     i2.roundToInt(),

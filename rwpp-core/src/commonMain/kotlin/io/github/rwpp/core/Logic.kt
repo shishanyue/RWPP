@@ -8,9 +8,11 @@
 package io.github.rwpp.core
 
 import io.github.rwpp.appKoin
+import io.github.rwpp.config.Settings
 import io.github.rwpp.event.EventPriority
 import io.github.rwpp.event.GlobalEventChannel
 import io.github.rwpp.event.events.DisconnectEvent
+import io.github.rwpp.event.events.GameLoadedEvent
 import io.github.rwpp.event.events.ModCheckEvent
 import io.github.rwpp.event.events.PlayerJoinEvent
 import io.github.rwpp.game.Game
@@ -30,7 +32,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.launch
 import java.io.File
-import java.util.*
+import java.util.LinkedList
 
 //typealias TargetPositionWithUnits = Triple<Double, Double, List<GameUnit>>
 
@@ -86,6 +88,17 @@ object Logic : Initialization {
         GlobalEventChannel.filter(DisconnectEvent::class).subscribeAlways(priority = EventPriority.MONITOR) {
             modQueue = null
             requiredMods = null
+        }
+
+        GlobalEventChannel.filter(GameLoadedEvent::class).subscribeAlways {
+            val game = appKoin.get<Game>()
+            val settings = appKoin.get<Settings>()
+
+            when (settings.effectLimitForAllEffects) {
+                "Zero" -> game.setEffectLimitForAllEffects(0)
+                "Unlimited" -> game.setEffectLimitForAllEffects(Int.MAX_VALUE)
+                else -> {}
+            }
         }
     }
 
