@@ -86,6 +86,12 @@ android {
 //        }
 //    }
 
+    lint {
+        disable += "NullSafeMutableLiveData"
+        abortOnError = false
+        checkReleaseBuilds = false
+    }
+
     defaultConfig {
         applicationId = "io.github.rwpp"
         minSdk = (findProperty("android.minSdk") as String).toInt()

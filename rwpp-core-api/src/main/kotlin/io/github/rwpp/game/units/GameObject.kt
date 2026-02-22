@@ -5,14 +5,9 @@
  * https://github.com/Minxyzgo/RWPP/blob/main/LICENSE
  */
 
-package io.github.rwpp.game.comp
+package io.github.rwpp.game.units
 
-import org.koin.core.annotation.ComponentScan
-import org.koin.core.annotation.Module
-
-/**
- * This module is used to define the components of the game.
- */
-@Module
-@ComponentScan("io.github.rwpp.game.comp")
-class CompModule
+interface GameObject {
+    val x: Float // fastGameObject
+    val y: Float // fastGameObject
+}

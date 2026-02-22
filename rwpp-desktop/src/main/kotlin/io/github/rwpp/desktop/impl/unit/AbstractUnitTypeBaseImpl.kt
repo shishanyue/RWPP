@@ -31,6 +31,10 @@ interface AbstractUnitTypeBaseImpl : AbstractUnitTypeBase {
 //                        }
     override val movementType: MovementType
         get() = MovementType.valueOf(self.o().name)
+
+    override val isBuilder: Boolean
+        get() = self.l()
+
     override val mod: Mod?
         get() = (self as? UnitTypeRefBaseInternal)?.J?.s?.let(appKoin.get<ModManager>()::getModByName)
 }

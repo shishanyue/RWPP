@@ -139,7 +139,9 @@ interface PlayerImpl : Player {
             _data!!
         }
     override val client: Client?
-        get() = GameEngineInternal.t().bU.c(self) as? Client
+        get() = GameEngine.t().bU.c(self) as? Client
+    override val pingNumber: Int
+        get() = self.t()
 
     override val allPlayers: Array<Player?>
         get() = PlayerImpl.allPlayers
