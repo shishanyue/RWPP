@@ -8,6 +8,12 @@ import io.github.rwpp.game.units.custom.logicBooleans.LogicBooleanReturnType
 
 interface UnitConfig {
 
+    companion object {
+        fun getValueAsLogicBoolean(str: String?, unitTypeRefBase: UnitTypeRefBase?, str2: String?, str3: String?, returnType: LogicBooleanReturnType): LogicBoolean?{
+            return null
+        }
+    }
+
 
     fun getValue(sectionName: String?, key: String?, throwsException: Boolean): String?
 
@@ -37,10 +43,12 @@ interface UnitConfig {
 
     fun getValueAsNumber(unitTypeRefBase: UnitTypeRefBase?, sectionName: String?, key: String?): LogicBoolean
 
-    fun getValueAsLogicBoolean(unitTypeRefBase: UnitTypeRefBase?, sectionName: String?, key: String?, returnType: LogicBooleanReturnType): LogicBoolean
+    fun getValueAsLogicBoolean(unitTypeRefBase: UnitTypeRefBase?, sectionName: String?, key: String?, returnType: LogicBooleanReturnType): LogicBoolean?
 
     fun getValueAsSpawnUnitArgs(str: String?, unitTypeRefBase: UnitTypeRefBase?, str2: String?, str3: String?): LogicBoolean
 
-    fun getValueAsLogicBoolean(str: String?, unitTypeRefBase: UnitTypeRefBase?, str2: String?, str3: String?, returnType: LogicBooleanReturnType): LogicBoolean?
+    fun getValueAsLogicBoolean(str: String?, unitTypeRefBase: UnitTypeRefBase?, str2: String?, str3: String?, returnType: LogicBooleanReturnType): LogicBoolean?{
+        return UnitConfig.getValueAsLogicBoolean(str, unitTypeRefBase, str2, str3, returnType)
+    }
 
 }

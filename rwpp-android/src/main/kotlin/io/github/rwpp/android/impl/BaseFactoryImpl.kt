@@ -8,6 +8,7 @@
 package io.github.rwpp.android.impl
 
 import android.graphics.Paint
+import io.github.rwpp.android.impl.base.RectImpl
 import io.github.rwpp.game.base.BaseFactory
 import io.github.rwpp.game.base.GamePaint
 import io.github.rwpp.game.base.Rect

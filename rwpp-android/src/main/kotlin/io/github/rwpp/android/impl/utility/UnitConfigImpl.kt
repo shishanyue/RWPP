@@ -18,6 +18,15 @@ interface UnitConfigImpl: UnitConfig {
 
     val self: UnitConfigInternal
 
+    companion object{
+        fun getValueAsLogicBoolean(str: String?, unitTypeRefBase: UnitTypeRefBase?, str2: String?, str3: String?, returnType: LogicBooleanReturnType): LogicBoolean?{
+            return Reflect.call<UnitConfigInternal,
+                    LogicBooleanInternal>(null,"a",
+                listOf(String::class, UnitTypeRefBaseInternal::class,String::class,String::class,LogicBooleanReturnType::class),
+                listOf(str,unitTypeRefBase as UnitTypeRefBaseInternal,str2,str3, returnType)) as LogicBoolean?
+        }
+    }
+
     override fun getValue(sectionName: String?, key: String?, throwsException: Boolean): String?{
         return Reflect.call<UnitConfigInternal,
                 String>(self,"b",
@@ -91,11 +100,15 @@ interface UnitConfigImpl: UnitConfig {
     }
 
     override fun getValueAsLogicBoolean(str: String?, unitTypeRefBase: UnitTypeRefBase?, str2: String?, str3: String?, returnType: LogicBooleanReturnType): LogicBoolean?{
-        return Reflect.call<UnitConfigInternal,
-                LogicBooleanInternal>(self,"a",
-            listOf(String::class, UnitTypeRefBaseInternal::class,String::class,String::class,LogicBooleanReturnType::class),
-            listOf(str,unitTypeRefBase as UnitTypeRefBaseInternal,str2,str3, returnType)) as LogicBoolean?
+        return UnitConfigImpl.getValueAsLogicBoolean(str, unitTypeRefBase, str2, str3, returnType)
     }
 
-
+    override fun getValueAsLogicBoolean(
+        unitTypeRefBase: UnitTypeRefBase?,
+        sectionName: String?,
+        key: String?,
+        returnType: LogicBooleanReturnType
+    ): LogicBoolean? {
+        return self.a(unitTypeRefBase as UnitTypeRefBaseInternal,sectionName,key, LogicBooleanReturnTypeInternal.valueOf(returnType.name.lowercase()) ) as LogicBoolean?
+    }
 }
